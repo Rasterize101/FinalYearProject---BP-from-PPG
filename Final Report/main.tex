@@ -1,0 +1,130 @@
+% !TEX encoding = UTF-8 Unicode
+\documentclass[11pt, a4paper]{article}
+\usepackage[a4paper,left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs,amsmath}
+\usepackage{nccmath}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{natbib}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{subfig}
+\usepackage{placeins}
+\usepackage{amsfonts,amssymb}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{multirow}
+%\usepackage{hyperref}
+\usepackage{url}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage{rotating}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\lstset{language=MATLAB,
+	        frame=single,
+	        breaklines=true,
+                basicstyle=\ttfamily,
+                numbers=left,
+                showstringspaces = false,
+                keywordstyle=\color{blue}\ttfamily,
+                stringstyle=\color{red}\ttfamily,
+                commentstyle=\color{teal}\ttfamily,
+                morecomment=[l][\color{magenta}]{\#},
+                rulecolor=\color{black}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{}
+\chead{FYP Final Report 2022}
+\rhead{}
+\cfoot{\thepage}
+
+\begin{document}\thispagestyle{empty}
+
+\begin{titlepage}
+% \newgeometry{top=25mm,bottom=25mm,left=38mm,right=32mm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+% \fontfamily{phv}\selectfont
+{
+    \Large
+    \raggedright
+    Imperial College London\\[17pt]
+    Department of Electrical and Electronic Engineering\\[17pt]
+    Final Year Project Final Report 2022\\[17pt]
+}
+
+\rule{\columnwidth}{3pt}
+\vfill
+    \begin{center}
+    \quad\\[1.1cm]
+    \includegraphics[width=7cm]{logo.png}\\[1cm]
+    \end{center}\vfill
+\setlength{\tabcolsep}{0pt}
+
+\begin{tabular}{p{40mm}p{\dimexpr\columnwidth-40mm}}
+    Project Title: & \textbf{Extraction of blood pressure from PPG signals} \\[12pt]
+    Student: & \textbf{Arijit Bhattacharyya} \\[12pt]
+    CID: & \textbf{01496199} \\[12pt]
+    Course: & \textbf{MEng Electrical and Electronic Engineering} \\[12pt]
+    Project Supervisor: & \textbf{Professor Esther Rodriguez Villegas} \\[12pt]
+    Co Supervisor: & \textbf{Dr Zaibaa Patel} \\[12pt]
+    Second Marker: & \textbf{Dr Christos Bouganis} \\[12pt]
+\end{tabular}
+\end{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\newpage
+\pagenumbering{roman}
+\input{Abstract/index.tex}
+\newpage
+\input{Acknowledgements/index.tex}
+\newpage
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\newpage
+
+\input{Introduction/index.tex}
+\newpage
+\input{Background/index.tex}
+\newpage
+\noindent The central part of the report
+usually consists of three or four chapters
+detailing the technical work undertaken during
+the project. The structure of these chapters is
+highly project dependent.
+\newpage
+\input{RequirementsCapture/index.tex}
+\newpage
+\input{AnalysisDesign/index.tex}
+\newpage
+\input{Implementation/index.tex}
+\newpage
+\input{Testing/index.tex}
+\newpage
+\input{Results/index.tex}
+\newpage
+\input{Evaluation/index.tex}
+\newpage
+\input{ConclusionFW/index.tex}
+\newpage
+
+\bibliographystyle{ieee}
+\bibliography{references}
+
+\newpage
+\input{Appendix/index.tex}
+
+
+\end{document}
