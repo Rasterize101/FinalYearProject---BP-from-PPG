@@ -1,0 +1,86 @@
+\section{Ethical, Legal and Safety Plan}
+
+\subsection{Ethical considerations}
+This section discusses the ethical implications of this project through the perspective 
+of the Four Pillars of Medical Ethics: beneficence, non-maleficence, autonomy, and 
+justice \cite{MedicalEthics}. 
+
+\subsubsection{Beneficence}
+Beneficence is the duty to do good. During the process of this project, it must be 
+ensured that actions must be taken with the intent of helping patients. The purpose 
+of future wearable technologies is to help people to detect early risk factors of 
+heart-related pathologies. \\ \newline \noindent The issues that may arise would 
+be due to the occurrence of false positives and negatives in the data, such as 
+a normotensive result for a person who is actually hypertensive. Ideally, a 
+blood pressure monitor which is cuffless should operate accurately over a 
+range of blood pressure values after having been calibrated. However this 
+has not been tested according to the established medical standards, such 
+as AAMI and ESH. Measurements that are inaccurate will naturally cause a 
+false sense of reassurance with the patients, unnecessary health care 
+utilization, or improper administration of hypertension medications. 
+An incorrect diagnosis also causes unnecessary psychological stress and 
+the unnecessary reactions to the negative side effects of prescribed 
+medication. For example, if there is a range of $\pm 5$ mmHg in error, 
+this could lead to approximately twenty-seven million hypertensive and 
+twenty-one million normotensive patients being classified 
+incorrectly \cite{Bard2019}. This can only be minimised through robust 
+tuning of the parameters in the neural networks used.
+
+\subsubsection{Non-maleficence}
+Non-maleficence is the duty to not harm. Through the recording of ECG and PPG 
+data, it must be ensured that any actions must not be harmful to the patients. 
+An instance where the product could harm patients would be if the models 
+falsely classify a patient to be normotensive, whereas the patient indeed 
+is hypertensive in real life. If test accuracy could be proven, it would 
+be possible to see if a model is provably 100\% accurate, or otherwise 
+justify to an Ethics Board that the risks would be worth the reward. However, 
+with neural networks of this complexity, it is practically impossible to
+ prove any estimate of test accuracy. 
+
+\subsubsection{Autonomy}
+Autonomy is the respect of patients' freedom of choice and consent. During 
+the data acquisition process, it must be ensured that there are no actions 
+taken that are non-consensual to the patients. Those concerned should also 
+be informed about the benefits and risks of using a particular wearable 
+technology product for BP measurement, such as the validation accuracy 
+and inference time, allowing them to make an informed decision. \\ \newline \noindent Another 
+general issue of using deep neural networks is that it is very difficult to explain how 
+models obtain their results. It is impossible to explain what features an individual 
+or end-to-end model detects and what any of their weights correspond to. 
+This can be an issue if the user wants an explanation as to why they have 
+been classified wrongly as hypertensive or hypotensive, as they should have the right to know.
+
+\subsubsection{Justice}
+Justice is the principle of fairness towards all patients and the idea of treating 
+all people equally and equitably. The product must ensure it does not discriminate 
+between patients and medical staff on any basis. An obvious concern is 
+whether the dataset used to train the models are balanced in representing 
+both gender and ethnicity. Although the dataset was created taking such biases 
+into account, it is difficult to overcome subconscious biases and availability 
+of a balanced dataset. This is important as it ensures that future products in 
+wearable technologies have both a sustainable customer base but is also sustainable 
+in today's social ecosystem, as it is actively standing against racism.
+
+\subsection{Legal considerations}
+Legally this project poses no risk. The Python programming language and its required 
+libraries are Open Source, including the version which I intend to use (3.10). Python 
+has a license agreement under the Python Software Foundation (PSF). Hence it is a tool 
+that can be legally used freely for the purposes of this project. \cite{Python}. In 
+addition, the ECG and PPG data is provided by a website called Physionet. PhysioNet 
+is a data repository of medical signals which are free to use. The repository is 
+managed by the MIT Laboratory for Computational 
+Physiology \cite{Goldberger2000} \cite{Physionet}. As this code will be published 
+online, the produced code could be plagiarised in the future. However, I myself will 
+bear no responsibility in the distribution of my code to others.
+
+\subsection{Safety considerations}
+With regards to this project, there are no safety issues to consider, as all experimentation 
+will be conducted online at home. It is critical that necessary measures are taken such 
+that strains or injuries from desk work are prevented. This can easily be done by following 
+NHS guidelines. \\ \newline \noindent As highlighted in Chapter 3, there are a 
+few points to consider if this work becomes implemented in a future wearable 
+technology product. Firstly, it is important to remember these are only simulations. 
+Training a machine learning model on Python will not accurately reflect the behavior 
+in real life. Secondly, any results discussed in this report will not be officially 
+recognised by the AAMI or ESH protocols. This is something that future active projects 
+will need to consider, in order to have substantial results.

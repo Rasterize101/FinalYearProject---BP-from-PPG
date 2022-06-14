@@ -1,11 +1,67 @@
-\contentsline {section}{\numberline {1}Introduction}{1}{}%
-\contentsline {section}{\numberline {2}Background}{2}{}%
-\contentsline {section}{\numberline {3}Requirements Capture}{4}{}%
-\contentsline {section}{\numberline {4}Analysis and Design}{5}{}%
-\contentsline {section}{\numberline {5}Implementation}{6}{}%
-\contentsline {section}{\numberline {6}Testing}{7}{}%
-\contentsline {section}{\numberline {7}Results}{8}{}%
-\contentsline {section}{\numberline {8}Evaluation}{9}{}%
-\contentsline {section}{\numberline {9}Conclusions and Further Work}{10}{}%
-\contentsline {section}{\numberline {10}Bibliography}{11}{}%
-\contentsline {section}{\numberline {11}Appendix}{12}{}%
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}High-level problem statement}{1}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Overview of work}{1}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Autumn Term 2021}{1}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Spring Term 2022}{1}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Summer Term 2022}{1}{subsubsection.1.3.3}%
+\contentsline {section}{\numberline {2}Background}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Medical background}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Hypertension}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Blood Pressure measurements}{3}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Ambulatory Blood Pressure (ABP)}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}Electrocardiogram (ECG) signals}{5}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}Photoplethysmography (PPG) signals}{5}{subsubsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.2}Cuff-less methods for deriving BP}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Pulse Transit Time (PTT)}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Pulse Arrival Time (PAT)}{7}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Pulse Wave Velocity (PWV)}{8}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Limitations}{9}{subsubsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.3}Neural Networks}{10}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Artificial neural networks}{10}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Recurrent Neural Networks (RNNs)}{11}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Activation Functions}{12}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Loss Functions}{12}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}Neural Network Training}{13}{subsubsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.4}SECTION CLARIFYING WHAT COMPLEXITY MEANS FOR THIS PROJECT?}{13}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Literature Review}{13}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.5.1}Survey Equation}{14}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}PRISMA checklist}{14}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Literature survey table}{14}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Critical analysis of literature survey table}{14}{subsubsection.2.5.4}%
+\contentsline {subsubsection}{\numberline {2.5.5}Conclusions of literature survey}{14}{subsubsection.2.5.5}%
+\contentsline {section}{\numberline {3}Analysis and Design}{16}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Choice of programming language}{16}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Choice of dataset}{16}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Choice of signal channel}{17}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Feature extraction}{17}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Decision between signal-processing based or ML based method}{17}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Choice of ML model to use}{17}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Performance metrics}{17}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Implementation}{18}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Description of dataset}{18}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Extracting the ground truth blood pressure values}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Signal preprocessing steps}{18}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Windowing of PPG and ABP data}{18}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Convolutional Neural Network (CNN) model}{18}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}ResNet model}{19}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Overview of Results}{20}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Overview of testing parameters}{20}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Performance of AlexNet architecture}{20}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Performance of ResNet architecture}{21}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Evaluation of results}{22}{section.6}%
+\contentsline {section}{\numberline {7}Ethical, Legal and Safety Plan}{23}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Ethical considerations}{23}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Beneficence}{23}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Non-maleficence}{23}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}Autonomy}{23}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Justice}{24}{subsubsection.7.1.4}%
+\contentsline {subsection}{\numberline {7.2}Legal considerations}{24}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Safety considerations}{24}{subsection.7.3}%
+\contentsline {section}{\numberline {8}Conclusions and Further Work}{25}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Summary of project achievements}{25}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Future work}{25}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Bibliography}{26}{section.9}%
+\contentsline {section}{\numberline {10}Appendix}{30}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Health standards requirements for blood pressure estimation}{30}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Complete FYP Gantt chart}{30}{subsection.10.2}%

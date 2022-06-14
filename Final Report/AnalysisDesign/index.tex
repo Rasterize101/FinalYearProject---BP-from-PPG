@@ -1,4 +1,5 @@
 \section{Analysis and Design}
+\begin{comment}
 If your project involves designing a system, give a
 good high-level overview of your design.\\ \newline \noindent In many projects, the final design is different from
 that originally envisaged. If the differences are
@@ -28,3 +29,45 @@ Engineering involves trade-offs and the reasons for a
 design decision may be various, and may in some
 cases be out of your control. Explicit understanding of
 this, and the ability to communicate it, is important.
+\end{comment}
+
+\subsection{Choice of programming language}
+Python is used as the sole programming language for this project. Python has a wide 
+variety of easy to use and powerful libraries \cite{Python}. The scientific libraries from Python 
+that are used for this project are \texttt{numpy} \cite{numpy} and \texttt{pandas} \cite{pandas}. In addition, the 
+machine learning libraries used are \texttt{tensorflow} \cite{tensorflow}, \texttt{keras} \cite{keras} and \texttt{scikit-learn} \cite{scikit}. 
+In addition the \texttt{heartpy} \cite{heartpy} and \texttt{wfdb-python} \cite{wfdb} packages were installed, which are libraries of 
+tools for reading, writing, and processing Waveform-Database (WFDB) signals and annotations. \\ \newline \noindent MATLAB was also 
+considered as a potential programming language to use, due to it having a wide range of 
+signal processing and machine learning add-on toolboxes. However Python has been shown 
+to offer a wider set of choices in graphics packages and toolsets, such as 
+through \texttt{matplotlib} \cite{matplotlib}, and it also produces more compact and readable 
+code.
+
+\subsection{Choice of dataset}
+\textcolor{red}{Give a better explanation of the dataset you're using. Age range, gender split, any medical conditions.. This can all be found in the dataset website or the relevant papers linked to the dataset.}
+As previously discussed in the literature review in Chapter 2, the chosen dataset is the 
+Medical Information Mart for Intensive Care (MIMIC) dataset. \textcolor{red}{Did you? I must have overlooked it.} The MIMIC Database 
+includes data recorded from over 90 ICU patients. The data in each case include 
+signals and periodic measurements obtained from a bedside monitor as well as clinical 
+data obtained from the patient's medical record. The recordings vary in length; almost 
+all of them are at least 20 hours, and many are 40 hours or more \textcolor{red}{If you know how many, state it. Don't be chatty.}. In all, the database 
+contains nearly 200 patient-days of real-time signals and accompanying data \cite{Moody1996}.
+\textcolor{red}{I don't understand.. You say there are over 90 ICU patients (again state the exact number because it is known). So where do the 200 come from? (again can't be nearly 200.. Be exact.) - Did you use all 90 or 200 patients data. Everything you write in your methods needs to be clear for someone to repeat exactly what you have done. This will also help us review your code and run it to produce the exact same results you will be showing in the report.}
+
+\subsection{Choice of signal channel}
+
+\subsection{Feature extraction}
+
+\subsection{Decision between signal-processing based or ML based method}
+
+\subsection{Choice of ML model to use}
+
+\subsection{Performance metrics}
+The two considered error calculations used in this experimentation are the Mean Absolute Error 
+(MAE) and Root Mean Square Error (RMSE). They are defined by the following equations, 
+\begin{align}
+    MAE &= \frac{1}{N} \sum_{i=1}^N \lvert a_{i_{M}} - b_{i_{M}} \rvert \\
+    RMSE &= \frac{1}{N} \sqrt{\sum_{i=1}^N \lvert a_{i_{M}} - b_{i_{M}} \rvert^2}
+\end{align}\noindent In the context of BP estimation, $b_{i_{M}}$ and $a_{i_{M}}$ represent the true 
+value and BP estimate respectively for the $M$th element of the time sequence.

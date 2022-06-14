@@ -1,5 +1,6 @@
 \section{Implementation}
-In projects with a software element give code details
+\begin{comment}
+    In projects with a software element give code details
 (not a complete listing, but descriptions of key parts).
 Discuss the most important or interesting aspects, and
 anything that was surprising or difficult. It probably
@@ -52,4 +53,62 @@ your supervisor or in a cloud repositories such as
 Github. No marks are awarded for the mass or pagecount of a report, and reports which contain 50 pages
 of printed code are more likely to be seen as showing
 poor judgement.
+\end{comment}
 
+
+
+\subsection{Description of dataset}
+As discussed in Section 3, the MIMIC Database includes data
+recorded from over 90 ICU patients. For the purposes of this project, a subset of this data is used 
+for experimentation. Further details of the data used are shown in Table \ref{tabPatients}.
+
+\textcolor{red}{Why a subset? Why not all? If you're doing a split, explain this. Are you only using 8 patients out of the 90?}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|cccc|}
+    \hline
+    \textbf{Patient Number} & \textbf{Gender} & \textbf{Age} & \textbf{Health issue faced by the patient} \\ \hline
+    224 & Male   & 21 & Sepsis                                  \\
+    225 & Male   & 73 & Pulmonary edema                         \\
+    230 & Female & 75 & Cardiac Heart Failure/Pulmonary edema   \\
+    232 & Male   & 68 & Myocardial infarction/Cardiogenic shock \\
+    235 & Female & 67 & Myocardial infarction/Cardiogenic shock \\
+    240 & Male   & 68 & Angina                                  \\
+    252 & Male   & 52 & Respiratory Failure                     \\
+    255 & Male   & 67 & Cardiac Heart Failure/Pulmonary edema   \\ \hline
+    \end{tabular}
+    \caption{Characteristics of the patients from the MIMIC-I database}
+    \label{tabPatients}
+    \end{table}
+
+
+\subsection{Extracting the ground truth blood pressure values}
+The ground truth Systolic and Diastolic blood pressure values are calculated by taking the respective 
+maxima and minima of the arterial blood pressure signal within each window of the signal.
+
+
+
+
+\subsection{Signal preprocessing steps}
+
+
+\subsection{Windowing of PPG and ABP data}
+
+\subsection{Convolutional Neural Network (CNN) model}
+
+\textcolor{red}{What type of information should the reader gather from this figure? It needs explaining and annotations/labelling.}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm,height=10cm,keepaspectratio]{Implementation/alexnetArch.png}
+    \caption{Overview of the AlexNet architecture}
+    \label{alexnetArch}
+\end{figure}
+
+
+
+\subsection{ResNet model}
+
+
+%\subsection{Potentially for appendix: Description of other models the transformer is compared with}

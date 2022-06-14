@@ -1,3 +1,350 @@
-\begin{thebibliography}{}\itemsep=-1pt
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{Physionet}
+Physionet documentation.
+\newblock \url{https://physionet.org/about/}.
+
+\bibitem{Ahmad2012}
+S.~Ahmad, S.~Chen, K.~Soueidan, I.~Batkin, M.~Bolic, H.~Dajani, and V.~Groza.
+\newblock Electrocardiogram-assisted blood pressure estimation.
+\newblock {\em IEEE Transactions on Biomedical Engineering}, 59:608--618, 3
+  2012.
+
+\bibitem{Almusawi2020}
+H.~Almusawi and A.~Burhan.
+\newblock Evaluation of the productivity of ready mixed concrete batch plant
+  using artificial intelligence techniques.
+\newblock {\em IOP Conference Series: Materials Science and Engineering},
+  901:012020, 09 2020.
+
+\bibitem{Athaya2021}
+T.~Athaya and S.~Choi.
+\newblock An estimation method of continuous non-invasive arterial blood
+  pressure waveform using photoplethysmography: A u-net architecture-based
+  approach.
+\newblock {\em Sensors}, 21(5), 2021.
+
+\bibitem{Bard2019}
+D.~M. Bard, J.~I. Joseph, and N.~van Helmond.
+\newblock Cuff-less methods for blood pressure telemonitoring.
+\newblock {\em Frontiers in Cardiovascular Medicine}, 6, 4 2019.
+
+\bibitem{SBP}
+D.~Between.
+\newblock Difference between systolic and diastolic.
+\newblock
+  \url{http://www.differencebetween.net/science/health/difference-between-systolic-and-diastolic/},
+  1 2021.
+
+\bibitem{LitSurvey}
+A.~Bhattacharyya.
+\newblock Final year project literature survey matrix.
+\newblock
+  \url{https://github.com/ab10918/FinalYearProject---BP-from-ECG-PPG/blob/main/Literature\%20Survey.xlsx},
+  1 2022.
+
+\bibitem{Chan2001}
+K.~W. Chan, K.~Hung, and Y.~T. Zhang.
+\newblock Noninvasive and cuffless measurements of blood pressure for
+  telemedicine.
+\newblock {\em Annual Reports of the Research Reactor Institute, Kyoto
+  University}, 4:3592--3593, 2001.
+
+\bibitem{Chen2019}
+S.~Chen, Z.~Ji, H.~Wu, and Y.~Xu.
+\newblock A non-invasive continuous blood pressure estimation approach based on
+  machine learning.
+\newblock {\em Sensors (Switzerland)}, 19, 6 2019.
+
+\bibitem{Chen2013}
+Z.~Chen, X.~Yang, J.~T. Teo, and S.~H. Ng.
+\newblock Noninvasive monitoring of blood pressure using optical
+  ballistocardiography and photoplethysmograph approaches.
+\newblock {\em Proceedings of the Annual International Conference of the IEEE
+  Engineering in Medicine and Biology Society, EMBS}, pages 2425--2428, 2013.
+
+\bibitem{lstm}
+Colah.
+\newblock Understanding lstm networks.
+\newblock \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}, 8
+  2015.
+
+\bibitem{Daimiwal2014}
+N.~Daimiwal, M.~Sundhararajan, and R.~Shriram.
+\newblock Respiratory rate, heart rate and continuous measurement of bp using
+  ppg.
+\newblock {\em International Conference on Communication and Signal Processing,
+  ICCSP 2014 - Proceedings}, pages 999--1002, 11 2014.
+
+\bibitem{hypertrophic}
+W.~N. Dillon.
+\newblock High blood pressure and hypertensive heart disease.
+\newblock
+  \url{https://medium.com/@WayneDillon/high-blood-pressure-and-hypertensive-heart-disease-1f5cab7c6bbc},
+  2015.
+
+\bibitem{Ding2016}
+X.~R. Ding, Y.~T. Zhang, J.~Liu, W.~X. Dai, and H.~K. Tsang.
+\newblock Continuous cuffless blood pressure estimation using pulse transit
+  time and photoplethysmogram intensity ratio.
+\newblock {\em IEEE Transactions on Biomedical Engineering}, 63:964--972, 5
+  2016.
+
+\bibitem{Malikeh2019}
+M.~P. Ebrahim, F.~Heydari, T.~Wu, K.~Walker, K.~Joe, J.~M. Redoute, and M.~R.
+  Yuce.
+\newblock Blood pressure estimation using on-body continuous wave radar and
+  photoplethysmogram in various posture and exercise conditions.
+\newblock {\em Scientific Reports}, 9, 12 2019.
+
+\bibitem{ElHajj2020}
+C.~El-Hajj and P.~A. Kyriacou.
+\newblock A review of machine learning techniques in photoplethysmography for
+  the non-invasive cuff-less measurement of blood pressure.
+\newblock {\em Biomedical Signal Processing and Control}, 58, 4 2020.
+
+\bibitem{Gao2016}
+S.~C. Gao, P.~Wittek, L.~Zhao, and W.~J. Jiang.
+\newblock Data-driven estimation of blood pressure using photoplethysmographic
+  signals.
+\newblock {\em Proceedings of the Annual International Conference of the IEEE
+  Engineering in Medicine and Biology Society, EMBS}, 2016-October:766--769, 10
+  2016.
+
+\bibitem{Goldberger2000}
+A.~L. Goldberger, L.~A.~N. Amaral, .~L. Glass, J.~M. Hausdorff, .~Plamen,
+  C.~Ivanov, R.~G. Mark, J.~E. Mietus, G.~B. Moody, C.-K. Peng, and .~H.~E.
+  Stanley.
+\newblock Physiobank, physiotoolkit, and physionet components of a new research
+  resource for complex physiologic signals.
+\newblock \url{http://www.physionet.org}, 2000.
+
+\bibitem{MedicalEthics}
+S.~Holm.
+\newblock Principles of biomedical ethics, 5th edn.
+\newblock {\em Journal of Medical Ethics}, 28(5):332--332, 2002.
+
+\bibitem{Huang2021}
+Q.~F. Huang, W.~Y. Yang, K.~Asayama, Z.~Y. Zhang, L.~Thijs, Y.~Li, E.~O'Brien,
+  and J.~A. Staessen.
+\newblock Ambulatory blood pressure monitoring to diagnose and manage
+  hypertension.
+\newblock {\em Hypertension}, pages 254--264, 2021.
+
+\bibitem{deeplearning}
+Y.~B. Ian~Goodfellow and A.~Courville.
+\newblock {\em Deep Learning}.
+\newblock 2017.
+
+\bibitem{Janjua2017}
+G.~Janjua, D.~Guldenring, D.~Finlay, and J.~McLaughlin.
+\newblock Wireless chest wearable vital sign monitoring platform for
+  hypertension.
+\newblock {\em Proceedings of the Annual International Conference of the IEEE
+  Engineering in Medicine and Biology Society, EMBS}, pages 821--824, 9 2017.
+
+\bibitem{Jeong2021}
+D.~U. Jeong and K.~M. Lim.
+\newblock Combined deep cnn-lstm network-based multitasking learning
+  architecture for noninvasive continuous blood pressure estimation using
+  difference in ecg-ppg features.
+\newblock {\em Scientific Reports}, 11, 12 2021.
+
+\bibitem{Kachuee2015}
+M.~Kachuee, M.~M. Kiani, H.~Mohammadzade, and M.~Shabany.
+\newblock Cuff-less high-accuracy calibration-free blood pressure estimation
+  using pulse transit time.
+\newblock {\em Proceedings - IEEE International Symposium on Circuits and
+  Systems}, 2015-July:1006--1009, 7 2015.
+
+\bibitem{Kario2021}
+K.~Kario, S.~Hoshide, Y.~C. Chia, P.~Buranakitjaroen, S.~Siddique, J.~Shin,
+  Y.~Turana, S.~Park, K.~Tsoi, C.~H. Chen, H.~M. Cheng, T.~Fujiwara, Y.~Li,
+  V.~M. Huynh, M.~Nagai, J.~Nailes, J.~Sison, A.~A. Soenarta, G.~P. Sogunuru,
+  A.~Sukonthasarn, J.~C. Tay, B.~W. Teo, N.~Verma, T.~D. Wang, Y.~Zhang, and
+  J.~G. Wang.
+\newblock Guidance on ambulatory blood pressure monitoring: A statement from
+  the hope asia network.
+\newblock {\em Journal of Clinical Hypertension}, 23:411--421, 3 2021.
+
+\bibitem{rnns}
+A.~Karpathy.
+\newblock The unreasonable effectiveness of recurrent neural networks.
+\newblock \url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}, 5
+  2015.
+
+\bibitem{Kumar2015}
+S.~Kumar and S.~Ayub.
+\newblock Estimation of blood pressure by using electrocardiogram (ecg) and
+  photo-plethysmogram (ppg).
+\newblock {\em Proceedings - 2015 5th International Conference on Communication
+  Systems and Network Technologies, CSNT 2015}, pages 521--524, 9 2015.
+
+\bibitem{Leung2016}
+A.~A. Leung, K.~Nerenberg, S.~S. Daskalopoulou, K.~McBrien, K.~B. Zarnke,
+  K.~Dasgupta, L.~Cloutier, M.~Gelfer, M.~Lamarre-Cliche, A.~Milot, P.~Bolli,
+  G.~Tremblay, D.~McLean, S.~W. Tobe, M.~Ruzicka, K.~D. Burns, M.~Vallée,
+  G.~V. Prasad, M.~Lebel, R.~D. Feldman, P.~Selby, A.~Pipe, E.~L. Schiffrin,
+  P.~A. McFarlane, P.~Oh, R.~A. Hegele, M.~Khara, T.~W. Wilson, S.~B. Penner,
+  E.~Burgess, R.~J. Herman, S.~L. Bacon, S.~W. Rabkin, R.~E. Gilbert, T.~S.
+  Campbell, S.~Grover, G.~Honos, P.~Lindsay, M.~D. Hill, S.~B. Coutts,
+  G.~Gubitz, N.~R. Campbell, G.~W. Moe, J.~G. Howlett, J.~M. Boulanger,
+  A.~Prebtani, P.~Larochelle, L.~A. Leiter, C.~Jones, R.~I. Ogilvie, V.~Woo,
+  J.~Kaczorowski, L.~Trudeau, R.~J. Petrella, S.~Hiremath, D.~Drouin, K.~L.
+  Lavoie, P.~Hamet, G.~Fodor, J.~C. Grégoire, R.~Lewanczuk, G.~K. Dresser,
+  M.~Sharma, D.~Reid, S.~A. Lear, G.~Moullec, M.~Gupta, L.~A. Magee, A.~G.
+  Logan, K.~C. Harris, J.~Dionne, A.~Fournier, G.~Benoit, J.~Feber, L.~Poirier,
+  R.~S. Padwal, and D.~M. Rabi.
+\newblock Hypertension canada's 2016 canadian hypertension education program
+  guidelines for blood pressure measurement, diagnosis, assessment of risk,
+  prevention, and treatment of hypertension.
+\newblock {\em Canadian Journal of Cardiology}, 32:569--588, 5 2016.
+
+\bibitem{Yamanaka2016}
+Z.~D. Liu, B.~Zhou, Y.~Li, M.~Tang, and F.~Miao.
+\newblock The wavelet transform of pulse wave and electrocardiogram improves
+  accuracy of blood pressure estimation in cuffless blood pressure measurement.
+\newblock 11, 3 2018.
+
+\bibitem{Liu2020}
+Z.~D. Liu, B.~Zhou, Y.~Li, M.~Tang, and F.~Miao.
+\newblock Continuous blood pressure estimation from electrocardiogram and
+  photoplethysmogram during arrhythmias.
+\newblock {\em Frontiers in Physiology}, 11, 9 2020.
+
+\bibitem{Moody1996}
+G.~B. Moody and R.~G. Mark.
+\newblock A database to support development and evaluation of intelligent
+  intensive care monitoring.
+\newblock {\em Computers in Cardiology}, 0:657--660, 1996.
+
+\bibitem{Nye2015}
+R.~Nye, Z.~Zhang, and Q.~Fang.
+\newblock Continuous non-invasive blood pressure monitoring using
+  photoplethysmography: A review.
+\newblock {\em 4th International Symposium on Bioelectronics and
+  Bioinformatics, ISBB 2015}, pages 176--179, 12 2015.
+
+\bibitem{Pradenas2020}
+L.~Pradenas.
+\newblock A novel non-invasive estimation of arterial blood pressure from
+  electrocardiography and photoplethysmography signals using machine learning.
+\newblock {\em Biomedical Journal of Scientific \& Technical Research}, 30, 9
+  2020.
+
+\bibitem{heartpy}
+Python.
+\newblock Heartpy documentation.
+\newblock
+  \url{https://python-heart-rate-analysis-toolkit.readthedocs.io/en/latest/}, 6
+  2022.
+
+\bibitem{Python}
+Python.
+\newblock History and license for python.
+\newblock \url{https://docs.python.org/3/license.html}, 6 2022.
+
+\bibitem{keras}
+Python.
+\newblock Keras documentation.
+\newblock \url{https://keras.io/}, 6 2022.
+
+\bibitem{matplotlib}
+Python.
+\newblock Matplotlib documentation.
+\newblock \url{https://matplotlib.org/stable/index.html}, 6 2022.
+
+\bibitem{numpy}
+Python.
+\newblock Numpy documentation.
+\newblock \url{https://numpy.org/doc/stable/}, 6 2022.
+
+\bibitem{pandas}
+Python.
+\newblock Pandas documentation.
+\newblock \url{https://pandas.pydata.org/docs/}, 6 2022.
+
+\bibitem{scikit}
+Python.
+\newblock Scikit-learn documentation.
+\newblock \url{https://scikit-learn.org/stable/}, 6 2022.
+
+\bibitem{tensorflow}
+Python.
+\newblock Tensorflow documentation.
+\newblock \url{https://www.tensorflow.org/api_docs}, 6 2022.
+
+\bibitem{wfdb}
+Python.
+\newblock Wfdb-python documentation.
+\newblock \url{https://wfdb.readthedocs.io/en/latest/}, 6 2022.
+
+\bibitem{Ripoll2019}
+V.~Ripoll and A.~Vellido.
+\newblock Blood pressure assessment with differential pulse transit time and
+  deep learning: A proof of concept.
+\newblock {\em Kidney Diseases}, 5:23--27, 2019.
+
+\bibitem{Sharma2017}
+M.~Sharma, K.~Barbosa, V.~Ho, D.~Griggs, T.~Ghirmai, S.~Krishnan, T.~Hsiai,
+  J.-C. Chiao, and H.~Cao.
+\newblock Cuff-less and continuous blood pressure monitoring: A methodological
+  review.
+\newblock {\em Technologies}, 5:21, 5 2017.
+
+\bibitem{Simjanoska20181}
+M.~Simjanoska, M.~Gjoreski, A.~M. Bogdanova, B.~Koteska, M.~Gams, and
+  J.~Tasič.
+\newblock Ecg-derived blood pressure classification using complexity
+  analysis-based machine learning.
+\newblock {\em HEALTHINF 2018 - 11th International Conference on Health
+  Informatics, Proceedings; Part of 11th International Joint Conference on
+  Biomedical Engineering Systems and Technologies, BIOSTEC 2018}, 5:282--292,
+  2018.
+
+\bibitem{Simjanoska20182}
+M.~Simjanoska, M.~Gjoreski, M.~Gams, and A.~M. Bogdanova.
+\newblock Non-invasive blood pressure estimation from ecg using machine
+  learning techniques.
+\newblock {\em Sensors (Switzerland)}, 18, 4 2018.
+
+\bibitem{Su2017}
+P.~Su, X.-R. Ding, Y.-T. Zhang, J.~Liu, F.~Miao, and N.~Zhao.
+\newblock Long-term blood pressure prediction with deep recurrent neural
+  networks.
+\newblock 5 2017.
+
+\bibitem{Tanveer2018}
+M.~S. Tanveer and M.~K. Hasan.
+\newblock Cuffless blood pressure estimation from electrocardiogram and
+  photoplethysmogram using waveform based ann-lstm network.
+\newblock {\em Bangladesh University of Engineering and Technology}, 11 2018.
+
+\bibitem{Wang2018}
+L.~Wang, W.~Zhou, Y.~Xing, and X.~Zhou.
+\newblock A novel neural network model for blood pressure estimation using
+  photoplethesmography without electrocardiogram.
+\newblock {\em Journal of Healthcare Engineering}, 2018, 2018.
+
+\bibitem{ecgWiki}
+Wikipedia.
+\newblock Electrocardiography.
+\newblock \url{https://en.wikipedia.org/wiki/Electrocardiography}, 6 2022.
+
+\bibitem{qrsWiki}
+Wikipedia.
+\newblock Qrs complex.
+\newblock \url{https://en.wikipedia.org/wiki/QRS_complex}, 6 2022.
+
+\bibitem{Yang2020}
+S.~Yang, W.~S.~W. Zaki, S.~P. Morgan, S.-Y. Cho, R.~Correia, and Y.~Zhang.
+\newblock Blood pressure estimation with complexity features from
+  electrocardiogram and photoplethysmogram signals.
+
+\bibitem{Zaki2018}
+W.~S. Zaki, S.~P. Morgan, S.-Y. Cho, R.~Correia, L.~Wen, and Y.~Zhang.
+\newblock Blood pressure estimation from photoplethysmogram and
+  electrocardiogram signals using machine learning.
+\newblock {\em University of Nottingham}, 2018.
 
 \end{thebibliography}

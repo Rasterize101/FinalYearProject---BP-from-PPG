@@ -1,5 +1,5 @@
 % !TEX encoding = UTF-8 Unicode
-\documentclass[11pt, a4paper]{article}
+\documentclass[12pt, a4paper,dvipsnames]{article}
 \usepackage[a4paper,left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
 \usepackage[utf8]{inputenc}
 \PassOptionsToPackage{hyphens}{url}
@@ -8,9 +8,10 @@
 \usepackage{nccmath}
 \usepackage{mathtools}
 \usepackage{bm}
-\usepackage{natbib}
+\usepackage[numbers]{natbib}
 \usepackage{caption}
 \usepackage{float}
+\usepackage{color}
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{subfig}
@@ -21,13 +22,15 @@
 \usepackage{epstopdf}
 \usepackage{float}
 \usepackage{multirow}
-%\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{ragged2e}
+\usepackage{hyperref}
 \usepackage{url}
 \usepackage[nottoc,numbib]{tocbibind}
 \usepackage{rotating}
 
 \setcounter{secnumdepth}{4}
-\setcounter{tocdepth}{2}
+\setcounter{tocdepth}{3}
 \lstset{language=MATLAB,
 	        frame=single,
 	        breaklines=true,
@@ -41,10 +44,10 @@
                 rulecolor=\color{black}
 }
 
-\pagestyle{fancy}
+%\pagestyle{fancy}
 \fancyhf{}
 \lhead{}
-\chead{FYP Final Report 2022}
+\chead{}
 \rhead{}
 \cfoot{\thepage}
 
@@ -72,7 +75,8 @@
 \setlength{\tabcolsep}{0pt}
 
 \begin{tabular}{p{40mm}p{\dimexpr\columnwidth-40mm}}
-    Project Title: & \textbf{Extraction of blood pressure from PPG signals} \\[12pt]
+    Project Title: & \textbf{Cuffless Blood Pressure Estimation from Photoplethysmography Signals using Recurrent Neural Networks
+    } \\[12pt]
     Student: & \textbf{Arijit Bhattacharyya} \\[12pt]
     CID: & \textbf{01496199} \\[12pt]
     Course: & \textbf{MEng Electrical and Electronic Engineering} \\[12pt]
@@ -82,7 +86,7 @@
 \end{tabular}
 \end{titlepage}
 
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+% \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 
 \newpage
 \pagenumbering{roman}
@@ -99,27 +103,22 @@
 \newpage
 \input{Background/index.tex}
 \newpage
-\noindent The central part of the report
-usually consists of three or four chapters
-detailing the technical work undertaken during
-the project. The structure of these chapters is
-highly project dependent.
-\newpage
-\input{RequirementsCapture/index.tex}
-\newpage
+%\input{RequirementsCapture/index.tex}
+%\newpage
 \input{AnalysisDesign/index.tex}
 \newpage
 \input{Implementation/index.tex}
-\newpage
-\input{Testing/index.tex}
+%\newpage
+%\input{Testing/index.tex}
 \newpage
 \input{Results/index.tex}
 \newpage
 \input{Evaluation/index.tex}
 \newpage
+\input{Ethics/index.tex}
+\newpage
 \input{ConclusionFW/index.tex}
 \newpage
-
 \bibliographystyle{ieee}
 \bibliography{references}
 
