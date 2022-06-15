@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.3)  14 JUN 2022 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.3)  15 JUN 2022 00:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,6 +334,8 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedLeftParindent=\skip87
 \RaggedRightParindent=\skip88
 \JustifyingParindent=\skip89
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ) (c:/texlive/2021/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
  (c:/texlive/2021/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -447,24 +449,24 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -522,7 +524,7 @@ Package caption Info: End \AtBeginDocument code.
 \everyMPtoPDFconversion=\toks31
 )
 \c@lstlisting=\count316
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 55.
  (c:/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (c:/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -532,27 +534,27 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 55.
+LaTeX Info: Redefining \pageref on input line 55.
+LaTeX Info: Redefining \nameref on input line 55.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<logo.png, id=273, 1204.5pt x 1284.8pt>
+<logo.png, id=293, 1204.5pt x 1284.8pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 73.
+Package pdftex.def Info: logo.png  used on input line 74.
 (pdftex.def)             Requested size: 199.16928pt x 212.43375pt.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 77.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 78.
  (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -563,17 +565,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
  []
 
 [1]) [2] (./Acknowledgements/index.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 2--96
+Underfull \hbox (badness 10000) in paragraph at lines 2--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--96
+Underfull \hbox (badness 10000) in paragraph at lines 2--97
 
  []
 
 [3] (./main.toc
-Overfull \hbox (4.73502pt too wide) in paragraph at lines 26--26
+Overfull \hbox (4.73502pt too wide) in paragraph at lines 31--31
  [][] [][]\OT1/cmr/m/n/12 SECTION CLAR-I-FY-ING WHAT COM-PLEX-ITY MEANS FOR THIS PROJECT?[] [][]  
  []
 
@@ -594,9 +596,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--55
 Excluding 'comment' comment.)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 \newpage
+l.104 \newpage
                [1] (./Background/index.tex Excluding 'comment' comment.
-<Background/hypertension.jpeg, id=397, 1161.33875pt x 567.11874pt>
+<Background/hypertension.jpeg, id=422, 1161.33875pt x 567.11874pt>
 File: Background/hypertension.jpeg Graphic file (type jpg)
 <use Background/hypertension.jpeg>
 Package pdftex.def Info: Background/hypertension.jpeg  used on input line 75.
@@ -607,12 +609,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--78
  []
 
 [2 <./Background/hypertension.jpeg>]
-<Background/abp.png, id=418, 1146.684pt x 932.283pt>
+<Background/abp.png, id=443, 1146.684pt x 932.283pt>
 File: Background/abp.png Graphic file (type png)
 <use Background/abp.png>
 Package pdftex.def Info: Background/abp.png  used on input line 109.
 (pdftex.def)             Requested size: 341.4358pt x 277.59592pt.
-<Background/sbp_dbp.png, id=423, 692.5875pt x 469.755pt>
+<Background/sbp_dbp.png, id=448, 692.5875pt x 469.755pt>
 File: Background/sbp_dbp.png Graphic file (type png)
 <use Background/sbp_dbp.png>
 Package pdftex.def Info: Background/sbp_dbp.png  used on input line 119.
@@ -638,7 +640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--150
  []
 
 [4 <./Background/sbp_dbp.png>]
-<Background/qrs.png, id=467, 613.29124pt x 250.9375pt>
+<Background/qrs.png, id=492, 613.29124pt x 250.9375pt>
 File: Background/qrs.png Graphic file (type png)
 <use Background/qrs.png>
 Package pdftex.def Info: Background/qrs.png  used on input line 186.
@@ -648,19 +650,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--189
 
  []
 
-<Background/ppg.png, id=476, 329.43076pt x 243.309pt>
+<Background/ppg.png, id=501, 329.43076pt x 243.309pt>
 File: Background/ppg.png Graphic file (type png)
 <use Background/ppg.png>
 Package pdftex.def Info: Background/ppg.png  used on input line 202.
 (pdftex.def)             Requested size: 341.45381pt x 252.18892pt.
 [5 <./Background/qrs.png>]
-<Background/ptt.png, id=500, 391.4625pt x 287.27325pt>
+<Background/ptt.png, id=525, 391.4625pt x 287.27325pt>
 File: Background/ptt.png Graphic file (type png)
 <use Background/ptt.png>
 Package pdftex.def Info: Background/ptt.png  used on input line 234.
 (pdftex.def)             Requested size: 341.45366pt x 250.57446pt.
  [6 <./Background/ppg.png>]
-<Background/pat.png, id=520, 558.28575pt x 308.95425pt>
+<Background/pat.png, id=545, 558.28575pt x 308.95425pt>
 File: Background/pat.png Graphic file (type png)
 <use Background/pat.png>
 Package pdftex.def Info: Background/pat.png  used on input line 256.
@@ -716,7 +718,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 305--333
  []
 
 [9]
-<Background/neuron.jpeg, id=569, 1405.25pt x 666.49pt>
+<Background/neuron.jpeg, id=594, 1405.25pt x 666.49pt>
 File: Background/neuron.jpeg Graphic file (type jpg)
 <use Background/neuron.jpeg>
 Package pdftex.def Info: Background/neuron.jpeg  used on input line 360.
@@ -732,12 +734,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 374--384
  []
 
 [10 <./Background/neuron.jpeg>]
-<Background/ann.png, id=588, 853.1875pt x 499.8675pt>
+<Background/ann.png, id=614, 853.1875pt x 499.8675pt>
 File: Background/ann.png Graphic file (type png)
 <use Background/ann.png>
 Package pdftex.def Info: Background/ann.png  used on input line 392.
 (pdftex.def)             Requested size: 284.534pt x 166.70345pt.
-<Background/rnn2.png, id=593, 479.391pt x 213.1965pt>
+<Background/rnn2.png, id=619, 479.391pt x 213.1965pt>
 File: Background/rnn2.png Graphic file (type png)
 <use Background/rnn2.png>
 Package pdftex.def Info: Background/rnn2.png  used on input line 415.
@@ -748,59 +750,88 @@ Underfull \hbox (badness 10000) in paragraph at lines 398--418
  []
 
 [11 <./Background/ann.png>]
-<Background/rnn3.png, id=605, 829.29825pt x 309.5565pt>
+<Background/rnn3.png, id=630, 829.29825pt x 309.5565pt>
 File: Background/rnn3.png Graphic file (type png)
 <use Background/rnn3.png>
 Package pdftex.def Info: Background/rnn3.png  used on input line 428.
 (pdftex.def)             Requested size: 426.79599pt x 159.31238pt.
  Excluding 'comment' comment. [12 <./Background/rnn2.png> <./Background/rnn3.png>]
-Overfull \hbox (8.16057pt too wide) in paragraph at lines 486--486
-|[]\OT1/cmr/bx/n/14.4 SECTION CLAR-I-FY-ING WHAT COM-PLEX-ITY MEANS FOR
+Underfull \hbox (badness 10000) in paragraph at lines 487--499
+
  []
 
+<Background/arterial.png, id=643, 367.97475pt x 364.36125pt>
+File: Background/arterial.png Graphic file (type png)
+<use Background/arterial.png>
+Package pdftex.def Info: Background/arterial.png  used on input line 511.
+(pdftex.def)             Requested size: 170.71344pt x 169.03705pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--520
+Underfull \hbox (badness 10000) in paragraph at lines 501--514
 
  []
 
 [13]
-Overfull \hbox (82.55638pt too wide) in paragraph at lines 555--569
-[][]
- []
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
+Underfull \hbox (badness 10000) in paragraph at lines 514--522
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
+Underfull \hbox (badness 10000) in paragraph at lines 533--546
 
  []
 
-) [15] (./AnalysisDesign/index.tex Excluding 'comment' comment.
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--546
+
+ []
+
+[14 <./Background/arterial.png>]
+Overfull \hbox (8.16057pt too wide) in paragraph at lines 558--558
+|[]\OT1/cmr/bx/n/14.4 SECTION CLAR-I-FY-ING WHAT COM-PLEX-ITY MEANS FOR
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--592
+
+ []
+
+[15] [16] [17
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 650--651
+
+ []
+
+) [18
+
+] (./AnalysisDesign/index.tex Excluding 'comment' comment.
 Underfull \hbox (badness 10000) in paragraph at lines 35--46
 
  []
 
-[16]) [17] (./Implementation/index.tex Excluding 'comment' comment.
-<Implementation/alexnetArch.png, id=697, 895.54575pt x 287.8755pt>
+[19]) [20] (./Implementation/index.tex Excluding 'comment' comment.
+<Implementation/alexnetArch.png, id=748, 895.54575pt x 287.8755pt>
 File: Implementation/alexnetArch.png Graphic file (type png)
 <use Implementation/alexnetArch.png>
 Package pdftex.def Info: Implementation/alexnetArch.png  used on input line 104.
 (pdftex.def)             Requested size: 284.53076pt x 91.46313pt.
-) [18 <./Implementation/alexnetArch.png>] [19] (./Results/index.tex Excluding 'comment' comment.
-<Results/alexnet.png, id=709, 405.515pt x 279.0425pt>
+) [21 <./Implementation/alexnetArch.png>] [22] (./Results/index.tex Excluding 'comment' comment.
+<Results/alexnet.png, id=759, 405.515pt x 279.0425pt>
 File: Results/alexnet.png Graphic file (type png)
 <use Results/alexnet.png>
 Package pdftex.def Info: Results/alexnet.png  used on input line 51.
 (pdftex.def)             Requested size: 284.533pt x 195.79251pt.
-<Results/resnet.png, id=710, 1180.41pt x 1152.305pt>
+<Results/resnet.png, id=760, 1180.41pt x 1152.305pt>
 File: Results/resnet.png Graphic file (type png)
 <use Results/resnet.png>
 Package pdftex.def Info: Results/resnet.png  used on input line 60.
 (pdftex.def)             Requested size: 426.78447pt x 416.62292pt.
-) [20 <./Results/alexnet.png>] [21 <./Results/resnet.png>] (./Evaluation/index.tex
+) [23 <./Results/alexnet.png>] [24 <./Results/resnet.png>] (./Evaluation/index.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--26
 
  []
@@ -810,7 +841,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--26
 
  []
 
-) [22] (./Ethics/index.tex
+) [25] (./Ethics/index.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--28
 
  []
@@ -820,12 +851,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--52
 
  []
 
-[23])
-Underfull \hbox (badness 10000) in paragraph at lines 77--119
+[26])
+Underfull \hbox (badness 10000) in paragraph at lines 77--120
 
  []
 
-[24] (./ConclusionFW/index.tex Excluding 'comment' comment.) [25] (./main.bbl
+[27] (./ConclusionFW/index.tex Excluding 'comment' comment.) [28] (./main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 40--45
 \OT1/cmtt/m/n/12 ab10918 / FinalYearProject -[]-[]-[] BP -[] from -[] ECG -[] PPG / blob / main / Literature % 20Survey .
  []
@@ -840,28 +871,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--85
 \OT1/cmtt/m/n/12 / / medium . com / @WayneDillon / high -[] blood -[] pressure -[] and -[] hypertensive -[] heart -[]
  []
 
-[26] [27]
+[29] [30]
 Underfull \hbox (badness 10000) in paragraph at lines 330--333
 []\OT1/cmr/m/n/12 Wikipedia.  Elec-tro-car-dio-g-ra-phy.  []$\OT1/cmtt/m/n/12 https : / / en . wikipedia . org / wiki /
  []
 
-[28]) [29] (./Appendix/index.tex Excluding 'comment' comment.) [30] (./main.aux)
+[31]) [32] (./Appendix/index.tex Excluding 'comment' comment.) [33] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 97087CBAF8BD9A214B821CDDCF5A3195;12369.
+(rerunfilecheck)             Checksum: 17156557AFC7688BD88DF8D92F4E52FA;13238.
  ) 
 Here is how much of TeX's memory you used:
- 16118 strings out of 478287
- 255117 string characters out of 5850750
- 746093 words of memory out of 5000000
- 33818 multiletter control sequences out of 15000+600000
+ 16169 strings out of 478287
+ 256234 string characters out of 5850750
+ 745266 words of memory out of 5000000
+ 33856 multiletter control sequences out of 15000+600000
  480956 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,13n,63p,1152b,671s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (36 pages, 2485269 bytes).
+Output written on main.pdf (39 pages, 2618318 bytes).
 PDF statistics:
- 909 PDF objects out of 1000 (max. 8388607)
- 799 compressed objects within 8 object streams
- 192 named destinations out of 1000 (max. 500000)
- 612 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 964 PDF objects out of 1000 (max. 8388607)
+ 849 compressed objects within 9 object streams
+ 201 named destinations out of 1000 (max. 500000)
+ 657 words of extra memory for PDF output out of 10000 (max. 10000000)
 

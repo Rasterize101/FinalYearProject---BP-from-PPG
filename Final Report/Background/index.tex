@@ -483,6 +483,78 @@ operation of the function.
 \textcolor{red}{At the end of this chapter, I advise you to summarise what the reader should take from this chapter. What is the takeaway message and how are you moving forward from this knowledge. Here you restate your aim and objective and how you are going to move forward.}
 \textcolor{red}{(The summary should flow into the next chapter)}
 
+\subsection{Overview on Cuff-Less BP device options} 
+Wearable technology provides an opportunity for real-time monitoring of human vital signs, thus enabling the
+ possibility for preventive, timely notification and real-time diagnosis. Unlike commonly-used BP sensors,
+  which demand a specific measurement procedure, modern wearable bio-sensors monitor vital signals online and all
+   day long, presenting no additional burden other than wearing the device.  A wide range of wearable 
+   devices achieve very positive results, even those wearables which are cheaper in price \cite{Simjanoska20182}. Some
+    of the systems developed for the purpose of non-invasive BP monitoring will be discussed in more detail now. 
+    In addition, they will be critically analysed against two other viable alternatives. \\ \newline \noindent The 
+    motivation behind this project is to replace the current cuff-based BP devices. Cuff-based devices often
+     require the supervision of an expert to work correctly and do not provide continuous measurements for BP. 
+     In addition they can cause irritation and inconvenience for patients due to cuff inflation and deflation. 
+     As a result, current clinical cuff-based BP devices are not suitable for providing continuous BP monitoring 
+     which could play a significant role in the early detection of diseases which affect the heart \cite{ElHajj2020}.
+
+\subsubsection{Smart Watches}
+Smart watches are becoming an increasingly popular form of wearable technology \cite{Bard2019}. Most of the existing smart
+ watch produces currently measure BP through Pulse Transit Time (PTT) from a pulse wave measurement at the wrist. The Heartisans 
+ BP smartwatch uses ECG and PPG signals to measure PTT and estimate BP. The watch requires a motionless 20 second scan with 
+ the device held at heart level for measurements and provides systolic and diastolic BP readings. Calibration with a
+  validated cuff-type BP device is required prior to standalone use. Despite its availability on the market, the 
+  Heartisans Watch has not undergone a formal validation study \cite{Bard2019}. \\ \newline \noindent Another wearable 
+  method  is  through  arterial  tonometry. The BPro device, developed by the London company HealthSTATS Technologies, 
+  is one such device.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=6cm,height=6cm,keepaspectratio]{Background/arterial.png}
+    \caption{Arterial Tonometry}
+    \label{tonometry}
+\end{figure} \noindent Figure \ref{tonometry} shows two different methods for using arterial 
+tonometry to measure blood pressure. The first image shows that the recording is taking at the carotid 
+artery level in order to estimate the central blood pressure waveform. In the second image, the recording 
+is taken at the radial artery level to estimate the arterial pulse wave. The central waveform is then 
+reconstructed from this pulse wave using software. \\ \newline \noindent The BPro allows for continuous  24 hour 
+ waveform  analysis  of  BP. Calibration to the brachial artery BP is required using a validated upper arm cuff 
+ device prior to use. The BPro has been validated in a non-ambulatory study following the Association for the 
+ Advancement of Medical Instrumentation (AAMI) standards and the European Society of Hypertension (ESH) protocol.
+
+\subsubsection{Smartphone Applications}
+Smartphones offer a great potential to expand the continuous recording of BP if their sensors can be 
+correctly utilised \cite{Bard2019}. A formal validation study on one particular iOS application, the Instant 
+Blood Pressure app, revealed poor accuracy of BP measurements. Mean absolute differences of 12.4 mmHg for 
+systolic BP and 10.1 mmHg for diastolic BP were found between the Instant Blood Pressure application and a
+ reference device. This resulted in approximately four out of five hypertensive individuals being falsely classified 
+ as normotensive  \cite{Bard2019}. The My BP Lab application measures BP through measurements of Pulse Transit 
+ Time (PTT). However, there is currently a lack of experimental data to justify it's dominance in the market.
+
+\subsubsection{Medical Tricorders}
+A medical tricorder is a handheld portable device used by consumers to self-diagnose medical conditions and take 
+basic vital signs measurements. The   BodiMetrics   Performance   Monitor uses ECG and PPG signal data to estimate
+ BP through PTT. The Bodimetrics tricorder obtains measurements with a 20 second scan of the user's fingertip
+  at heart level but only provides systolic BP data. This tricorder has a large spread in absolute bias against
+   an automated sphygmomanometer, hence it is unlikely to meet formal accuracy and precision 
+   standards \cite{Bard2019}. \\ \newline \noindent The FreeScan Personal Cardiovascular Monitor, which is 
+   developed by the Taiwanese company Maisense Inc., also estimates BP from PTT. However the device uses a force 
+   sensor to capture the systolic arterial waveform rather than PPG. This requires the user to physically apply 
+   the force sensor directly to the radial artery for around 10 seconds for measurements. The Freescan device 
+   has been verified according to the AAMI protocol \cite{Bard2019}. \\ \newline \noindent The SOMNOtouch
+    NIBP is a non-traditional medical tricorder that utilizes PTT data collected in a similar fashion to the
+     Bodimetrics Performance Monitor. The device has met the ESH standards, however it begins to lose accuracy 
+     for higher SBP and DBP values \cite{Bard2019}.
+
+\subsubsection{Conclusion}
+After having discussed three viable devices for cuff-less measurements of BP, it has been finalised that smart 
+watches are the most viable option. Whilst existing smart watch devices do suffer from inaccuracies in BP estimation
+ due to motion, it is clear that they produce the most acceptable results in line with the AAMI and ESH standards. This 
+ chapter can be seen as a forward looking overview of how the estimation methods discussed in this report can be used to
+  benefit future products. With regards to this project, this chapter can be treated as a supplementary overview.
+
+
+
+
+
 \subsection{SECTION CLARIFYING WHAT COMPLEXITY MEANS FOR THIS PROJECT?}
 
  \subsection{Literature Review}
@@ -550,23 +622,26 @@ employ machine learning methods.
 
 \textcolor{red}{If you are abbreviating or using symbols, state clearly in your table captions.}
 
-\begin{table}[H]
-\caption{Overview of performance of  the best non-invasive ML cuff-less methods for measuring BP}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-\textbf{Study} & \textbf{Source} & \textbf{No. Subjects} & \textbf{Age} & \textbf{Method} & \textbf{MAE SBP} \\ \hline
-\cite{Yang2020} & ECG, PPG & 14 males & 17-43 & ANN & $7.99 \pm 10.34$\\
-\cite{Gao2016} & PPG & 65 & 22-65 & Wavelet, SVM & $5.1 \pm 4.34$\\
-\cite{Kachuee2015} & PPG & MIMIC II & Adults & Linear Reg., ANN, SVM &  $13.84\pm  17.56$\\
-\cite{Simjanoska20182} & ECG & 51 & 16-83 & Complexity analysis + ML &  $7.72 \pm  10.22$\\ 
-\cite{Wang2018} & PPG & 72 & N/A & ANN (MLP) & $4.02 \pm 2.79$\\
-\cite{Pradenas2020} & ECG, PPG & MIMIC II & Adults,  neonatal & ANN (150 neurons) & $5.76 \pm 6.39$\\
-\cite{Tanveer2018} & ECG, PPG & 39 & 20-100 & ANN-LSTM & 1.10\\
-\cite{Chen2019} & PTT, ECG, PPG & MIMIC I & N/A & SVM, Lin Reg. & $3.27 \pm 5.52$\\ 
-\cite{Ripoll2019} & PTT & 250 & MIMIC I & ANN-RBM & 3.70\\\hline
-\end{tabular}
-\label{litsurveytab2}
-\end{table} \noindent The Mean Absolute Error (MAE) of the Systolic BP (SBP) was used as the uniting accuracy measure in this paper, as it was the most readily available parameter in all of the aforementioned papers. \\ \newline \noindent It is important to note that other factors were considered in this literature survey. These factors were, \begin{itemize}
+\begin{landscape}
+    \begin{table}[H]
+        \caption{Overview of performance of  the best non-invasive ML cuff-less methods for measuring BP}
+        \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        \textbf{Study} & \textbf{Source} & \textbf{No. Subjects} & \textbf{Age} & \textbf{Method} & \textbf{MAE SBP} \\ \hline
+        \cite{Yang2020} & ECG, PPG & 14 males & 17-43 & ANN & $7.99 \pm 10.34$\\
+        \cite{Gao2016} & PPG & 65 & 22-65 & Wavelet, SVM & $5.1 \pm 4.34$\\
+        \cite{Kachuee2015} & PPG & MIMIC II & Adults & Linear Reg., ANN, SVM &  $13.84\pm  17.56$\\
+        \cite{Simjanoska20182} & ECG & 51 & 16-83 & Complexity analysis + ML &  $7.72 \pm  10.22$\\ 
+        \cite{Wang2018} & PPG & 72 & N/A & ANN (MLP) & $4.02 \pm 2.79$\\
+        \cite{Pradenas2020} & ECG, PPG & MIMIC II & Adults,  neonatal & ANN (150 neurons) & $5.76 \pm 6.39$\\
+        \cite{Tanveer2018} & ECG, PPG & 39 & 20-100 & ANN-LSTM & 1.10\\
+        \cite{Chen2019} & PTT, ECG, PPG & MIMIC I & N/A & SVM, Lin Reg. & $3.27 \pm 5.52$\\ 
+        \cite{Ripoll2019} & PTT & 250 & MIMIC I & ANN-RBM & 3.70\\\hline
+        \end{tabular}
+        \label{litsurveytab2}
+    \end{table}
+\end{landscape}
+ \noindent The Mean Absolute Error (MAE) of the Systolic BP (SBP) was used as the uniting accuracy measure in this paper, as it was the most readily available parameter in all of the aforementioned papers. \\ \newline \noindent It is important to note that other factors were considered in this literature survey. These factors were, \begin{itemize}
     \item Range of SBP and DBP values 
     \item Sampling frequency
     \item Denoising and detection techniques used
