@@ -26,11 +26,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.4}Electrocardiogram (ECG) signals}{6}{subsubsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.5}Photoplethysmography (PPG) signals}{6}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5}Photoplethysmography (PPG) signals}{7}{subsubsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Cuff-less methods for deriving BP}{7}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Pulse Transit Time (PTT)}{7}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Pulse Transit Time (PTT)}{8}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.2}Pulse Arrival Time (PAT)}{8}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -76,56 +76,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Analysis and Design}{22}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Choice of programming language}{22}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}High Level overview of proposed design}{22}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Choice of dataset}{22}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Choice of signal channel}{23}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Choice of programming language}{23}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Feature extraction}{23}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Extraction of raw ABP signal data}{23}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Decision between signal-processing based or ML based method}{23}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.5}Extraction of raw PPG signal data}{23}{subsection.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6}Choice of ML model to use}{23}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.6}Pre-processing of PPG}{23}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7}Performance metrics}{23}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.7}Feature extraction}{24}{subsection.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Implementation}{24}{section.4}%
+\contentsline {subsection}{\numberline {3.8}Proposed Transformer model}{24}{subsection.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Description of dataset}{24}{subsection.4.1}%
+\contentsline {subsection}{\numberline {3.9}Error metrics}{24}{subsection.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Extracting the ground truth blood pressure values}{24}{subsection.4.2}%
+\contentsline {section}{\numberline {4}Implementation}{25}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Signal preprocessing steps}{24}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.1}Description of dataset}{25}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Windowing of PPG and ABP data}{24}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.2}Extracting the ground truth blood pressure values}{26}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Convolutional Neural Network (CNN) model}{24}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.3}Signal preprocessing steps}{26}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}ResNet model}{25}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.4}Windowing of PPG and ABP data}{26}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Overview of Results}{26}{section.5}%
+\contentsline {subsection}{\numberline {4.5}Convolutional Neural Network (CNN) model}{26}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Overview of testing parameters}{26}{subsection.5.1}%
+\contentsline {subsection}{\numberline {4.6}ResNet model}{26}{subsection.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Performance of AlexNet architecture}{26}{subsection.5.2}%
+\contentsline {section}{\numberline {5}Overview of Results}{27}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Performance of ResNet architecture}{27}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.1}Overview of testing parameters}{27}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Evaluation of results}{28}{section.6}%
+\contentsline {subsection}{\numberline {5.2}Performance of AlexNet architecture}{27}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions and Further Work}{29}{section.7}%
+\contentsline {subsection}{\numberline {5.3}Performance of ResNet architecture}{28}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Summary of project achievements}{29}{subsection.7.1}%
+\contentsline {section}{\numberline {6}Evaluation of results}{29}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Future work}{29}{subsection.7.2}%
+\contentsline {section}{\numberline {7}Conclusions and Further Work}{30}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{30}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.1}Summary of project achievements}{30}{subsection.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Appendix}{34}{section.8}%
+\contentsline {subsection}{\numberline {7.2}Future work}{30}{subsection.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}FYP Mission Statement (correct to June 2022)}{34}{subsection.8.1}%
+\contentsline {section}{\numberline {8}Appendix}{31}{section.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Health standards requirements for blood pressure estimation}{34}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.1}FYP Mission Statement (correct to June 2022)}{31}{subsection.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.3}Complete FYP Gantt chart}{34}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.2}Health standards requirements for blood pressure estimation}{31}{subsection.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3}Complete FYP Gantt chart}{31}{subsection.8.3}%

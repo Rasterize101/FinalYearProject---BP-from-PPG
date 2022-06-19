@@ -907,6 +907,11 @@
          giveni={S\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {MDPI AG}%
+    }
+    \keyw{Arterial blood pressure (ABP),Con-tinuous,Deep
+  learning,Non-invasive,Photoplethysmogram (PPG),U-net}
     \strng{namehash}{ATCS1}
     \strng{fullhash}{ATCS1}
     \field{labelnamesource}{author}
@@ -934,7 +939,9 @@
     \verb 10.3390/s21051867
     \endverb
     \field{issn}{1424-8220}
+    \field{issue}{5}
     \field{number}{5}
+    \field{pages}{1\bibrangedash 18}
     \field{title}{An Estimation Method of Continuous Non-Invasive Arterial
   Blood Pressure Waveform Using Photoplethysmography: A U-Net
   Architecture-Based Approach}
@@ -943,6 +950,7 @@
     \endverb
     \field{volume}{21}
     \field{journaltitle}{Sensors}
+    \field{month}{03}
     \field{year}{2021}
   \endentry
 
@@ -2850,6 +2858,54 @@
     \field{year}{2017}
   \endentry
 
+  \entry{Moody1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MGB}{%
+         family={Moody},
+         familyi={M\bibinitperiod},
+         given={George\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MRG}{%
+         family={Mark},
+         familyi={M\bibinitperiod},
+         given={Roger\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGBMRG1}
+    \strng{fullhash}{MGBMRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Development and evaluation of automated decision support systems requires
+  large amounts of well-characterized, reproducible test data. The MIMIC
+  (Multi-parameter Intelligent Monitoring for Intensive Care) Database is
+  intended to meet these needs. The database, currently nearing completion,
+  will include 100 patient records, each typically containing between 24 and 48
+  hours of continuous data recorded from patient monitors in the medical,
+  surgical, and cardiac intensive care units of Boston's Beth Israel Hospital.
+  Each record will be accompanied by detailed clinical data derived from the
+  patient's medical record and from the hospital's on-line medical information
+  systems. We select patients to record from those likely to be hemodynamically
+  unstable during the planned recording period. We expect to complete the
+  selection of the recordings to be included in the database by the end of
+  1996, and to make the database available to other researchers shortly
+  thereafter.%
+    }
+    \verb{doi}
+    \verb 10.1109/cic.1996.542622
+    \endverb
+    \field{issn}{02766574}
+    \field{issue}{0}
+    \field{pages}{657\bibrangedash 660}
+    \field{title}{A database to support development and evaluation of
+  intelligent intensive care monitoring}
+    \field{volume}{0}
+    \field{journaltitle}{Computers in Cardiology}
+    \field{year}{1996}
+  \endentry
+
   \entry{Python}{report}{}
     \name{author}{1}{}{%
       {{hash=P}{%
@@ -3001,54 +3057,6 @@
     \field{title}{Matplotlib documentation}
     \field{month}{06}
     \field{year}{2022}
-  \endentry
-
-  \entry{Moody1996}{article}{}
-    \name{author}{2}{}{%
-      {{hash=MGB}{%
-         family={Moody},
-         familyi={M\bibinitperiod},
-         given={George\bibnamedelima B.},
-         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=MRG}{%
-         family={Mark},
-         familyi={M\bibinitperiod},
-         given={Roger\bibnamedelima G.},
-         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MGBMRG1}
-    \strng{fullhash}{MGBMRG1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{abstract}{%
-    Development and evaluation of automated decision support systems requires
-  large amounts of well-characterized, reproducible test data. The MIMIC
-  (Multi-parameter Intelligent Monitoring for Intensive Care) Database is
-  intended to meet these needs. The database, currently nearing completion,
-  will include 100 patient records, each typically containing between 24 and 48
-  hours of continuous data recorded from patient monitors in the medical,
-  surgical, and cardiac intensive care units of Boston's Beth Israel Hospital.
-  Each record will be accompanied by detailed clinical data derived from the
-  patient's medical record and from the hospital's on-line medical information
-  systems. We select patients to record from those likely to be hemodynamically
-  unstable during the planned recording period. We expect to complete the
-  selection of the recordings to be included in the database by the end of
-  1996, and to make the database available to other researchers shortly
-  thereafter.%
-    }
-    \verb{doi}
-    \verb 10.1109/cic.1996.542622
-    \endverb
-    \field{issn}{02766574}
-    \field{issue}{0}
-    \field{pages}{657\bibrangedash 660}
-    \field{title}{A database to support development and evaluation of
-  intelligent intensive care monitoring}
-    \field{volume}{0}
-    \field{journaltitle}{Computers in Cardiology}
-    \field{year}{1996}
   \endentry
 \enddatalist
 \endinput
