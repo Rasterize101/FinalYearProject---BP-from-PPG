@@ -4,30 +4,12 @@
 report should set the project into context by
 relating it to existing published work which you
 read at the start of the project when your
-approach and methods were being considered.
-The published work may be in the form of
-research papers, articles, text books, technical
-manuals, or even existing software or hardware
-of which you have had hands-on experience.
-Don't be afraid to acknowledge the sources of
-your inspiration; you are expected to have seen
-and thought about other people's ideas; your
-contribution will be putting them into practice in
-some other context. \textbf{However, you must avoid
-plagiarism}. \\ \newline \noindent You should provide enough background to the reader
+approach and methods were being considered. You should provide enough background to the reader
 for them to understand what the project is all about,
-and what is the relevant prior work.\\ \newline \noindent Examiners like to know that you have done the
-appropriate background research and it is important
+and what is the relevant prior work. It is important
 that you review either what has been done previously
 to tackle related problems, or perhaps what other
-products exist related to your deliverable. Clear
-references are important here, and much of this
-section will typically already have been written in your
-Interim Report. You may use feedback from that
-report to improve what you write in your Final Report,
-and should note that self-plagiarism between the two
-reports is not possible, so no citation is needed of
-your own earlier writing.
+products exist related to your deliverable. 
 \begin{itemize}
     \item What does the reader need to know in order
     to understand the rest of the report? What
@@ -51,6 +33,10 @@ your own earlier writing.
     comparable to your work.
 \end{itemize}  
 \end{comment}
+
+In this chapter, the aim is to provide sufficient background information, in order to understand how the cuff-less estimation of blood pressure (BP) values 
+can be achieved. An overview on all necessary fields will first be given (denoted by Subchapter) and then a literature review will be conducted to 
+assess what is the most feasible implementation for BP cuff-less estimation for this FYP.
 
 \textcolor{red}{Add an intro to the background, rather than jumping into the lit review. Set the scene for the reader.}
 
@@ -84,8 +70,8 @@ death \cite{Janjua2017}.\\ \newline \noindent  Hypertension or high blood pressu
 \hline
 \multirow{2}{*}{\textbf{Blood pressure classification}} & \multicolumn{2}{c|}{\textbf{Blood Pressure (mmHg)}} \\
  & \textbf{Systolic} & \textbf{Diastolic} \\ \hline
-Hypotension & $\le$ 90 & And $\le$ 60 \\
-Normal & $<$ 90-119 & And 60-79 \\
+Hypotension & $\le$ 90 & Or $\le$ 60 \\
+Normal & 90-119 & And 60-79 \\
 Prehypertension & 120-139 & Or 80-89 \\
 Stage 1 hypertension & 140-159 & Or 90-99 \\
 Stage 2 hypertension & $\ge$ 160 & Or $\ge$ 100 \\ 
@@ -559,10 +545,7 @@ watches are the most viable option. Whilst existing smart watch devices do suffe
 
  \subsection{Literature Review}
 
-\textcolor{red}{Initial remarks:Where is the use of the PRISMA criteria? Query equation? Where is the inclusion, exclusion diagram? Your literature review does not highlight the work you have done for your lit review.}
-
-\textcolor{red}{A lot is missing here...}
-%-----
+\textcolor{red}{Initial remarks:Where is the use of the PRISMA criteria? Where is the inclusion, exclusion diagram?}
 \textcolor{red}{After reading remarks:}
 \textcolor{red}{This is not a literature review. By only placing papers into a table as a summary is not sufficient.}
 \textcolor{red}{- what comments do you have on the results you've tabulated?}
@@ -573,29 +556,65 @@ watches are the most viable option. Whilst existing smart watch devices do suffe
 
 \textcolor{red}{Currently, the literature review is below average. You need to work on this.}
 
+This chapter provides a detailed account of the literature review conducted for this FYP. 
+The literature search equation used will first be discussed, followed by an explanation of the PRISMA 
+flow diagram and how it was used to benefit this literature review. To help the reader, 
+a table of the scientific papers used in this project is provided. Finally, a critical analysis 
+will be given on the literature review and what can be concluded as a result. WHAT DO YOU AIM TO GET OUT OF THIS?
 
 \subsubsection{Survey Equation}
+At the beginning of the FYP, the only information provided was the FYP mission statement (see Appendix Item 10.1) and two 
+published papers, \emph{A review of machine learning techniques in photoplethysmography for the non-invasive cuff-less measurement of blood pressure} \cite{ElHajj2020} and 
+\emph{Continuous Blood Pressure Estimation From Electrocardiogram and Photoplethysmogram During Arrhythmias} \cite{Liu2020}. These resources pserved as an introduction to both the medical background 
+and machine learning knowledge for myself. After reviewing this information, the next step was to perform an informal search of literature databases using keywords 
+extracted from the FYP brief. These keywords can be divided into two fields: 
+\\ \newline \noindent \textbf{Background knowledge}
+\begin{itemize}
+    \item "Ambulatory"
+    \item "Blood Pressure"
+    \item "Electrocardiogram"
+    \item "Photoplethysmography"
+    \item "Wearable technology"
+\end{itemize}\noindent \textbf{Implementation strategy}
+\begin{itemize}
+    \item "Accuracy"
+    \item "Algorithm"
+    \item "Computational complexity"
+\end{itemize}\noindent These keywords were entered into 3 official literature databases, as shown in Table \ref{tabDatabases}.
+
+\begin{table}[H]
+    \centering
+    \caption{Official online databases used to conduct the literature review \cite{databasesImperial}}
+    \label{tabDatabases}
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|c|c|}
+    \hline
+    \textbf{Literature database}          & \textbf{Description}                                           \\ \hline
+    ACM Digital Library                   & The digital library of the Association for Computing Machinery \\
+    Engineering Village & Database platform for Physics, Electrical Engineering, Electronics and Computing               \\
+    IEEE Xplore         & Digital library containing full text of IEEE journals, conference/meeting papers and standards \\
+    National Library of Medicine (Pubmed) & Biomedical and life sciences literature                        \\ \hline
+    \end{tabular}%
+    }
+\end{table}\noindent This informal search enabled a clearer understanding of how the relevant published literature phrased their titles. Based on the findings of the informal search, the following 
+literature survey search equation was used to identify the literature that best fits the needs of the FYP requirements. The equation chosen was: 
+
+\begin{itemize}
+        \item (Extraction OR Estimation OR Review) AND (Blood OR Arterial OR Ambulatory OR Cuffless) AND (Pressure) AND (ECG OR PPG) AND (Machine Learning OR Signal Processing).
+\end{itemize}\noindent Hence, this equation was entered into the four databases displayed in Table \ref{tabDatabases}.
+
 
 \subsubsection{PRISMA checklist}
+After applying the chosen equation to the four databases in Table \ref{tabDatabases}, 
 
-\subsubsection{Literature survey table}
 
-\subsubsection{Critical analysis of literature survey table}
+the following PRISMA checklist was created:
 
-\subsubsection{Conclusions of literature survey}
-
-Before providing the background information on this project, it is important to highlight 
-the literature review process taken in order to decide on which BP estimation method to 
-use.\\ \newline \noindent Firstly, it was important to formulate a literature survey equation in order to search 
-for the suitable resources. The phrase chosen was: 
-(Extraction OR Estimation OR Review) AND (Blood OR Arterial OR Ambulatory OR Cuffless) AND (Pressure) AND (ECG OR PPG) AND (Machine Learning OR Signal Processing).
-
-The database chosen to research for papers was IEEE Xplore. The papers returned were then filtered 
+The papers returned were then filtered 
 to only those published between 2012 and 2022, i.e. the last 10 years. As a result the following tables summarise 
 the most relevant papers for this project.
 
-
-
+\subsubsection{Literature survey table}
 As a reference, the original literature survey matrix can be found on 
 the Github repository \cite{LitSurvey}. Firstly, in 
 Table \ref{litsurveytab}, a simplified literature survey has 
@@ -641,11 +660,373 @@ employ machine learning methods.
         \label{litsurveytab2}
     \end{table}
 \end{landscape}
- \noindent The Mean Absolute Error (MAE) of the Systolic BP (SBP) was used as the uniting accuracy measure in this paper, as it was the most readily available parameter in all of the aforementioned papers. \\ \newline \noindent It is important to note that other factors were considered in this literature survey. These factors were, \begin{itemize}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+% \usepackage{lscape}
+\begin{landscape}
+    \begin{table}[H]
+    \centering
+    \caption{Overview of performance of the best non-invasive non-ML cuff-less methods for measuring BP}
+    \label{tabLitSurveyML}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{ccccccccccccccccccc|}
+    \hline
+    \multicolumn{1}{|c}{\textbf{Author}} &
+      \textbf{Year} &
+      \textbf{Signals used} &
+      \textbf{Best Method} &
+      \textbf{Database} &
+      \textbf{Number of subjects} &
+      \textbf{Subject characteristics} &
+      \textbf{Subject demographics} &
+      \textbf{Length of recordings} &
+      \textbf{MAE SBP (mmHg)} &
+      \textbf{MAE DBP} &
+      \textbf{MAD} &
+      \textbf{Other accuracies} &
+      \textbf{Sampling frequency} &
+      \textbf{Preprocessing} &
+      \textbf{Signal window length} &
+      \textbf{Feature Extraction} &
+      \textbf{Complexity} &
+      \textbf{Feasibility in wearable context?} \\ \hline
+    \multicolumn{1}{|c}{Şentürk   et al.} &
+      2018 &
+      ECG, PPG &
+      Lavenberg-Marquardt ANN &
+      MIMIC II &
+       &
+       &
+       &
+       &
+      N/A &
+      N/A &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}SBP: Mean ± SD: -0.14 ±   2.55\\      \\      DBP: Mean ± SD: -0.004 ± 1.6\end{tabular} &
+      125 &
+      Wavelet denoising, median filter,   normalisation &
+      10 seconds &
+      22-time domain features from ECG   and PPG &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Nath et   al.} &
+      2018 &
+      PPG &
+      \begin{tabular}[c]{@{}c@{}}Random forest classifier (4 BP classes)\\      Number of estimators = 1000\\ max depth = 30\end{tabular} &
+      MIMIC &
+      72 (20 chosen) &
+       &
+       &
+       &
+      N/A &
+      N/A &
+      N/A &
+      Overall accuracy = 90.8\% &
+      125 &
+      Normalisation, butterworth band   pass filter with cut off frequency 40Hz &
+      \begin{tabular}[c]{@{}c@{}}1 for PPG frequency spectrum, \\ 2   for PPG, first deriv., \\ second deriv., FS first deriv and FS second \\ deriv.\\      \\      Overlap = 0.5 * window lengths above\end{tabular} &
+      \begin{tabular}[c]{@{}c@{}}71 statistical features and 12   characteristic features.\\      \\      PPG combined with its first and second derivatives and frequency   spectrum.\\      \\      PPG: 15, PPG first deriv: 14, PPG second deriv: 14, PPG FS: 12, FS FD: 14,   FS SD: 14\end{tabular} &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Maqsood   et al.} &
+      2021 &
+      PPG &
+      Bi-LSTM &
+      \begin{tabular}[c]{@{}c@{}}MIMIC II\\      \\      (also PPG-BP, Guilin People's Hospital, China)\end{tabular} &
+      219 &
+      Hypertensive and diabetic patients &
+      21-86 years &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}Time-domain features is best:   \\      \\      3.87 ± 4.79 (Bi-LSTM)\end{tabular} &
+      \begin{tabular}[c]{@{}c@{}}Frequency-domain I is best:\\      \\      6.17 ± 5.89 (Bi-LSTM)\end{tabular} &
+      N/A &
+      N/A &
+      125 &
+      \begin{tabular}[c]{@{}c@{}}Remove irregular segments and  \\ align PPG+BP. Butterworth bandpass filter, min-max norm.\end{tabular} &
+      30 seconds &
+      \begin{tabular}[c]{@{}c@{}}Time domain: Cardiac period,   systolic time, diastolic time, pulse area. 10\%, 25\%, 33\%, 50\%, 66\%, 75\% (DW,   DW+SW, DW/SW)\\      \\      Statistical: Skewness, kurtosis, perfusion, MAD, max and min \\      \\      Frequency domain:  Multitaper method\end{tabular} &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Li et   al.} &
+      2021 &
+      PPG &
+      \begin{tabular}[c]{@{}c@{}}PAT-features\\      \\      Train:Test, 70:30\end{tabular} &
+      MIMIC II &
+      8000 &
+      N/A &
+      N/A &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}PAT-included features:\\      \\      4.881 ± 5.537\end{tabular} &
+      \begin{tabular}[c]{@{}c@{}}PAT-included features:\\      \\      6.887 ± 6.954\end{tabular} &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      40 seconds &
+      Semi-classical signal analysis   (SCSA) features, Heart rate, Inflection Point Area (IPA) ratio and width,   Large Artery Stiffness Index (LASI), Augmentation Index (AI), PAT &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Shimazaki   et al.} &
+      2018 &
+      PPG, VBP, APG &
+      \begin{tabular}[c]{@{}c@{}}Autoencoder, ANN regression\\      \\      Train: Test:Val = 70:15:15\end{tabular} &
+      N/A &
+      1363 &
+      \begin{tabular}[c]{@{}c@{}}687 healthy males, \\ 676 healthy females\end{tabular} &
+      \begin{tabular}[c]{@{}c@{}}Male age: 56.5 ± 18.5, male SBP:   128 ± 18.1\\      \\      Female age: 59.9 ± 16.0, female SBP 126 ± 20.5\end{tabular} &
+      Seating posture for 5 minutes &
+      N/A &
+      N/A &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}Correlation coefficient =   0.78\\      \\      Standard Deviation = 11.86\end{tabular} &
+      N/A &
+      N/A &
+      N/A &
+      100 features from the coupling   signal of the pulse wave and from its first-order differentiation and   second-order differentiation &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Şentürk   et al.} &
+      2018 &
+      PPG, ECG &
+      2  Bi-LSTM and ReLU &
+      MIMIC II &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}RMSE SBP: 3.63\\      \\      RMSE DBP: 1.48\end{tabular} &
+      N/A &
+      Normalisation, segmented by R-R   intervals &
+      N/A &
+      22 time features, 11 from ECG   and 11 from PPG &
+      N/A &
+      Yes, by changing the number of   features of the system \\
+    \multicolumn{1}{|c}{Xie et   al.} &
+      2018 &
+      PPG &
+      Random Forest &
+      University of Queensland Vital Signs Dataset &
+      11492 samples &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}Random Forest: SBP: 4.21 ±7.59   \\      \\      DBP: 3.24 ± 5.39\end{tabular} &
+      N/A &
+      N/A &
+      N/A &
+      10 seconds &
+      8 features: Pulse onset,   systolic peak, diastolic peak, dicrotic notch, time and area under PPG curve &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Li et   al.} &
+      2020 &
+      PPG, ECG &
+      \begin{tabular}[c]{@{}c@{}}Supervised ML.\\      \\      \\      SVM with SCSA features\end{tabular} &
+      Pulse Wave Database (PWD), MIMIC II &
+      \begin{tabular}[c]{@{}c@{}}\textgreater{}4000 (PWD) and \textgreater{}8000   (MIMIC II)\\      \\      8004 sample size for training and testing\end{tabular} &
+      N/A &
+      N/A &
+      N/A &
+      SVM: 7.44 ± 7.37 &
+      SVM: 5.09 ± 5.66 &
+      N/A &
+      N/A &
+      125 &
+      N/A &
+      40 seconds &
+      \begin{tabular}[c]{@{}c@{}}SCSA:\\      - Eigenvalues\\      - Systolic invariants\\      - Diastolic invariants\\      - Eigenvalue summation\end{tabular} &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Wang et   al.} &
+      2022 &
+      PPG &
+      AlexNet &
+      UCI ML repository (subset of MIMIC II) &
+      11294 segments from 348 records &
+      N/A &
+      N/A &
+      Ranging from 8 - 592 seconds &
+      0.00 ± 8.46 &
+      -0.04±5.36 &
+      N/A &
+      N/A &
+      125 &
+      Remove duplicates, remove patients   saturated amplitudes and discontinuities, two moving average filters &
+      10 seconds &
+      N/A &
+      Minimal complexity, uses short   duration of PPG &
+      Yes, by changing the number of   features of the system \\
+    \multicolumn{1}{|c}{Kachuee   et al.} &
+      2017 &
+      ECG, PPG &
+      AdaBoost / Random Forest &
+      MIMIC II &
+      3663 records &
+      N/A &
+      N/A &
+      N/A &
+      8.21 ± 5.45 &
+      4.31 ± 3.52 &
+      N/A &
+      Meets AAMI standards &
+      125 &
+      Wavelet decomposition, zeroing   frequency components, wavelet reconstruction &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}Physiological: HR, AI, ASI\\      \\      Dimensionality reduction\end{tabular} &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Singla   et al.} &
+      2020 &
+      ECG, PPG &
+      Linear Regression &
+      No &
+      33 &
+      19:14 male:female &
+      60 ± 10 years &
+      Training and validation datasets   of 1.5 minutes each &
+      0.2 (LR) &
+      0.4 (LR) &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}LR: RMSE SBP: 0.26\\      \\      RMSE DBP: 0.65\end{tabular} &
+      ECG: 200 Hz, PPG: 75 Hz &
+      Wavelet transformation (Haar  wavelet, less complexity) &
+      N/A &
+      25 each for both ECG and PPG &
+      Haar wavelet reduces preprocessing   complexity &
+      N/A \\
+    \multicolumn{1}{|c}{Sertac   et al.} &
+      2020 &
+      PPG &
+      Linear Support Vector Regression   (LSVR) &
+      Guilin University of Electronic   Technology &
+      216 &
+      N/A &
+      21-86 years &
+      2.1 seconds (segment length) &
+      LSVR: 13.57±3.23 &
+      LSVR: 8.30±1.88 &
+      N/A &
+      N/A &
+      1000 Hz &
+      4th order Chebyshev-II filter with   cutoffs of 0.5 and 5 Hz, normalisation &
+      N/A &
+      10: Age, height, weight, SBP,   DBP, BMI, W1, W2, ST, DT &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{Jung et   al.} &
+      2019 &
+      ECG, PPG, PTT &
+      \begin{tabular}[c]{@{}c@{}}Semi-supervised learning\\      \\      Linear Regression\end{tabular} &
+      N/A &
+      9 males &
+      Age: 20-29 &
+      N/A &
+      225 seconds in total &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      N/A &
+      Sallen-key low pass filter &
+      N/A &
+      PTT, MAP, Pulse Pressure   (difference between SBP and DBP) &
+      N/A &
+      N/A \\
+    \multicolumn{1}{|c}{El Hajj   et al.} &
+      2020 &
+      PPG &
+      \begin{tabular}[c]{@{}c@{}}LSTM (64, 512) and GRUs (128, 256,   512)\\      \\      Training:test:val = 60:20:20\\      \\      Adam optimizer\end{tabular} &
+      MIMIC &
+      500 record files &
+      N/A &
+      N/A &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}LSTM: 3.23±4.74\\      \\      GRU: 3.25±4.76\end{tabular} &
+      \begin{tabular}[c]{@{}c@{}}LSTM: 1.59±1.96\\      \\      GRU: 1.43±1.77\end{tabular} &
+      N/A &
+      N/A &
+      125 &
+      \begin{tabular}[c]{@{}c@{}}PPG filters and baseline wandering   removed\\      \\      Irregular and distorted signal segments removed\\      \\      Segments with abnormal HR and BP removed\\      \\      PPG and BP aligned, normalisation\end{tabular} &
+      \begin{tabular}[c]{@{}c@{}}3 seconds (21000 segments) \\ and 7 seconds (9000 segments)\end{tabular} &
+      7 features (CP, DT, DW10/SW10,   DW25, SW33 + DW33, DW75, SW75+DW75) &
+      \begin{tabular}[c]{@{}c@{}}GRUs are less computationally   \\ expensive than LSTMs\end{tabular} &
+      N/A \\
+    \multicolumn{1}{|c}{Shimazaki   et al.} &
+      2019 &
+      PPG &
+      CNN &
+      N/A &
+      78 &
+      \begin{tabular}[c]{@{}c@{}}45 male, 33 female, \\ Japanese adults\end{tabular} &
+      N/A &
+      50000 pulse wave data &
+      N/A &
+      N/A &
+      N/A &
+      \begin{tabular}[c]{@{}c@{}}CNN with pulse wave:\\      \\      R = 0.71, SD = 11.40\end{tabular} &
+      1000 Hz &
+      4th order Butterworth filter,   cutoff frequency of 30 Hz &
+      N/A &
+      Only pulse wave feature used in   best method &
+      N/A &
+      Potentially \\
+    \multicolumn{1}{|c}{Yan et   al.} &
+      2019 &
+      ECG, PPG &
+      Multi-task learning CNN &
+      MIMIC II &
+      604 &
+      N/A &
+      N/A &
+      Each recording is longer than 10   minutes &
+      3.09±2.76 &
+      2.11±2 &
+      N/A &
+      N/A &
+      125 &
+      \begin{tabular}[c]{@{}c@{}}2 mean filters remove motion   artifacts and HF noise from PPG+ECG\\      \\      SBP: 80-180, DBP: 50-130\\      \\      Duration of each record longer than 10 minutes\end{tabular} &
+      10 &
+      Automatic feature extraction &
+      N/A &
+      N/A \\
+     &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       &
+       \\ \hline
+    \end{tabular}%
+    }
+    \end{table}
+    \end{landscape}
+
+\subsubsection{Critical analysis of literature survey table}
+
+\subsubsection{Conclusions of literature survey}
+
+The Mean Absolute Error (MAE) of the Systolic BP (SBP) was used as the uniting accuracy measure in this paper, as it was the most readily available parameter in all of the aforementioned papers. \\ \newline \noindent It is important to note that other factors were considered in this literature survey. These factors were, \begin{itemize}
     \item Range of SBP and DBP values 
     \item Sampling frequency
     \item Denoising and detection techniques used
     \item Computational complexity
     \item Feasibility in a wearable context
 \end{itemize}\noindent However, due to a lack of regular occurrences of these factors over all the papers, they were not included in the above two tables.\\ \newline \noindent The results show that the established non-ML methods do produce MAE values noticeably lower than the majority of the ML methods. However, a main factor to consider about these results is that machine learning based methods and neural networks are data driven. As shown in Table \ref{litsurveytab2}, there is a very limited number of subjects available for each study. If these studies had been extended to include more test patients, it is possible that these MAE SBP values were lower. An additional point is that another study \cite{Su2017} did a study into using a 4-layer LSTM architecture to estimate BP from ECG and PPG signals with 84 patients. This study resulted in an RMSE SBP of $3.9$ mmHg but no available MAE. Hence there is a lot of potential in ML methods when there is sufficient data available.
-

@@ -1,350 +1,3054 @@
-\begin{thebibliography}{10}\itemsep=-1pt
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{Physionet}
-Physionet documentation.
-\newblock \url{https://physionet.org/about/}.
+\datalist[entry]{none/global//global/global}
+  \entry{Sharma2017}{article}{}
+    \name{author}{9}{}{%
+      {{hash=SM}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Manuja},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BK}{%
+         family={Barbosa},
+         familyi={B\bibinitperiod},
+         given={Karinne},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HV}{%
+         family={Ho},
+         familyi={H\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Griggs},
+         familyi={G\bibinitperiod},
+         given={Devon},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GT}{%
+         family={Ghirmai},
+         familyi={G\bibinitperiod},
+         given={Tadesse},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Krishnan},
+         familyi={K\bibinitperiod},
+         given={Sandeep},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hsiai},
+         familyi={H\bibinitperiod},
+         given={Tzung},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CJC}{%
+         family={Chiao},
+         familyi={C\bibinitperiod},
+         given={Jung-Chih},
+         giveni={J\bibinithyphendelim C\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Cao},
+         familyi={C\bibinitperiod},
+         given={Hung},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI AG}%
+    }
+    \strng{namehash}{SM+1}
+    \strng{fullhash}{SMBKHVGDGTKSHTCJCCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Blood pressure (BP) is one of the most important monitoring parameters in
+  clinical medicine. For years, the cuff-based sphygmomanometer and the
+  arterial invasive line have been the gold standards for care professionals to
+  assess BP. During the past few decades, the wide spread of the
+  oscillometry-based BP arm or wrist cuffs have made home-based BP assessment
+  more convenient and accessible. However, the discontinuous nature, the
+  inability to interface with mobile applications, the relative inaccuracy with
+  movement, and the need for calibration have rendered those BP oscillometry
+  devices inadequate for next-generation healthcare infrastructure where
+  integration and continuous data acquisition and communication are required.
+  Recently, the indirect approach to obtain BP values has been intensively
+  investigated, where BP is mathematically derived through the “Time Delay”
+  in propagation of pressure waves in the vascular system. This holds promise
+  for the realization of cuffless and continuous BP monitoring systems, for
+  both patients and healthy populations in both inpatient and outpatient
+  settings. This review highlights recent efforts in developing these
+  next-generation blood pressure monitoring devices and compares various
+  mathematical models. The unmet challenges and further developments that are
+  crucial to develop “Time Delay”-based BP devices are also discussed.%
+    }
+    \verb{doi}
+    \verb 10.3390/technologies5020021
+    \endverb
+    \field{issn}{2227-7080}
+    \field{issue}{2}
+    \field{pages}{21}
+    \field{title}{Cuff-Less and Continuous Blood Pressure Monitoring: A
+  Methodological Review}
+    \field{volume}{5}
+    \field{journaltitle}{Technologies}
+    \field{month}{05}
+    \field{year}{2017}
+  \endentry
 
-\bibitem{Ahmad2012}
-S.~Ahmad, S.~Chen, K.~Soueidan, I.~Batkin, M.~Bolic, H.~Dajani, and V.~Groza.
-\newblock Electrocardiogram-assisted blood pressure estimation.
-\newblock {\em IEEE Transactions on Biomedical Engineering}, 59:608--618, 3
-  2012.
+  \entry{Janjua2017}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JG}{%
+         family={Janjua},
+         familyi={J\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Guldenring},
+         familyi={G\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Finlay},
+         familyi={F\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={McLaughlin},
+         familyi={M\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \strng{namehash}{JG+1}
+    \strng{fullhash}{JGGDFDMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Hypertension, a silent killer, is the biggest challenge of the 21st century
+  in public health agencies worldwide [1]. World Health Organization (WHO)
+  statistic shows that the mortality rate of hypertension is 9.4 million per
+  year and causes 55.3\% of total deaths in cardiovascular (CV) patients [2].
+  Early detection and prevention of hypertension can significantly reduce the
+  CV mortality.%
+    }
+    \verb{doi}
+    \verb 10.1109/EMBC.2017.8036950
+    \endverb
+    \field{isbn}{9781509028092}
+    \field{issn}{1557170X}
+    \field{pages}{821\bibrangedash 824}
+    \field{title}{Wireless chest wearable vital sign monitoring platform for
+  hypertension}
+    \field{journaltitle}{Proceedings of the Annual International Conference of
+  the IEEE Engineering in Medicine and Biology Society, EMBS}
+    \field{month}{09}
+    \field{year}{2017}
+  \endentry
 
-\bibitem{Almusawi2020}
-H.~Almusawi and A.~Burhan.
-\newblock Evaluation of the productivity of ready mixed concrete batch plant
-  using artificial intelligence techniques.
-\newblock {\em IOP Conference Series: Materials Science and Engineering},
-  901:012020, 09 2020.
+  \entry{Simjanoska20182}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SM}{%
+         family={Simjanoska},
+         familyi={S\bibinitperiod},
+         given={Monika},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gjoreski},
+         familyi={G\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gams},
+         familyi={G\bibinitperiod},
+         given={Matjaž},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BAM}{%
+         family={Bogdanova},
+         familyi={B\bibinitperiod},
+         given={Ana\bibnamedelima Madevska},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI AG}%
+    }
+    \keyw{Blood pressure,Classification,Complexity analysis,ECG,Machine
+  learning,Regression,Stacking}
+    \strng{namehash}{SM+2}
+    \strng{fullhash}{SMGMGMBAM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Background: Blood pressure (BP) measurements have been used widely in
+  clinical and private environments. Recently, the use of ECG monitors has
+  proliferated; however, they are not enabled with BP estimation. We have
+  developed a method for BP estimation using only electrocardiogram (ECG)
+  signals. Methods: Raw ECG data are filtered and segmented, and, following
+  this, a complexity analysis is performed for feature extraction. Then, a
+  machine-learning method is applied, combining a stacking-based classification
+  module and a regression module for building systolic BP (SBP), diastolic BP
+  (DBP), and mean arterial pressure (MAP) predictive models. In addition, the
+  method allows a probability distribution-based calibration to adapt the
+  models to a particular user. Results: Using ECG recordings from 51 different
+  subjects, 3129 30-s ECG segments are constructed, and seven features are
+  extracted. Using a train-validation-test evaluation, the method achieves a
+  mean absolute error (MAE) of 8.64 mmHg for SBP, 18.20 mmHg for DBP, and 13.52
+  mmHg for the MAP prediction. When models are calibrated, the MAE decreases to
+  7.72 mmHg for SBP, 9.45 mmHg for DBP and 8.13 mmHg for MAP. Conclusion: The
+  experimental results indicate that, when a probability distribution-based
+  calibration is used, the proposed method can achieve results close to those
+  of a certified medical device for BP estimation.%
+    }
+    \verb{doi}
+    \verb 10.3390/s18041160
+    \endverb
+    \field{issn}{14248220}
+    \field{issue}{4}
+    \field{title}{Non-invasive blood pressure estimation from ECG using machine
+  learning techniques}
+    \field{volume}{18}
+    \field{journaltitle}{Sensors (Switzerland)}
+    \field{month}{04}
+    \field{year}{2018}
+  \endentry
 
-\bibitem{Athaya2021}
-T.~Athaya and S.~Choi.
-\newblock An estimation method of continuous non-invasive arterial blood
-  pressure waveform using photoplethysmography: A u-net architecture-based
-  approach.
-\newblock {\em Sensors}, 21(5), 2021.
+  \entry{Kario2021}{article}{}
+    \name{author}{26}{}{%
+      {{hash=KK}{%
+         family={Kario},
+         familyi={K\bibinitperiod},
+         given={Kazuomi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hoshide},
+         familyi={H\bibinitperiod},
+         given={Satoshi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CYC}{%
+         family={Chia},
+         familyi={C\bibinitperiod},
+         given={Yook\bibnamedelima Chin},
+         giveni={Y\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Buranakitjaroen},
+         familyi={B\bibinitperiod},
+         given={Peera},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Siddique},
+         familyi={S\bibinitperiod},
+         given={Saulat},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Shin},
+         familyi={S\bibinitperiod},
+         given={Jinho},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TY}{%
+         family={Turana},
+         familyi={T\bibinitperiod},
+         given={Yuda},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Sungha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tsoi},
+         familyi={T\bibinitperiod},
+         given={Kelvin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CCH}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Chen\bibnamedelima Huan},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CHM}{%
+         family={Cheng},
+         familyi={C\bibinitperiod},
+         given={Hao\bibnamedelima Min},
+         giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=FT}{%
+         family={Fujiwara},
+         familyi={F\bibinitperiod},
+         given={Takeshi},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HVM}{%
+         family={Huynh},
+         familyi={H\bibinitperiod},
+         given={Van\bibnamedelima Minh},
+         giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nagai},
+         familyi={N\bibinitperiod},
+         given={Michiaki},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Nailes},
+         familyi={N\bibinitperiod},
+         given={Jennifer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sison},
+         familyi={S\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SAA}{%
+         family={Soenarta},
+         familyi={S\bibinitperiod},
+         given={Arieska\bibnamedelima Ann},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SGP}{%
+         family={Sogunuru},
+         familyi={S\bibinitperiod},
+         given={Guru\bibnamedelima Prasad},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sukonthasarn},
+         familyi={S\bibinitperiod},
+         given={Apichard},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TJC}{%
+         family={Tay},
+         familyi={T\bibinitperiod},
+         given={Jam\bibnamedelima Chin},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=TBW}{%
+         family={Teo},
+         familyi={T\bibinitperiod},
+         given={Boon\bibnamedelima Wee},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=VN}{%
+         family={Verma},
+         familyi={V\bibinitperiod},
+         given={Narsingh},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=WTD}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Tzung\bibnamedelima Dau},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yuqing},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WJG}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ji\bibnamedelima Guang},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {John Wiley}%
+      {Sons Inc}%
+    }
+    \keyw{ambulatory blood pressure monitoring,blood pressure control,clinical
+  practice,guidelines,hypertension}
+    \strng{namehash}{KK+1}
+  \strng{fullhash}{KKHSCYCBPSSSJTYPSTKCCHCHMFTLYHVMNMNJSJSAASGPSATJCTBWVNWTDZYWJG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Hypertension is an important public health issue due to its association
+  with a number of serious diseases, including cardiovascular disease and
+  stroke. The importance of evaluating hypertension taking into account
+  different blood pressure (BP) profiles and BP variability (BPV) is
+  increasingly being recognized, and is particularly relevant in Asian
+  populations given the specific features of hypertension in the region
+  (including greater salt sensitivity and a high rate of nocturnal
+  hypertension). Ambulatory BP monitoring (ABPM) is the gold standard for
+  diagnosing hypertension and assessing 24-hour BP and provides data on several
+  important parameters that cannot be obtained using any other form of BP
+  measurement. In addition, ABPM parameters provide better information on
+  cardio- and cerebrovascular risk than office BP. ABPM should be used in all
+  patients with elevated BP, particularly those with unstable office or home
+  BP, or who are suspected to have white-coat or masked hypertension. ABPM is
+  also an important part of hypertension diagnosis and monitoring in high-risk
+  patients. ABPM needs to be performed using a validated device and good
+  practice techniques, and has a role both in hypertension diagnosis and in
+  monitoring the response to antihypertensive therapy to ensure strict BP
+  control throughout the 24-hour period. Use of ABPM in clinical practice may
+  be limited by cost and accessibility, and practical education of physicians
+  and patients is essential. The ABPM evidence and practice points in this
+  document are based on the Hypertension Cardiovascular Outcome Prevention and
+  Evidence (HOPE) Asia Network expert panel consensus recommendations for ABPM
+  in Asia.%
+    }
+    \verb{doi}
+    \verb 10.1111/jch.14128
+    \endverb
+    \field{issn}{17517176}
+    \field{issue}{3}
+    \field{pages}{411\bibrangedash 421}
+    \field{title}{Guidance on ambulatory blood pressure monitoring: A statement
+  from the HOPE Asia Network}
+    \field{volume}{23}
+    \field{journaltitle}{Journal of Clinical Hypertension}
+    \field{month}{03}
+    \field{year}{2021}
+  \endentry
 
-\bibitem{Bard2019}
-D.~M. Bard, J.~I. Joseph, and N.~van Helmond.
-\newblock Cuff-less methods for blood pressure telemonitoring.
-\newblock {\em Frontiers in Cardiovascular Medicine}, 6, 4 2019.
+  \entry{Zaki2018}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZWS}{%
+         family={Zaki},
+         familyi={Z\bibinitperiod},
+         given={Wan\bibnamedelima SW},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MSP}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={Stephen\bibnamedelima P},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CSY}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={Siu-Yeung},
+         giveni={S\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Correia},
+         familyi={C\bibinitperiod},
+         given={Ricardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WL}{%
+         family={Wen},
+         familyi={W\bibinitperiod},
+         given={Long},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yaping},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \keyw{BLOOD PRESSURE,ELECTROCARDIOGRAM (ECG),FEATURES,PHOTOPLETHYSMOGRAM
+  (PPG)}
+    \strng{namehash}{ZWS+1}
+    \strng{fullhash}{ZWSMSPCSYCRWLZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Blood pressure estimation from photoplethysmogram and
+  electrocardiogram signals using machine learning}
+    \field{journaltitle}{University of Nottingham}
+    \field{year}{2018}
+  \endentry
 
-\bibitem{SBP}
-D.~Between.
-\newblock Difference between systolic and diastolic.
-\newblock
-  \url{http://www.differencebetween.net/science/health/difference-between-systolic-and-diastolic/},
-  1 2021.
+  \entry{Malikeh2019}{article}{}
+    \name{author}{7}{}{%
+      {{hash=EMP}{%
+         family={Ebrahim},
+         familyi={E\bibinitperiod},
+         given={Malikeh\bibnamedelima Pour},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Heydari},
+         familyi={H\bibinitperiod},
+         given={Fatemeh},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WT}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Taiyang},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Walker},
+         familyi={W\bibinitperiod},
+         given={Katherine},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Joe},
+         familyi={J\bibinitperiod},
+         given={Keith},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=RJM}{%
+         family={Redoute},
+         familyi={R\bibinitperiod},
+         given={Jean\bibnamedelima Michel},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=YMR}{%
+         family={Yuce},
+         familyi={Y\bibinitperiod},
+         given={Mehmet\bibnamedelima Rasit},
+         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{EMP+1}
+    \strng{fullhash}{EMPHFWTWKJKRJMYMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The pulse arrival time (PAT), pre-ejection period (PEP) and pulse transit
+  time (PTT) are calculated using on-body continuous wave radar (CWR),
+  Photoplethysmogram (PPG) and Electrocardiogram (ECG) sensors for wearable
+  continuous systolic blood pressure (SBP) measurements. The CWR and PPG
+  sensors are placed on the sternum and left earlobe respectively. This paper
+  presents a signal processing method based on wavelet transform and adaptive
+  filtering to remove noise from CWR signals. Experimental data are collected
+  from 43 subjects in various static postures and 26 subjects doing 6 different
+  exercise tasks. Two mathematical models are used to calculate SBPs from
+  PTTs/PATs. For 38 subjects participating in posture tasks, the best
+  cumulative error percentage (CEP) is 92.28\% and for 21 subjects
+  participating in exercise tasks, the best CEP is 82.61\%. The results show
+  the proposed method is promising in estimating SBP using PTT. Additionally,
+  removing PEP from PAT leads to improving results by around 9\%. The CWR
+  sensors present a low-power, continuous and potentially wearable system with
+  minimal body contact to monitor aortic valve mechanical activities directly.
+  Results of this study, of wearable radar sensors, demonstrate the potential
+  superiority of CWR-based PEP extraction for various medical monitoring
+  applications, including BP measurement.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41598-019-52710-8
+    \endverb
+    \field{issn}{20452322}
+    \field{issue}{1}
+    \field{title}{Blood Pressure Estimation Using On-body Continuous Wave Radar
+  and Photoplethysmogram in Various Posture and Exercise Conditions}
+    \field{volume}{9}
+    \field{journaltitle}{Scientific Reports}
+    \field{month}{12}
+    \field{year}{2019}
+  \endentry
 
-\bibitem{LitSurvey}
-A.~Bhattacharyya.
-\newblock Final year project literature survey matrix.
-\newblock
-  \url{https://github.com/ab10918/FinalYearProject---BP-from-ECG-PPG/blob/main/Literature\%20Survey.xlsx},
-  1 2022.
+  \entry{Bard2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BDM}{%
+         family={Bard},
+         familyi={B\bibinitperiod},
+         given={Dylan\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=JJI}{%
+         family={Joseph},
+         familyi={J\bibinitperiod},
+         given={Jeffrey\bibnamedelima I.},
+         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=vHN}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Helmond},
+         familyi={H\bibinitperiod},
+         given={Noud},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Frontiers Media S.A.}%
+    }
+    \keyw{blood pressure telemonitoring,hypertension,pulse transit
+  time,telemedicine,tonometry}
+    \strng{namehash}{BDMJJIHNv1}
+    \strng{fullhash}{BDMJJIHNv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Blood pressure telemonitoring (BPT) is a telemedicine strategy that uses a
+  patient's self-measured blood pressure (BP) and transmits this information to
+  healthcare providers, typically over the internet. BPT has been shown to
+  improve BP control compared to usual care without remote monitoring.
+  Traditionally, a cuff-based monitor with data communication capabilities has
+  been used for BPT; however, cuff-based measurements are inconvenient and
+  cause discomfort, which has prevented the widespread use of cuff-based
+  monitors for BPT. The development of new technologies which allow for remote
+  BP monitoring without the use of a cuff may aid in more extensive adoption of
+  BPT. This would enhance patient autonomy while providing physicians with a
+  more complete picture of their patient's BP profile, potentially leading to
+  improved BP control and better long-term clinical outcomes. This mini-review
+  article aims to: (1) describe the fundamentals of current techniques in
+  cuff-less BP measurement; (2) present examples of commercially available
+  cuff-less technologies for BPT; (3) outline challenges with current
+  methodologies; and (4) describe potential future directions in cuff-less BPT
+  development.%
+    }
+    \verb{doi}
+    \verb 10.3389/fcvm.2019.00040
+    \endverb
+    \field{issn}{2297055X}
+    \field{title}{Cuff-Less Methods for Blood Pressure Telemonitoring}
+    \field{volume}{6}
+    \field{journaltitle}{Frontiers in Cardiovascular Medicine}
+    \field{month}{04}
+    \field{year}{2019}
+  \endentry
 
-\bibitem{Chan2001}
-K.~W. Chan, K.~Hung, and Y.~T. Zhang.
-\newblock Noninvasive and cuffless measurements of blood pressure for
-  telemedicine.
-\newblock {\em Annual Reports of the Research Reactor Institute, Kyoto
-  University}, 4:3592--3593, 2001.
+  \entry{Tanveer2018}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TMS}{%
+         family={Tanveer},
+         familyi={T\bibinitperiod},
+         given={Md.\bibnamedelima Sayed},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=HMK}{%
+         family={Hasan},
+         familyi={H\bibinitperiod},
+         given={Md.\bibnamedelima Kamrul},
+         giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TMSHMK1}
+    \strng{fullhash}{TMSHMK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Goal: Although photoplethysmogram (PPG) and electrocardiogram (ECG) signals
+  can be used to estimate blood pressure (BP) by extracting various features,
+  the changes in morphological contours of both PPG and ECG signals due to
+  various diseases of circulatory system and interaction of other physiological
+  systems make the extraction of such features very difficult. Methods: In this
+  work, we propose a waveform-based hierarchical Artificial Neural Network -
+  Long Short Term Memory (ANN-LSTM) model for BP estimation. The model consists
+  of two hierarchy levels, where the lower hierarchy level uses ANNs to extract
+  necessary morphological features from ECG and PPG waveforms and the upper
+  hierarchy level uses LSTM layers to account for the time domain variation of
+  the features extracted by lower hierarchy level. Results: The proposed model
+  is evaluated on 39 subjects using the Association for the Advancement of
+  Medical Instrumentations (AAMI) standard and the British Hypertension Society
+  (BHS) standard. The method satisfies both the standards in the estimation of
+  systolic blood pressure (SBP) and diastolic blood pressure (DBP). For the
+  proposed network, the mean absolute error (MAE) and the root mean square
+  error (RMSE) for SBP estimation are 1.10 and 1.56 mmHg, respectively, and for
+  DBP estimation are 0.58 and 0.85 mmHg, respectively. Conclusion: The
+  performance of the proposed hierarchical ANN-LSTM model is found to be better
+  than the other feature engineering-based networks. It is shown that the
+  proposed model is able to automatically extract the necessary features and
+  their time domain variations to estimate BP reliably in a noninvasive
+  continuous manner. Significance: The method is expected to greatly facilitate
+  the presently available mobile health-care gadgets in continuous BP
+  estimation.%
+    }
+    \field{title}{Cuffless Blood Pressure Estimation from Electrocardiogram and
+  Photoplethysmogram Using Waveform Based ANN-LSTM Network}
+    \verb{url}
+    \verb http://arxiv.org/abs/1811.02214
+    \endverb
+    \field{journaltitle}{Bangladesh University of Engineering and Technology}
+    \field{month}{11}
+    \field{year}{2018}
+  \endentry
 
-\bibitem{Chen2019}
-S.~Chen, Z.~Ji, H.~Wu, and Y.~Xu.
-\newblock A non-invasive continuous blood pressure estimation approach based on
-  machine learning.
-\newblock {\em Sensors (Switzerland)}, 19, 6 2019.
+  \entry{Wang2018}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WL}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Ludi},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=ZW}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=XY}{%
+         family={Xing},
+         familyi={X\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Xiaoguang},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Hindawi Limited}%
+    }
+    \strng{namehash}{WL+1}
+    \strng{fullhash}{WLZWXYZX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The prevention, evaluation, and treatment of hypertension have attracted
+  increasing attention in recent years. As photoplethysmography (PPG)
+  technology has been widely applied to wearable sensors, the noninvasive
+  estimation of blood pressure (BP) using the PPG method has received
+  considerable interest. In this paper, a method for estimating systolic and
+  diastolic BP based only on a PPG signal is developed. The multitaper method
+  (MTM) is used for feature extraction, and an artificial neural network (ANN)
+  is used for estimation. Compared with previous approaches, the proposed
+  method obtains better accuracy; the mean absolute error is 4.02 ± 2.79 mmHg
+  for systolic BP and 2.27 ± 1.82 mmHg for diastolic BP.%
+    }
+    \verb{doi}
+    \verb 10.1155/2018/7804243
+    \endverb
+    \field{issn}{20402309}
+    \field{title}{A novel neural network model for blood pressure estimation
+  using photoplethesmography without electrocardiogram}
+    \field{volume}{2018}
+    \field{journaltitle}{Journal of Healthcare Engineering}
+    \field{year}{2018}
+  \endentry
 
-\bibitem{Chen2013}
-Z.~Chen, X.~Yang, J.~T. Teo, and S.~H. Ng.
-\newblock Noninvasive monitoring of blood pressure using optical
-  ballistocardiography and photoplethysmograph approaches.
-\newblock {\em Proceedings of the Annual International Conference of the IEEE
-  Engineering in Medicine and Biology Society, EMBS}, pages 2425--2428, 2013.
+  \entry{hypertrophic}{report}{}
+    \name{author}{1}{}{%
+      {{hash=DWN}{%
+         family={Dillon},
+         familyi={D\bibinitperiod},
+         given={Wayne\bibnamedelima N.},
+         giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DWN1}
+    \strng{fullhash}{DWN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://medium.com/@WayneDillon/high-blood-pressure-and-hypertensive-heart-disease-1f5cab7c6bbc}}
+    \field{title}{High Blood Pressure and Hypertensive Heart Disease}
+    \field{journaltitle}{Medium}
+    \field{year}{2015}
+  \endentry
 
-\bibitem{lstm}
-Colah.
-\newblock Understanding lstm networks.
-\newblock \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}, 8
-  2015.
+  \entry{Simjanoska20181}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SM}{%
+         family={Simjanoska},
+         familyi={S\bibinitperiod},
+         given={Monika},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gjoreski},
+         familyi={G\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BAM}{%
+         family={Bogdanova},
+         familyi={B\bibinitperiod},
+         given={Ana\bibnamedelima Madevska},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Koteska},
+         familyi={K\bibinitperiod},
+         given={Bojana},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gams},
+         familyi={G\bibinitperiod},
+         given={Matjaž},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Tasič},
+         familyi={T\bibinitperiod},
+         given={Jurij},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SciTePress}%
+    }
+    \keyw{Blood Pressure,Classification,Complexity Analysis,ECG-derived,Machine
+  Learning,Stacking}
+    \strng{namehash}{SM+2}
+    \strng{fullhash}{SMGMBAMKBGMTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The recent advancement on wearable physiological sensors supports the
+  development of real-time diagnosis in preventive medicine that demands
+  various signal processing techniques to enable the extraction of the vital
+  signs (e.g., blood pressure). Blood pressure estimation from physiological
+  sensors data is challenging task that usually is solved by a combination of
+  multiple signals. In this paper we present a novel complexity analysis-based
+  machine-learning perspective on the problem of blood pressure class
+  estimation only from ECG signals. We show that high classification accuracy
+  of 96.68\% can be achieved by extracting information via complexity analysis
+  on the ECG signal followed by applying a stack of machine-learning
+  classifiers. In addition, the proposed stacking approach is compared to a
+  traditional machine-learning approaches and feature analysis is performed to
+  determine the influence of the different features on the classification
+  accuracy. The experimental data was gathered by daily monitoring of 20
+  subjects with two different ECG sensors.%
+    }
+    \verb{doi}
+    \verb 10.5220/0006538202820292
+    \endverb
+    \field{isbn}{9789897582813}
+    \field{pages}{282\bibrangedash 292}
+    \field{title}{ECG-derived blood pressure classification using complexity
+  analysis-based machine learning}
+    \field{volume}{5}
+    \field{journaltitle}{HEALTHINF 2018 - 11th International Conference on
+  Health Informatics, Proceedings; Part of 11th International Joint Conference
+  on Biomedical Engineering Systems and Technologies, BIOSTEC 2018}
+    \field{year}{2018}
+  \endentry
 
-\bibitem{Daimiwal2014}
-N.~Daimiwal, M.~Sundhararajan, and R.~Shriram.
-\newblock Respiratory rate, heart rate and continuous measurement of bp using
-  ppg.
-\newblock {\em International Conference on Communication and Signal Processing,
-  ICCSP 2014 - Proceedings}, pages 999--1002, 11 2014.
+  \entry{Pradenas2020}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PL}{%
+         family={Pradenas},
+         familyi={P\bibinitperiod},
+         given={Lorena},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Biomedical Research Network, LLC}%
+    }
+    \strng{namehash}{PL1}
+    \strng{fullhash}{PL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.26717/bjstr.2020.30.004883
+    \endverb
+    \field{issue}{1}
+    \field{title}{A Novel Non-Invasive Estimation of Arterial Blood Pressure
+  from Electrocardiography and Photoplethysmography Signals using Machine
+  Learning}
+    \field{volume}{30}
+    \field{journaltitle}{Biomedical Journal of Scientific \& Technical
+  Research}
+    \field{month}{09}
+    \field{year}{2020}
+  \endentry
 
-\bibitem{hypertrophic}
-W.~N. Dillon.
-\newblock High blood pressure and hypertensive heart disease.
-\newblock
-  \url{https://medium.com/@WayneDillon/high-blood-pressure-and-hypertensive-heart-disease-1f5cab7c6bbc},
-  2015.
+  \entry{Athaya2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AT}{%
+         family={Athaya},
+         familyi={A\bibinitperiod},
+         given={Tasbiraha},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Choi},
+         familyi={C\bibinitperiod},
+         given={Sunwoong},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ATCS1}
+    \strng{fullhash}{ATCS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Blood pressure (BP) monitoring has significant importance in the treatment
+  of hypertension and different cardiovascular health diseases. As
+  photoplethysmogram (PPG) signals can be recorded non-invasively, research has
+  been highly conducted to measure BP using PPG recently. In this paper, we
+  propose a U-net deep learning architecture that uses fingertip PPG signal as
+  input to estimate arterial BP (ABP) waveform non-invasively. From this
+  waveform, we have also measured systolic BP (SBP), diastolic BP (DBP), and
+  mean arterial pressure (MAP). The proposed method was evaluated on a subset
+  of 100 subjects from two publicly available databases: MIMIC and MIMIC-III.
+  The predicted ABP waveforms correlated highly with the reference waveforms
+  and we have obtained an average Pearson’s correlation coefficient of 0.993.
+  The mean absolute error is 3.68 ± 4.42 mmHg for SBP, 1.97 ± 2.92 mmHg for
+  DBP, and 2.17 ± 3.06 mmHg for MAP which satisfy the requirements of the
+  Association for the Advancement of Medical Instrumentation (AAMI) standard
+  and obtain grade A according to the British Hypertension Society (BHS)
+  standard. The results show that the proposed method is an efficient process
+  to estimate ABP waveform directly using fingertip PPG.%
+    }
+    \verb{doi}
+    \verb 10.3390/s21051867
+    \endverb
+    \field{issn}{1424-8220}
+    \field{number}{5}
+    \field{title}{An Estimation Method of Continuous Non-Invasive Arterial
+  Blood Pressure Waveform Using Photoplethysmography: A U-Net
+  Architecture-Based Approach}
+    \verb{url}
+    \verb https://www.mdpi.com/1424-8220/21/5/1867
+    \endverb
+    \field{volume}{21}
+    \field{journaltitle}{Sensors}
+    \field{year}{2021}
+  \endentry
 
-\bibitem{Ding2016}
-X.~R. Ding, Y.~T. Zhang, J.~Liu, W.~X. Dai, and H.~K. Tsang.
-\newblock Continuous cuffless blood pressure estimation using pulse transit
-  time and photoplethysmogram intensity ratio.
-\newblock {\em IEEE Transactions on Biomedical Engineering}, 63:964--972, 5
-  2016.
+  \entry{SBP}{report}{}
+    \name{author}{1}{}{%
+      {{hash=BD}{%
+         family={Between},
+         familyi={B\bibinitperiod},
+         given={Difference},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BD1}
+    \strng{fullhash}{BD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{http://www.differencebetween.net/science/health/difference-between-systolic-and-diastolic/}}
+    \field{title}{Difference Between Systolic and Diastolic}
+    \field{month}{01}
+    \field{year}{2021}
+  \endentry
 
-\bibitem{Malikeh2019}
-M.~P. Ebrahim, F.~Heydari, T.~Wu, K.~Walker, K.~Joe, J.~M. Redoute, and M.~R.
-  Yuce.
-\newblock Blood pressure estimation using on-body continuous wave radar and
-  photoplethysmogram in various posture and exercise conditions.
-\newblock {\em Scientific Reports}, 9, 12 2019.
+  \entry{ElHajj2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EHC}{%
+         family={El-Hajj},
+         familyi={E\bibinithyphendelim H\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KPA}{%
+         family={Kyriacou},
+         familyi={K\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \keyw{Blood pressure,Cuffless,Machine
+  learning,Measurement,Non-invasive,Photoplethysmography}
+    \strng{namehash}{EHCKPA1}
+    \strng{fullhash}{EHCKPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Hypertension or high blood pressure is a leading cause of death throughout
+  the world and a critical factor for increasing the risk of serious diseases,
+  including cardiovascular diseases such as stroke and heart failure. Blood
+  pressure is a primary vital sign that must be monitored regularly for the
+  early detection, prevention and treatment of cardiovascular diseases.
+  Traditional blood pressure measurement techniques are either invasive or
+  cuff-based, which are impractical, intermittent, and uncomfortable for
+  patients. Over the past few decades, several indirect approaches using
+  photoplethysmogram (PPG) have been investigated, namely, pulse transit time,
+  pulse wave velocity, pulse arrival time and pulse wave analysis, in an effort
+  to utilise PPG for estimating blood pressure. Recent advancements in signal
+  processing techniques, including machine learning and artificial
+  intelligence, have also opened up exciting new horizons for PPG-based cuff
+  less and continuous monitoring of blood pressure. Such a device will have a
+  significant and transformative impact in monitoring patients’ vital signs,
+  especially those at risk of cardiovascular disease. This paper provides a
+  comprehensive review for non-invasive cuff-less blood pressure estimation
+  using the PPG approach along with their challenges and limitations.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.bspc.2020.101870
+    \endverb
+    \field{issn}{17468108}
+    \field{title}{A review of machine learning techniques in
+  photoplethysmography for the non-invasive cuff-less measurement of blood
+  pressure}
+    \field{volume}{58}
+    \field{journaltitle}{Biomedical Signal Processing and Control}
+    \field{month}{04}
+    \field{year}{2020}
+  \endentry
 
-\bibitem{ElHajj2020}
-C.~El-Hajj and P.~A. Kyriacou.
-\newblock A review of machine learning techniques in photoplethysmography for
-  the non-invasive cuff-less measurement of blood pressure.
-\newblock {\em Biomedical Signal Processing and Control}, 58, 4 2020.
+  \entry{Leung2016}{article}{}
+    \name{author}{77}{}{%
+      {{hash=LAA}{%
+         family={Leung},
+         familyi={L\bibinitperiod},
+         given={Alexander\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NK}{%
+         family={Nerenberg},
+         familyi={N\bibinitperiod},
+         given={Kara},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DSS}{%
+         family={Daskalopoulou},
+         familyi={D\bibinitperiod},
+         given={Stella\bibnamedelima S.},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={McBrien},
+         familyi={M\bibinitperiod},
+         given={Kerry},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZKB}{%
+         family={Zarnke},
+         familyi={Z\bibinitperiod},
+         given={Kelly\bibnamedelima B.},
+         giveni={K\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=DK}{%
+         family={Dasgupta},
+         familyi={D\bibinitperiod},
+         given={Kaberi},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Cloutier},
+         familyi={C\bibinitperiod},
+         given={Lyne},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gelfer},
+         familyi={G\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LCM}{%
+         family={Lamarre-Cliche},
+         familyi={L\bibinithyphendelim C\bibinitperiod},
+         given={Maxime},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Milot},
+         familyi={M\bibinitperiod},
+         given={Alain},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Bolli},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TG}{%
+         family={Tremblay},
+         familyi={T\bibinitperiod},
+         given={Guy},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={McLean},
+         familyi={M\bibinitperiod},
+         given={Donna},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=TSW}{%
+         family={Tobe},
+         familyi={T\bibinitperiod},
+         given={Sheldon\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Ruzicka},
+         familyi={R\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BKD}{%
+         family={Burns},
+         familyi={B\bibinitperiod},
+         given={Kevin\bibnamedelima D.},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=VM}{%
+         family={Vallée},
+         familyi={V\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PGV}{%
+         family={Prasad},
+         familyi={P\bibinitperiod},
+         given={G.\bibnamedelima V.Ramesh},
+         giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lebel},
+         familyi={L\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FRD}{%
+         family={Feldman},
+         familyi={F\bibinitperiod},
+         given={Ross\bibnamedelima D.},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Selby},
+         familyi={S\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pipe},
+         familyi={P\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SEL}{%
+         family={Schiffrin},
+         familyi={S\bibinitperiod},
+         given={Ernesto\bibnamedelima L.},
+         giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MPA}{%
+         family={McFarlane},
+         familyi={M\bibinitperiod},
+         given={Philip\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=OP}{%
+         family={Oh},
+         familyi={O\bibinitperiod},
+         given={Paul},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HRA}{%
+         family={Hegele},
+         familyi={H\bibinitperiod},
+         given={Robert\bibnamedelima A.},
+         giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Khara},
+         familyi={K\bibinitperiod},
+         given={Milan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WTW}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Thomas\bibnamedelima W.},
+         giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=PSB}{%
+         family={Penner},
+         familyi={P\bibinitperiod},
+         given={S.\bibnamedelima Brian},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Burgess},
+         familyi={B\bibinitperiod},
+         given={Ellen},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=HRJ}{%
+         family={Herman},
+         familyi={H\bibinitperiod},
+         given={Robert\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BSL}{%
+         family={Bacon},
+         familyi={B\bibinitperiod},
+         given={Simon\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=RSW}{%
+         family={Rabkin},
+         familyi={R\bibinitperiod},
+         given={Simon\bibnamedelima W.},
+         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=GRE}{%
+         family={Gilbert},
+         familyi={G\bibinitperiod},
+         given={Richard\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=CTS}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={Tavis\bibnamedelima S.},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Grover},
+         familyi={G\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Honos},
+         familyi={H\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Lindsay},
+         familyi={L\bibinitperiod},
+         given={Patrice},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HMD}{%
+         family={Hill},
+         familyi={H\bibinitperiod},
+         given={Michael\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=CSB}{%
+         family={Coutts},
+         familyi={C\bibinitperiod},
+         given={Shelagh\bibnamedelima B.},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={Gubitz},
+         familyi={G\bibinitperiod},
+         given={Gord},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CNR}{%
+         family={Campbell},
+         familyi={C\bibinitperiod},
+         given={Norman\bibnamedelima R.C.},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=MGW}{%
+         family={Moe},
+         familyi={M\bibinitperiod},
+         given={Gordon\bibnamedelima W.},
+         giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HJG}{%
+         family={Howlett},
+         familyi={H\bibinitperiod},
+         given={Jonathan\bibnamedelima G.},
+         giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=BJM}{%
+         family={Boulanger},
+         familyi={B\bibinitperiod},
+         given={Jean\bibnamedelima Martin},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Prebtani},
+         familyi={P\bibinitperiod},
+         given={Ally},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Larochelle},
+         familyi={L\bibinitperiod},
+         given={Pierre},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LLA}{%
+         family={Leiter},
+         familyi={L\bibinitperiod},
+         given={Lawrence\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=JC}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Charlotte},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ORI}{%
+         family={Ogilvie},
+         familyi={O\bibinitperiod},
+         given={Richard\bibnamedelima I.},
+         giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=WV}{%
+         family={Woo},
+         familyi={W\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kaczorowski},
+         familyi={K\bibinitperiod},
+         given={Janusz},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TL}{%
+         family={Trudeau},
+         familyi={T\bibinitperiod},
+         given={Luc},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PRJ}{%
+         family={Petrella},
+         familyi={P\bibinitperiod},
+         given={Robert\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Hiremath},
+         familyi={H\bibinitperiod},
+         given={Swapnil},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DD}{%
+         family={Drouin},
+         familyi={D\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LKL}{%
+         family={Lavoie},
+         familyi={L\bibinitperiod},
+         given={Kim\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Hamet},
+         familyi={H\bibinitperiod},
+         given={Pavel},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FG}{%
+         family={Fodor},
+         familyi={F\bibinitperiod},
+         given={George},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GJC}{%
+         family={Grégoire},
+         familyi={G\bibinitperiod},
+         given={Jean\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lewanczuk},
+         familyi={L\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DGK}{%
+         family={Dresser},
+         familyi={D\bibinitperiod},
+         given={George\bibnamedelima K.},
+         giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Mukul},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Reid},
+         familyi={R\bibinitperiod},
+         given={Debra},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LSA}{%
+         family={Lear},
+         familyi={L\bibinitperiod},
+         given={Scott\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Moullec},
+         familyi={M\bibinitperiod},
+         given={Gregory},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Milan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MLA}{%
+         family={Magee},
+         familyi={M\bibinitperiod},
+         given={Laura\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LAG}{%
+         family={Logan},
+         familyi={L\bibinitperiod},
+         given={Alexander\bibnamedelima G.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=HKC}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Kevin\bibnamedelima C.},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dionne},
+         familyi={D\bibinitperiod},
+         given={Janis},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fournier},
+         familyi={F\bibinitperiod},
+         given={Anne},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Benoit},
+         familyi={B\bibinitperiod},
+         given={Geneviève},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Feber},
+         familyi={F\bibinitperiod},
+         given={Janusz},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PL}{%
+         family={Poirier},
+         familyi={P\bibinitperiod},
+         given={Luc},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PRS}{%
+         family={Padwal},
+         familyi={P\bibinitperiod},
+         given={Raj\bibnamedelima S.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=RDM}{%
+         family={Rabi},
+         familyi={R\bibinitperiod},
+         given={Doreen\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Inc.}%
+    }
+    \strng{namehash}{LAA+1}
+  \strng{fullhash}{LAANKDSSMKZKBDKCLGMLCMMABPTGMDTSWRMBKDVMPGVLMFRDSPPASELMPAOPHRAKMWTWPSBBEHRJBSLRSWGRECTSGSHGLPHMDCSBGGCNRMGWHJGBJMPALPLLAJCORIWVKJTLPRJHSDDLKLHPFGGJCLRDGKSMRDLSAMGGMMLALAGHKCDJFABGFJPLPRSRDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Hypertension Canada's Canadian Hypertension Education Program Guidelines
+  Task Force provides annually updated, evidence-based recommendations to guide
+  the diagnosis, assessment, prevention, and treatment of hypertension. This
+  year, we present 4 new recommendations, as well as revisions to 2 previous
+  recommendations. In the diagnosis and assessment of hypertension, automated
+  office blood pressure, taken without patient-health provider interaction, is
+  now recommended as the preferred method of measuring in-office blood
+  pressure. Also, although a serum lipid panel remains part of the routine
+  laboratory testing for patients with hypertension, fasting and nonfasting
+  collections are now considered acceptable. For individuals with secondary
+  hypertension arising from primary hyperaldosteronism, adrenal vein sampling
+  is recommended for those who are candidates for potential adrenalectomy. With
+  respect to the treatment of hypertension, a new recommendation that has been
+  added is for increasing dietary potassium to reduce blood pressure in those
+  who are not at high risk for hyperkalemia. Furthermore, in selected high-risk
+  patients, intensive blood pressure reduction to a target systolic blood
+  pressure ≤ 120 mm Hg should be considered to decrease the risk of
+  cardiovascular events. Finally, in hypertensive individuals with
+  uncomplicated, stable angina pectoris, either a β-blocker or calcium channel
+  blocker may be considered for initial therapy. The specific evidence and
+  rationale underlying each of these recommendations are discussed.
+  Hypertension Canada's Canadian Hypertension Education Program Guidelines Task
+  Force will continue to provide annual updates.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cjca.2016.02.066
+    \endverb
+    \field{issn}{0828282X}
+    \field{issue}{5}
+    \field{pages}{569\bibrangedash 588}
+    \field{title}{Hypertension Canada's 2016 Canadian Hypertension Education
+  Program Guidelines for Blood Pressure Measurement, Diagnosis, Assessment of
+  Risk, Prevention, and Treatment of Hypertension}
+    \field{volume}{32}
+    \field{journaltitle}{Canadian Journal of Cardiology}
+    \field{month}{05}
+    \field{year}{2016}
+  \endentry
 
-\bibitem{Gao2016}
-S.~C. Gao, P.~Wittek, L.~Zhao, and W.~J. Jiang.
-\newblock Data-driven estimation of blood pressure using photoplethysmographic
-  signals.
-\newblock {\em Proceedings of the Annual International Conference of the IEEE
-  Engineering in Medicine and Biology Society, EMBS}, 2016-October:766--769, 10
-  2016.
+  \entry{Huang2021}{article}{}
+    \name{author}{8}{}{%
+      {{hash=HQF}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Qi\bibnamedelima Fang},
+         giveni={Q\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=YWY}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Wen\bibnamedelima Yi},
+         giveni={W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=AK}{%
+         family={Asayama},
+         familyi={A\bibinitperiod},
+         given={Kei},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhen\bibnamedelima Yu},
+         giveni={Z\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=TL}{%
+         family={Thijs},
+         familyi={T\bibinitperiod},
+         given={Lutgarde},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Yan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=OE}{%
+         family={O'Brien},
+         familyi={O\bibinitperiod},
+         given={Eoin},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SJA}{%
+         family={Staessen},
+         familyi={S\bibinitperiod},
+         given={Jan\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Lippincott Williams}%
+      {Wilkins}%
+    }
+    \keyw{blood pressure,morbidity,mortality,population,risk}
+    \strng{namehash}{HQF+1}
+    \strng{fullhash}{HQFYWYAKZZYTLLYOESJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This review portrays how ambulatory blood pressure (BP) monitoring was
+  established and recommended as the method of choice for the assessment of BP
+  and for the rational use of antihypertensive drugs. To establish much-needed
+  diagnostic ambulatory BP thresholds, initial statistical approaches evolved
+  into longitudinal studies of patients and populations, which demonstrated
+  that cardiovascular complications are more closely associated with 24-hour
+  and nighttime BP than with office BP. Studies cross-classifying individuals
+  based on ambulatory and office BP thresholds identified white-coat
+  hypertension, an elevated office BP in the presence of ambulatory
+  normotension as a low-risk condition, whereas its counterpart, masked
+  hypertension, carries a hazard almost as high as ambulatory combined with
+  office hypertension. What clinically matters most is the level of the 24-hour
+  and the nighttime BP, while other BP indexes derived from 24-hour ambulatory
+  BP recordings, on top of the 24-hour and nighttime BP level, add little to
+  risk stratification or hypertension management. Ambulatory BP monitoring is
+  cost-effective. Ambulatory and home BP monitoring are complimentary
+  approaches. Their interchangeability provides great versatility in the
+  clinical implementation of out-of-office BP measurement. We are still waiting
+  for evidence from randomized clinical trials to prove that out-of-office BP
+  monitoring is superior to office BP in adjusting antihypertensive drug
+  treatment and in the prevention of cardiovascular complications. A starting
+  research line, the development of a standardized validation protocol for
+  wearable BP monitoring devices, might facilitate the clinical applicability
+  of ambulatory BP monitoring.%
+    }
+    \verb{doi}
+    \verb 10.1161/HYPERTENSIONAHA.120.14591
+    \endverb
+    \field{issn}{15244563}
+    \field{pages}{254\bibrangedash 264}
+    \field{title}{Ambulatory Blood Pressure Monitoring to Diagnose and Manage
+  Hypertension}
+    \field{journaltitle}{Hypertension}
+    \field{year}{2021}
+  \endentry
 
-\bibitem{Goldberger2000}
-A.~L. Goldberger, L.~A.~N. Amaral, .~L. Glass, J.~M. Hausdorff, .~Plamen,
-  C.~Ivanov, R.~G. Mark, J.~E. Mietus, G.~B. Moody, C.-K. Peng, and .~H.~E.
-  Stanley.
-\newblock Physiobank, physiotoolkit, and physionet components of a new research
-  resource for complex physiologic signals.
-\newblock \url{http://www.physionet.org}, 2000.
+  \entry{Kumar2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KS}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Sarvesh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Ayub},
+         familyi={A\bibinitperiod},
+         given={Shahanaz},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{Blood Pressure,ECG,PPG,Pulse Transit time (PTT)}
+    \strng{namehash}{KSAS1}
+    \strng{fullhash}{KSAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    In the current study, we found the relationship between blood pressure (BP)
+  and pulse transit time (PTT). After measuring ECG and photoplethysmogram, the
+  PTT was calculated from the acquired signals. Blood pressure (BP), the
+  pressure exerted by circulating blood upon the walls of blood vessels, is an
+  important physiological parameter and can provide some information for
+  personal healthcare. Pulse transit time is the time taken for the arterial
+  pulse Pressure wave to travel from the aortic valve to a peripheral site. It
+  is usually measured from the R wave on the electrocardiogram to a
+  photoplethysmography signal. PTT is inversely proportional to blood pressure.
+  The mean error are 0.29 mmHg for SBP and 0.1mmHg for DBP. These results are
+  satisfied with the regulation of ANSI/AAMI for certification of
+  sphygmomanometer that real measurement error value should be within the mean
+  error of ±5mmHg.%
+    }
+    \verb{doi}
+    \verb 10.1109/CSNT.2015.99
+    \endverb
+    \field{isbn}{9781479917976}
+    \field{pages}{521\bibrangedash 524}
+    \field{title}{Estimation of blood pressure by using electrocardiogram (ECG)
+  and photo-plethysmogram (PPG)}
+    \field{journaltitle}{Proceedings - 2015 5th International Conference on
+  Communication Systems and Network Technologies, CSNT 2015}
+    \field{month}{09}
+    \field{year}{2015}
+  \endentry
 
-\bibitem{MedicalEthics}
-S.~Holm.
-\newblock Principles of biomedical ethics, 5th edn.
-\newblock {\em Journal of Medical Ethics}, 28(5):332--332, 2002.
+  \entry{ecgWiki}{report}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://en.wikipedia.org/wiki/Electrocardiography}}
+    \field{title}{Electrocardiography}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Huang2021}
-Q.~F. Huang, W.~Y. Yang, K.~Asayama, Z.~Y. Zhang, L.~Thijs, Y.~Li, E.~O'Brien,
-  and J.~A. Staessen.
-\newblock Ambulatory blood pressure monitoring to diagnose and manage
-  hypertension.
-\newblock {\em Hypertension}, pages 254--264, 2021.
+  \entry{qrsWiki}{report}{}
+    \name{author}{1}{}{%
+      {{hash=W}{%
+         family={Wikipedia},
+         familyi={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{W1}
+    \strng{fullhash}{W1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://en.wikipedia.org/wiki/QRS_complex}}
+    \field{title}{QRS Complex}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{deeplearning}
-Y.~B. Ian~Goodfellow and A.~Courville.
-\newblock {\em Deep Learning}.
-\newblock 2017.
+  \entry{Liu2020}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LZD}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zeng\bibnamedelima Ding},
+         giveni={Z\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Bin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ye},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Miao},
+         familyi={M\bibinitperiod},
+         given={Fen},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Frontiers Media S.A.}%
+    }
+    \keyw{arrhythmias,continuous blood pressure,electrocardiogram,machine
+  learning algorithms,photoplethysmogram}
+    \strng{namehash}{LZD+1}
+    \strng{fullhash}{LZDZBLYTMMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Objective: Continuous blood pressure (BP) provides valuable information for
+  the disease management of patients with arrhythmias. The traditional
+  intra-arterial method is too invasive for routine healthcare settings,
+  whereas cuff-based devices are inferior in reliability and comfortable for
+  long-term BP monitoring during arrhythmias. The study aimed to investigate an
+  indirect method for continuous and cuff-less BP estimation based on
+  electrocardiogram (ECG) and photoplethysmogram (PPG) signals during
+  arrhythmias and to test its reliability for the determination of BP using
+  invasive BP (IBP) as reference. Methods: Thirty-five clinically stable
+  patients (15 with ventricular arrhythmias and 20 with supraventricular
+  arrhythmias) who had undergone radiofrequency ablation were enrolled in this
+  study. Their ECG, PPG, and femoral arterial IBP signals were simultaneously
+  recorded with a multi-parameter monitoring system. Fifteen features that have
+  the potential ability in indicating beat-to-beat BP changes during
+  arrhythmias were extracted from the ECG and PPG signals. Four machine
+  learning algorithms, decision tree regression (DTR), support vector machine
+  regression (SVR), adaptive boosting regression (AdaboostR), and random forest
+  regression (RFR), were then implemented to develop the BP models. Results:
+  The results showed that the mean value ± standard deviation of root mean
+  square error for the estimated systolic BP (SBP), diastolic BP (DBP) with the
+  RFR model against the reference in all patients were 5.87 ± 3.13 and 3.52 ±
+  1.38 mmHg, respectively, which achieved the best performance among all the
+  models. Furthermore, the mean error ± standard deviation of error between
+  the estimated SBP and DBP with the RFR model against the reference in all
+  patients were −0.04 ± 6.11 and 0.11 ± 3.62 mmHg, respectively, which
+  complied with the Association for the Advancement of Medical Instrumentation
+  and the British Hypertension Society (Grade A) standards. Conclusion: The
+  results indicated that the utilization of ECG and PPG signals has the
+  potential to enable cuff-less and continuous BP estimation in an indirect way
+  for patients with arrhythmias.%
+    }
+    \verb{doi}
+    \verb 10.3389/fphys.2020.575407
+    \endverb
+    \field{issn}{1664042X}
+    \field{title}{Continuous Blood Pressure Estimation From Electrocardiogram
+  and Photoplethysmogram During Arrhythmias}
+    \field{volume}{11}
+    \field{journaltitle}{Frontiers in Physiology}
+    \field{month}{09}
+    \field{year}{2020}
+  \endentry
 
-\bibitem{Janjua2017}
-G.~Janjua, D.~Guldenring, D.~Finlay, and J.~McLaughlin.
-\newblock Wireless chest wearable vital sign monitoring platform for
-  hypertension.
-\newblock {\em Proceedings of the Annual International Conference of the IEEE
-  Engineering in Medicine and Biology Society, EMBS}, pages 821--824, 9 2017.
+  \entry{Nye2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NR}{%
+         family={Nye},
+         familyi={N\bibinitperiod},
+         given={Ross},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhe},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=FQ}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Qiang},
+         giveni={Q\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{continuous blood pressure
+  monitoring,cuff-less,non-invasive,photoplethysmograph}
+    \strng{namehash}{NRZZFQ1}
+    \strng{fullhash}{NRZZFQ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Blood pressure is an important vital sign of the human body. It is
+  generally monitored using intravenous or cuff-based devices, both of which
+  have their own drawbacks. Continuous and non-invasive blood pressure has
+  significant clinical value however the measurement devices are generally
+  costly and complicated to setup and operate especially in home-based
+  environment. This paper investigates state of the art techniques that utilise
+  one or more photoplethysmographs (PPG) to produce a device that continuously
+  and non-invasively monitors a patient's blood pressure. Three different
+  estimation methodologies are reviewed and compared in this paper.%
+    }
+    \verb{doi}
+    \verb 10.1109/ISBB.2015.7344952
+    \endverb
+    \field{isbn}{9781467366090}
+    \field{pages}{176\bibrangedash 179}
+    \field{title}{Continuous non-invasive blood pressure monitoring using
+  photoplethysmography: A review}
+    \field{journaltitle}{4th International Symposium on Bioelectronics and
+  Bioinformatics, ISBB 2015}
+    \field{month}{12}
+    \field{year}{2015}
+  \endentry
 
-\bibitem{Jeong2021}
-D.~U. Jeong and K.~M. Lim.
-\newblock Combined deep cnn-lstm network-based multitasking learning
+  \entry{Jeong2021}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JDU}{%
+         family={Jeong},
+         familyi={J\bibinitperiod},
+         given={Da\bibnamedelima Un},
+         giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=LKM}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={Ki\bibnamedelima Moo},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Research}%
+    }
+    \strng{namehash}{JDULKM1}
+    \strng{fullhash}{JDULKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The pulse arrival time (PAT), the difference between the R-peak time of
+  electrocardiogram (ECG) signal and the systolic peak of photoplethysmography
+  (PPG) signal, is an indicator that enables noninvasive and continuous blood
+  pressure estimation. However, it is difficult to accurately measure PAT from
+  ECG and PPG signals because they have inconsistent shapes owing to
+  patient-specific physical characteristics, pathological conditions, and
+  movements. Accordingly, complex preprocessing is required to estimate blood
+  pressure based on PAT. In this paper, as an alternative solution, we propose
+  a noninvasive continuous algorithm using the difference between ECG and PPG
+  as a new feature that can include PAT information. The proposed algorithm is
+  a deep CNN–LSTM-based multitasking machine learning model that outputs
+  simultaneous prediction results of systolic (SBP) and diastolic blood
+  pressures (DBP). We used a total of 48 patients on the PhysioNet website by
+  splitting them into 38 patients for training and 10 patients for testing. The
+  prediction accuracies of SBP and DBP were 0.0 ± 1.6 mmHg and 0.2 ±
+  1.3 mmHg, respectively. Even though the proposed model was assessed with
+  only 10 patients, this result was satisfied with three guidelines, which are
+  the BHS, AAMI, and IEEE standards for blood pressure measurement devices.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41598-021-92997-0
+    \endverb
+    \field{issn}{20452322}
+    \field{issue}{1}
+    \field{title}{Combined deep CNN-LSTM network-based multitasking learning
   architecture for noninvasive continuous blood pressure estimation using
-  difference in ecg-ppg features.
-\newblock {\em Scientific Reports}, 11, 12 2021.
+  difference in ECG-PPG features}
+    \field{volume}{11}
+    \field{journaltitle}{Scientific Reports}
+    \field{month}{12}
+    \field{year}{2021}
+  \endentry
 
-\bibitem{Kachuee2015}
-M.~Kachuee, M.~M. Kiani, H.~Mohammadzade, and M.~Shabany.
-\newblock Cuff-less high-accuracy calibration-free blood pressure estimation
-  using pulse transit time.
-\newblock {\em Proceedings - IEEE International Symposium on Circuits and
-  Systems}, 2015-July:1006--1009, 7 2015.
+  \entry{Yang2020}{report}{}
+    \name{author}{6}{}{%
+      {{hash=YS}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Sen},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZWSW}{%
+         family={Zaki},
+         familyi={Z\bibinitperiod},
+         given={Wan Suhaimizan\bibnamedelima Wan},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  W\bibinitperiod},
+      }}%
+      {{hash=MSP}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={Stephen\bibnamedelima P},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=CSY}{%
+         family={Cho},
+         familyi={C\bibinitperiod},
+         given={Siu-Yeung},
+         giveni={S\bibinithyphendelim Y\bibinitperiod},
+      }}%
+      {{hash=CR}{%
+         family={Correia},
+         familyi={C\bibinitperiod},
+         given={Ricardo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yaping},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YS+1}
+    \strng{fullhash}{YSZWSWMSPCSYCRZY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A novel method for the continual, cuff-less estimation of the systolic
+  blood pressure (SBP) and diastolic blood pressure (DBP) values based on
+  signal complexity analysis of the photoplethysmogram (PPG) and the
+  electrocardiogram (ECG) is reported. The proposed framework estimates the
+  blood pressure (BP) values obtained from signals generated from 14 volunteers
+  subjected to a series of exercise routines. Herein, the physiological signals
+  were first pre-processed, followed by the extraction of complexity features
+  from both the PPG and ECG. Subsequently the complexity features were used in
+  regression models (artificial neural network (ANN), support vector machine
+  (SVM) and LASSO) to predict the BP. The performance of the approach was
+  evaluated by calculating the mean absolute error (MAE) and the standard
+  deviation (STD) of the predicted results and compared with the
+  recommendations made by the British Hypertension Society (BHS) and
+  Association for the Advancement of Medical Instrumentation (AAMI). Complexity
+  features from the ECG and PPG were investigated independently, along with the
+  combined dataset. It was observed that the complexity features obtained from
+  the combination of ECG and PPG signals resulted to an improved estimation
+  accuracy for the BP. The most accurate DBP result of 5.15 ± 6.46 mmHg was
+  obtained from ANN model, and SVM generated the most accurate prediction for
+  the SBP which was estimated as 7.33 ± 9.53 mmHg. Results for DBP fall within
+  recommended performance of the BHS but SBP is outside the range. Although
+  initial results are promising, further improvements are required before the
+  potential of this approach is fully realised.%
+    }
+    \field{title}{Blood pressure estimation with complexity features from
+  electrocardiogram and photoplethysmogram signals}
+    \verb{url}
+    \verb http://creativecommons.org/licenses/by/4.0
+    \endverb
+  \endentry
 
-\bibitem{Kario2021}
-K.~Kario, S.~Hoshide, Y.~C. Chia, P.~Buranakitjaroen, S.~Siddique, J.~Shin,
-  Y.~Turana, S.~Park, K.~Tsoi, C.~H. Chen, H.~M. Cheng, T.~Fujiwara, Y.~Li,
-  V.~M. Huynh, M.~Nagai, J.~Nailes, J.~Sison, A.~A. Soenarta, G.~P. Sogunuru,
-  A.~Sukonthasarn, J.~C. Tay, B.~W. Teo, N.~Verma, T.~D. Wang, Y.~Zhang, and
-  J.~G. Wang.
-\newblock Guidance on ambulatory blood pressure monitoring: A statement from
-  the hope asia network.
-\newblock {\em Journal of Clinical Hypertension}, 23:411--421, 3 2021.
+  \entry{Almusawi2020}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AH}{%
+         family={Almusawi},
+         familyi={A\bibinitperiod},
+         given={Hussein},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Burhan},
+         familyi={B\bibinitperiod},
+         given={Abbas},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AHBA1}
+    \strng{fullhash}{AHBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1757-899X/901/1/012020
+    \endverb
+    \field{pages}{012020}
+    \field{title}{Evaluation of the Productivity of Ready Mixed Concrete Batch
+  Plant Using Artificial Intelligence Techniques}
+    \field{volume}{901}
+    \field{journaltitle}{IOP Conference Series: Materials Science and
+  Engineering}
+    \field{month}{09}
+    \field{year}{2020}
+  \endentry
 
-\bibitem{rnns}
-A.~Karpathy.
-\newblock The unreasonable effectiveness of recurrent neural networks.
-\newblock \url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}, 5
-  2015.
+  \entry{deeplearning}{book}{}
+    \name{author}{2}{}{%
+      {{hash=IGYB}{%
+         family={Ian\bibnamedelima Goodfellow},
+         familyi={I\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={Yoshua\bibnamedelima Bengio},
+         giveni={Y\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Courville},
+         familyi={C\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IGYBCA1}
+    \strng{fullhash}{IGYBCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Deep Learning}
+    \field{year}{2017}
+  \endentry
 
-\bibitem{Kumar2015}
-S.~Kumar and S.~Ayub.
-\newblock Estimation of blood pressure by using electrocardiogram (ecg) and
-  photo-plethysmogram (ppg).
-\newblock {\em Proceedings - 2015 5th International Conference on Communication
-  Systems and Network Technologies, CSNT 2015}, pages 521--524, 9 2015.
+  \entry{rnns}{report}{}
+    \name{author}{1}{}{%
+      {{hash=KA}{%
+         family={Karpathy},
+         familyi={K\bibinitperiod},
+         given={Andrej},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KA1}
+    \strng{fullhash}{KA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}}
+    \field{title}{The Unreasonable Effectiveness of Recurrent Neural Networks}
+    \field{month}{05}
+    \field{year}{2015}
+  \endentry
 
-\bibitem{Leung2016}
-A.~A. Leung, K.~Nerenberg, S.~S. Daskalopoulou, K.~McBrien, K.~B. Zarnke,
-  K.~Dasgupta, L.~Cloutier, M.~Gelfer, M.~Lamarre-Cliche, A.~Milot, P.~Bolli,
-  G.~Tremblay, D.~McLean, S.~W. Tobe, M.~Ruzicka, K.~D. Burns, M.~Vallée,
-  G.~V. Prasad, M.~Lebel, R.~D. Feldman, P.~Selby, A.~Pipe, E.~L. Schiffrin,
-  P.~A. McFarlane, P.~Oh, R.~A. Hegele, M.~Khara, T.~W. Wilson, S.~B. Penner,
-  E.~Burgess, R.~J. Herman, S.~L. Bacon, S.~W. Rabkin, R.~E. Gilbert, T.~S.
-  Campbell, S.~Grover, G.~Honos, P.~Lindsay, M.~D. Hill, S.~B. Coutts,
-  G.~Gubitz, N.~R. Campbell, G.~W. Moe, J.~G. Howlett, J.~M. Boulanger,
-  A.~Prebtani, P.~Larochelle, L.~A. Leiter, C.~Jones, R.~I. Ogilvie, V.~Woo,
-  J.~Kaczorowski, L.~Trudeau, R.~J. Petrella, S.~Hiremath, D.~Drouin, K.~L.
-  Lavoie, P.~Hamet, G.~Fodor, J.~C. Grégoire, R.~Lewanczuk, G.~K. Dresser,
-  M.~Sharma, D.~Reid, S.~A. Lear, G.~Moullec, M.~Gupta, L.~A. Magee, A.~G.
-  Logan, K.~C. Harris, J.~Dionne, A.~Fournier, G.~Benoit, J.~Feber, L.~Poirier,
-  R.~S. Padwal, and D.~M. Rabi.
-\newblock Hypertension canada's 2016 canadian hypertension education program
-  guidelines for blood pressure measurement, diagnosis, assessment of risk,
-  prevention, and treatment of hypertension.
-\newblock {\em Canadian Journal of Cardiology}, 32:569--588, 5 2016.
+  \entry{lstm}{report}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={Colah},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}}
+    \field{title}{Understanding LSTM Networks}
+    \field{month}{08}
+    \field{year}{2015}
+  \endentry
 
-\bibitem{Yamanaka2016}
-Z.~D. Liu, B.~Zhou, Y.~Li, M.~Tang, and F.~Miao.
-\newblock The wavelet transform of pulse wave and electrocardiogram improves
-  accuracy of blood pressure estimation in cuffless blood pressure measurement.
-\newblock 11, 3 2018.
+  \entry{databasesImperial}{report}{}
+    \name{author}{1}{}{%
+      {{hash=LIC}{%
+         family={London},
+         familyi={L\bibinitperiod},
+         given={Imperial\bibnamedelima College},
+         giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LIC1}
+    \strng{fullhash}{LIC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.imperial.ac.uk/admin-services/library/subject-support/electrical-and-electronic-engineering/search-tools/}}
+    \field{title}{Electrical and Electronic Engineering search tools}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Liu2020}
-Z.~D. Liu, B.~Zhou, Y.~Li, M.~Tang, and F.~Miao.
-\newblock Continuous blood pressure estimation from electrocardiogram and
-  photoplethysmogram during arrhythmias.
-\newblock {\em Frontiers in Physiology}, 11, 9 2020.
+  \entry{LitSurvey}{report}{}
+    \name{author}{1}{}{%
+      {{hash=BA}{%
+         family={Bhattacharyya},
+         familyi={B\bibinitperiod},
+         given={Arijit},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BA1}
+    \strng{fullhash}{BA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://github.com/ab10918/FinalYearProject---BP-from-ECG-PPG/blob/main/Literature\%20Survey.xlsx}}
+    \field{title}{Final Year Project Literature Survey matrix}
+    \field{month}{01}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Moody1996}
-G.~B. Moody and R.~G. Mark.
-\newblock A database to support development and evaluation of intelligent
-  intensive care monitoring.
-\newblock {\em Computers in Cardiology}, 0:657--660, 1996.
+  \entry{Ahmad2012}{article}{}
+    \name{author}{7}{}{%
+      {{hash=AS}{%
+         family={Ahmad},
+         familyi={A\bibinitperiod},
+         given={Saif},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Silu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Soueidan},
+         familyi={S\bibinitperiod},
+         given={Karen},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Batkin},
+         familyi={B\bibinitperiod},
+         given={Izmail},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bolic},
+         familyi={B\bibinitperiod},
+         given={Miodrag},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DH}{%
+         family={Dajani},
+         familyi={D\bibinitperiod},
+         given={Hilmi},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GV}{%
+         family={Groza},
+         familyi={G\bibinitperiod},
+         given={Voicu},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \keyw{Blood pressure estimation,cuff pressure (CP),electrocardiogram
+  (ECG),oscillometric analysis,pulse transit time (PTT)}
+    \strng{namehash}{AS+1}
+    \strng{fullhash}{ASCSSKBIBMDHGV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Accurate automatic noninvasive assessment of blood pressure (BP) presents a
+  challenge due to conditions like arrhythmias, obesity, and postural changes
+  that tend to obfuscate arterial amplitude pulsations sensed by the cuff.
+  Researchers tried to overcome this challenge by analyzing oscillometric
+  pulses with the aid of a higher fidelity signalthe electrocardiogram (ECG).
+  Moreover, pulse transit time (PTT) was employed to provide an additional
+  method for BP estimation. However, these methods were not fully developed,
+  suitably integrated, or tested. To address these issues, we present a novel
+  method whereby ECG-assisted oscillometric and PTT (measured between ECG
+  R-peaks and maximum slope of arterial pulse peaks) analyses are seamlessly
+  integrated into the oscillometric BP measurement paradigm. The method
+  bolsters oscillometric analysis (amplitude modulation) with more reliable ECG
+  R-peaks provides a complementary measure with PTT analysis (temporal
+  modulation) and fuses this information for robust BP estimation. We have
+  integrated this technology into a prototype that comprises a BP cuff with an
+  embedded conductive fabric ECG electrode, associated hardware, and
+  algorithms. A pilot study has been undertaken on ten healthy subjects (150
+  recordings) to validate the performance of our prototype against United
+  States Food and Drug Administration approved Omron oscillometric monitor
+  (HEM-790IT). Our prototype achieves mean absolute difference of less than 5
+  mmHg and grade A as per the British Hypertension Society protocol for
+  estimating BP, with the reference Omron monitor. © 2011 IEEE.%
+    }
+    \verb{doi}
+    \verb 10.1109/TBME.2011.2180019
+    \endverb
+    \field{issn}{00189294}
+    \field{issue}{3}
+    \field{pages}{608\bibrangedash 618}
+    \field{title}{Electrocardiogram-assisted blood pressure estimation}
+    \field{volume}{59}
+    \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+    \field{month}{03}
+    \field{year}{2012}
+  \endentry
 
-\bibitem{Nye2015}
-R.~Nye, Z.~Zhang, and Q.~Fang.
-\newblock Continuous non-invasive blood pressure monitoring using
-  photoplethysmography: A review.
-\newblock {\em 4th International Symposium on Bioelectronics and
-  Bioinformatics, ISBB 2015}, pages 176--179, 12 2015.
+  \entry{Chen2013}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CZ}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Zhihao},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=YX}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Xiufeng},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=TJT}{%
+         family={Teo},
+         familyi={T\bibinitperiod},
+         given={Ju\bibnamedelima Teng},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=NSH}{%
+         family={Ng},
+         familyi={N\bibinitperiod},
+         given={Soon\bibnamedelima Huat},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CZ+1}
+    \strng{fullhash}{CZYXTJTNSH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    A new all optical method for long term and continuous blood pressure
+  measurement and monitoring without using cuffs is proposed by using
+  Ballistocardiography (BCG) and Photoplethysmograph (PPG). Based on BCG signal
+  and PPG signal, a time delay between these two signals is obtained to
+  calculate both systolic blood pressure and diastolic blood pressure via
+  linear regression analysis. The fabricated noninvasive blood pressure
+  monitoring device consists of a fiber sensor mat to measure BCG signal and a
+  SpO2 sensor to measure PPG signal. A commercial digital oscillometric blood
+  pressure meter is used to obtain reference values and for calibration. It has
+  been found that by comparing with the reference device, our prototype has
+  typical means and standard deviations of 9+/-5.6mmHg for systolic blood
+  pressure, 1.8+/-1.3mmHg for diastolic blood pressure and 0.6+/-0.9bpm for
+  pulse rate, respectively. If the fiber optic SpO2 probe is used, this new all
+  fiber cuffless noninvasive blood pressure monitoring device will truly be a
+  MRI safe blood pressure measurement and monitoring device. © 2013 IEEE.%
+    }
+    \verb{doi}
+    \verb 10.1109/EMBC.2013.6610029
+    \endverb
+    \field{isbn}{9781457702167}
+    \field{issn}{1557170X}
+    \field{pages}{2425\bibrangedash 2428}
+    \field{title}{Noninvasive monitoring of blood pressure using optical
+  Ballistocardiography and Photoplethysmograph approaches}
+    \field{journaltitle}{Proceedings of the Annual International Conference of
+  the IEEE Engineering in Medicine and Biology Society, EMBS}
+    \field{year}{2013}
+  \endentry
 
-\bibitem{Pradenas2020}
-L.~Pradenas.
-\newblock A novel non-invasive estimation of arterial blood pressure from
-  electrocardiography and photoplethysmography signals using machine learning.
-\newblock {\em Biomedical Journal of Scientific \& Technical Research}, 30, 9
-  2020.
+  \entry{Daimiwal2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DN}{%
+         family={Daimiwal},
+         familyi={D\bibinitperiod},
+         given={Nivedita},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sundhararajan},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Shriram},
+         familyi={S\bibinitperiod},
+         given={Revati},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{Blood pressure,Heart rate,Photoplethysmography,Reflectance type PPG
+  sensor,Respiratory rate}
+    \strng{namehash}{DNSMSR1}
+    \strng{fullhash}{DNSMSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Measurement of blood volumetric changes in human body by
+  photoplethysmographic sensors is used in present study. Objective is to
+  measured different parameters that are heart rate, respiratory rate, BP. PPG
+  signal is acquired by PPG sensor, microcontroller and RS 232. The acquired
+  PPG signal is displayed in MATLAB. Frequency domain analysis of PPG signal
+  shows a two peaks first at around 0.25 to 0.35 Hz and second at around 1 to
+  1.5 Hz. FFT at 1Hz relates to 60 BPM and FFT at 0.25 Hz relates to 15
+  respiratory cycles per minute. For BP Measurement, the pulse height of PPG is
+  proportional to the difference between the systolic and the diastolic
+  pressure in the arteries. The standard blood pressure monitoring instrument
+  is used to calculate correlation coefficient. The arterial blood pressure is
+  calculated based on these coefficients. PPG signal is used to detect blood
+  pressure pulsations in a finger and achieved an accuracy of (0.8 ± 7) mmHg
+  and (0.9 ± 6) mmHg for systolic and diastolic pressure, respectively. The
+  developed PPG based method can be used as a noninvasive alternative to the
+  conventional occluding-cuff approaches for long-term and continuous
+  monitoring of blood pressure, heart rate and respiratory rate.%
+    }
+    \verb{doi}
+    \verb 10.1109/ICCSP.2014.6949996
+    \endverb
+    \field{isbn}{9781479933587}
+    \field{pages}{999\bibrangedash 1002}
+    \field{title}{Respiratory rate, heart rate and continuous measurement of BP
+  using PPG}
+    \field{journaltitle}{International Conference on Communication and Signal
+  Processing, ICCSP 2014 - Proceedings}
+    \field{month}{11}
+    \field{year}{2014}
+  \endentry
 
-\bibitem{heartpy}
-Python.
-\newblock Heartpy documentation.
-\newblock
-  \url{https://python-heart-rate-analysis-toolkit.readthedocs.io/en/latest/}, 6
-  2022.
+  \entry{Chan2001}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CKW}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={K.\bibnamedelima W.},
+         giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HK}{%
+         family={Hung},
+         familyi={H\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZYT}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Y.\bibnamedelima T.},
+         giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \keyw{Blood pressure,Cuffless,Telemedicine,WAP}
+    \strng{namehash}{CKWHKZYT1}
+    \strng{fullhash}{CKWHKZYT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    This paper presents a new method for obtaining the blood pressure readings
+  noninvasively with telemedicine application. Through the pulse transit time
+  technique, the systolic, diastolic, and mean blood pressures can be predicted
+  using the time interval between the electrocardiogram (ECG) and
+  photoplethysmography (PPG). The data can then be relayed to the Internet for
+  analysis and viewing. The wireless application protocol (WAP) is used for
+  displaying the information on portable wireless devices. The subjects'
+  cardiovascular condition can thus be obtained for monitoring or pre-diagnosis
+  purposes.%
+    }
+    \verb{doi}
+    \verb 10.1109/iembs.2001.1019611
+    \endverb
+    \field{issn}{04549244}
+    \field{pages}{3592\bibrangedash 3593}
+    \field{title}{Noninvasive and cuffless measurements of blood pressure for
+  telemedicine}
+    \field{volume}{4}
+    \field{journaltitle}{Annual Reports of the Research Reactor Institute,
+  Kyoto University}
+    \field{year}{2001}
+  \endentry
 
-\bibitem{Python}
-Python.
-\newblock History and license for python.
-\newblock \url{https://docs.python.org/3/license.html}, 6 2022.
+  \entry{Yamanaka2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=LZD}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Zeng\bibnamedelima Ding},
+         giveni={Z\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=ZB}{%
+         family={Zhou},
+         familyi={Z\bibinitperiod},
+         given={Bin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LY}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Ye},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Tang},
+         familyi={T\bibinitperiod},
+         given={Min},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Miao},
+         familyi={M\bibinitperiod},
+         given={Fen},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Heart Association}%
+    }
+    \strng{namehash}{LZD+1}
+    \strng{fullhash}{LZDZBLYTMMF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{The Wavelet Transform of Pulse Wave and Electrocardiogram
+  Improves Accuracy of Blood Pressure Estimation in Cuffless Blood Pressure
+  Measurement}
+    \field{volume}{11}
+    \field{month}{03}
+    \field{year}{2018}
+  \endentry
 
-\bibitem{keras}
-Python.
-\newblock Keras documentation.
-\newblock \url{https://keras.io/}, 6 2022.
+  \entry{Ding2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DXR}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Xiao\bibnamedelima Rong},
+         giveni={X\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=ZYT}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yuan\bibnamedelima Ting},
+         giveni={Y\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DWX}{%
+         family={Dai},
+         familyi={D\bibinitperiod},
+         given={Wen\bibnamedelima Xuan},
+         giveni={W\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=THK}{%
+         family={Tsang},
+         familyi={T\bibinitperiod},
+         given={Hon\bibnamedelima Ki},
+         giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IEEE Computer Society}%
+    }
+    \keyw{Arterial diameter change,cuffless blood pressure,photoplethysmogram
+  intensity ratio,pulse transit time,respiration,vasomotion}
+    \strng{namehash}{DXR+1}
+    \strng{fullhash}{DXRZYTLJDWXTHK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Pulse transit time (PTT) has attracted much interest for cuffless blood
+  pressure (BP) measurement. However, its limited accuracy is one of the main
+  problems preventing its widespread acceptance. Arterial BP oscillates mainly
+  at high frequency (HF) because of respiratory activity, and at low frequency
+  (LF) because of vasomotor tone. Prior studies suggested that PTT can track BP
+  variation in HF range, but was inadequate to follow the LF variation, which
+  is probably the main reason for its unsatisfactory accuracy. This paper
+  presents a new indicator, the photoplethysmogram intensity ratio (PIR), which
+  can be affected by changes in the arterial diameter, and, thus, trace the LF
+  variation of BP. Spectral analysis of BP, PTT, PIR, and respiratory signal
+  confirmed that PTT was related to BP in HF at the respiratory frequency,
+  while PIR was associated with BP in LF range. We, therefore, develop a novel
+  BP estimation algorithm by using both PTT and PIR. The proposed algorithm was
+  validated on 27 healthy subjects with continuous Finapres BP as reference.
+  The results showed that the mean ± standard deviation (SD) for the estimated
+  systolic, diastolic, and mean BP with the proposed method against reference
+  were -0.37 ± 5.21, -0.08 ± 4.06, -0.18 ± 4.13 mmHg, and mean absolute
+  difference (MAD) were 4.09, 3.18, 3.18 mmHg, respectively. Furthermore, the
+  proposed method outperformed the two most cited PTT algorithms for about 2
+  mmHg in SD and MAD. These results demonstrated that the proposed BP model
+  using PIR and PTT can estimate continuous BP with improved accuracy.%
+    }
+    \verb{doi}
+    \verb 10.1109/TBME.2015.2480679
+    \endverb
+    \field{issn}{15582531}
+    \field{issue}{5}
+    \field{pages}{964\bibrangedash 972}
+    \field{title}{Continuous Cuffless Blood Pressure Estimation Using Pulse
+  Transit Time and Photoplethysmogram Intensity Ratio}
+    \field{volume}{63}
+    \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+    \field{month}{05}
+    \field{year}{2016}
+  \endentry
 
-\bibitem{matplotlib}
-Python.
-\newblock Matplotlib documentation.
-\newblock \url{https://matplotlib.org/stable/index.html}, 6 2022.
+  \entry{Gao2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GSC}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Shi\bibnamedelima Chao},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Wittek},
+         familyi={W\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ZL}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Li},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=JWJ}{%
+         family={Jiang},
+         familyi={J\bibinitperiod},
+         given={Wen\bibnamedelima Jun},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \keyw{Big Data,Blood Pressure,Discrete Wavelet Transform,Machine
+  Learning,Mobile Health}
+    \strng{namehash}{GSC+1}
+    \strng{fullhash}{GSCWPZLJWJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Noninvasive measurement of blood pressure by optical methods receives
+  considerable interest, but the complexity of the measurement and the
+  difficulty of adjusting parameters restrict applications. We develop a method
+  for estimating the systolic and diastolic blood pressure using a single-point
+  optical recording of a photoplethysmographic (PPG) signal. The estimation is
+  data-driven, we use automated machine learning algorithms instead of
+  mathematical models. Combining supervised learning with a discrete wavelet
+  transform, the method is insensitive to minor irregularities in the PPG
+  waveform, hence both pulse oximeters and smartphone cameras can record the
+  signal. We evaluate the accuracy of the estimation on 78 samples from 65
+  subjects (40 male, 25 female, age 29±7) with no history of cardiovascular
+  disease. The estimate for systolic blood pressure has a mean error 4.9±4.9
+  mm Hg, and 4.3±3.7 mm Hg for diastolic blood pressure when using the
+  oximeter-obtained PPG. The same values are 5.1±4.3 mm Hg and 4.6±4.3 mm Hg
+  when using the phone-obtained PPG, comparing with A&D UA-767PBT result as
+  gold standard. The simplicity of the method encourages ambulatory
+  measurement, and given the ease of sharing the measured data, we expect a
+  shift to data-oriented approaches deriving insight from ubiquitous mobile
+  devices that will yield more accurate machine learning models in monitoring
+  blood pressure.%
+    }
+    \verb{doi}
+    \verb 10.1109/EMBC.2016.7590814
+    \endverb
+    \field{isbn}{9781457702204}
+    \field{issn}{1557170X}
+    \field{pages}{766\bibrangedash 769}
+    \field{title}{Data-driven estimation of blood pressure using
+  photoplethysmographic signals}
+    \field{volume}{2016-October}
+    \field{journaltitle}{Proceedings of the Annual International Conference of
+  the IEEE Engineering in Medicine and Biology Society, EMBS}
+    \field{month}{10}
+    \field{year}{2016}
+  \endentry
 
-\bibitem{numpy}
-Python.
-\newblock Numpy documentation.
-\newblock \url{https://numpy.org/doc/stable/}, 6 2022.
+  \entry{Kachuee2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=KM}{%
+         family={Kachuee},
+         familyi={K\bibinitperiod},
+         given={Mohamad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KMM}{%
+         family={Kiani},
+         familyi={K\bibinitperiod},
+         given={Mohammad\bibnamedelima Mahdi},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MH}{%
+         family={Mohammadzade},
+         familyi={M\bibinitperiod},
+         given={Hoda},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Shabany},
+         familyi={S\bibinitperiod},
+         given={Mahdi},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \strng{namehash}{KM+1}
+    \strng{fullhash}{KMKMMMHSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Recently a few methods have been proposed in the literature for
+  non-invasive cuff-less estimation of systolic and diastolic blood pressures.
+  One of the most prominent methods is to use the Pulse Transit Time (PTT).
+  Although it is proven that PTT has a strong correlation with the systolic and
+  diastolic blood pressures, this relation is highly dependent to each
+  individuals physiological properties. Therefore, it requires per person
+  calibration for accurate and reliable blood pressure estimation from PTT,
+  which is a big drawback. To alleviate this issue, in this paper, a novel
+  method is proposed for accurate and reliable estimation of blood pressure
+  that is calibration-free. This goal is accomplished by extraction of several
+  physiological parameters from Photoplethysmography (PPG) signal as well as
+  utilizing signal processing and machine learning algorithms. The results show
+  that the accuracy of the proposed method achieves grade B for the estimation
+  of the diastolic blood pressure and grade C for the estimation of the mean
+  arterial pressure under the standard British Hypertension Society (BHS)
+  protocol.%
+    }
+    \verb{doi}
+    \verb 10.1109/ISCAS.2015.7168806
+    \endverb
+    \field{isbn}{9781479983919}
+    \field{issn}{02714310}
+    \field{pages}{1006\bibrangedash 1009}
+    \field{title}{Cuff-less high-accuracy calibration-free blood pressure
+  estimation using pulse transit time}
+    \field{volume}{2015-July}
+    \field{journaltitle}{Proceedings - IEEE International Symposium on Circuits
+  and Systems}
+    \field{month}{07}
+    \field{year}{2015}
+  \endentry
 
-\bibitem{pandas}
-Python.
-\newblock Pandas documentation.
-\newblock \url{https://pandas.pydata.org/docs/}, 6 2022.
+  \entry{Chen2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Shuo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JZ}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Zhong},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=WH}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Haiyan},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=XY}{%
+         family={Xu},
+         familyi={X\bibinitperiod},
+         given={Yingchao},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MDPI AG}%
+    }
+    \keyw{Genetic algorithm (GA),Machine learning,Pulse transit time
+  (PTT),Pulse waveform,� mean influence value (MIV)}
+    \strng{namehash}{CS+1}
+    \strng{fullhash}{CSJZWHXY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Considering the existing issues of traditional blood pressure (BP)
+  measurement methods and non-invasive continuous BP measurement techniques,
+  this study aims to establish the systolic BP and diastolic BP estimation
+  models based on machine learning using pulse transit time and characteristics
+  of pulse waveform. In the process of model construction, the mean impact
+  value method was introduced to investigate the impact of each feature on the
+  models and the genetic algorithm was introduced to implement parameter
+  optimization. The experimental results showed that the proposed models could
+  effectively describe the nonlinear relationship between the features and BP
+  and had higher accuracy than the traditional methods with the error of 3.27
+  ± 5.52 mmHg for systolic BP and 1.16 ± 1.97 mmHg for diastolic BP.
+  Moreover, the estimation errors met the requirements of the Advancement of
+  Medical Instrumentation and British Hypertension Society criteria. In
+  conclusion, this study was helpful in promoting the practical application of
+  methods for non-invasive continuous BP estimation models.%
+    }
+    \verb{doi}
+    \verb 10.3390/s19112585
+    \endverb
+    \field{issn}{14248220}
+    \field{issue}{11}
+    \field{title}{A non-invasive continuous blood pressure estimation approach
+  based on machine learning}
+    \field{volume}{19}
+    \field{journaltitle}{Sensors (Switzerland)}
+    \field{month}{06}
+    \field{year}{2019}
+  \endentry
 
-\bibitem{scikit}
-Python.
-\newblock Scikit-learn documentation.
-\newblock \url{https://scikit-learn.org/stable/}, 6 2022.
+  \entry{Ripoll2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RV}{%
+         family={Ripoll},
+         familyi={R\bibinitperiod},
+         given={Vicent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=VA}{%
+         family={Vellido},
+         familyi={V\bibinitperiod},
+         given={Alfredo},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {S. Karger AG}%
+    }
+    \strng{namehash}{RVVA1}
+    \strng{fullhash}{RVVA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Background Modern clinical environments are laden with technology devices
+  continuously gathering physiological data from patients. This is especially
+  true in critical care environments, where life-saving decisions may have to
+  be made on the basis of signals from monitoring devices. Hemodynamic
+  monitoring is essential in dialysis, surgery, and in critically ill patients.
+  For the most severe patients, blood pressure is normally assessed through a
+  catheter, which is an invasive procedure that may result in adverse effects.
+  Blood pressure can also be monitored noninvasively through different methods
+  and these data can be used for the continuous assessment of pressure using
+  machine learning methods. Previous studies have found pulse transit time to
+  be related to blood pressure. In this short paper, we propose to study the
+  feasibility of implementing a data-driven model based on restricted Boltzmann
+  machine artificial neural networks, delivering a first proof of concept for
+  the validity and viability of a method for blood pressure prediction based on
+  these models. Summary and Key Messages For the most severe patients (e.g.,
+  dialysis, surgery, and the critically ill), blood pressure is normally
+  assessed through invasive catheters. Alternatively, noninvasive methods have
+  also been developed for its monitorization. Data obtained from noninvasive
+  measurements can be used for the continuous assessment of pressure using
+  machine learning methods. In this study, a restricted Boltzmann machine
+  artificial neural network is used to present a first proof of concept for the
+  validity and viability of a method for blood pressure prediction.%
+    }
+    \verb{doi}
+    \verb 10.1159/000493478
+    \endverb
+    \field{issn}{2296-9381}
+    \field{issue}{1}
+    \field{pages}{23\bibrangedash 27}
+    \field{title}{Blood Pressure Assessment with Differential Pulse Transit
+  Time and Deep Learning: A Proof of Concept}
+    \field{volume}{5}
+    \field{journaltitle}{Kidney Diseases}
+    \field{year}{2019}
+  \endentry
 
-\bibitem{tensorflow}
-Python.
-\newblock Tensorflow documentation.
-\newblock \url{https://www.tensorflow.org/api_docs}, 6 2022.
+  \entry{Su2017}{article}{}
+    \name{author}{6}{}{%
+      {{hash=SP}{%
+         family={Su},
+         familyi={S\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DXR}{%
+         family={Ding},
+         familyi={D\bibinitperiod},
+         given={Xiao-Rong},
+         giveni={X\bibinithyphendelim R\bibinitperiod},
+      }}%
+      {{hash=ZYT}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Yuan-Ting},
+         giveni={Y\bibinithyphendelim T\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jing},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Miao},
+         familyi={M\bibinitperiod},
+         given={Fen},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=ZN}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Ni},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SP+1}
+    \strng{fullhash}{SPDXRZYTLJMFZN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Existing methods for arterial blood pressure (BP) estimation directly map
+  the input physiological signals to output BP values without explicitly
+  modeling the underlying temporal dependencies in BP dynamics. As a result,
+  these models suffer from accuracy decay over a long time and thus require
+  frequent calibration. In this work, we address this issue by formulating BP
+  estimation as a sequence prediction problem in which both the input and
+  target are temporal sequences. We propose a novel deep recurrent neural
+  network (RNN) consisting of multilayered Long Short-Term Memory (LSTM)
+  networks, which are incorporated with (1) a bidirectional structure to access
+  larger-scale context information of input sequence, and (2) residual
+  connections to allow gradients in deep RNN to propagate more effectively. The
+  proposed deep RNN model was tested on a static BP dataset, and it achieved
+  root mean square error (RMSE) of 3.90 and 2.66 mmHg for systolic BP (SBP) and
+  diastolic BP (DBP) prediction respectively, surpassing the accuracy of
+  traditional BP prediction models. On a multi-day BP dataset, the deep RNN
+  achieved RMSE of 3.84, 5.25, 5.80 and 5.81 mmHg for the 1st day, 2nd day, 4th
+  day and 6th month after the 1st day SBP prediction, and 1.80, 4.78, 5.0, 5.21
+  mmHg for corresponding DBP prediction, respectively, which outperforms all
+  previous models with notable improvement. The experimental results suggest
+  that modeling the temporal dependencies in BP dynamics significantly improves
+  the long-term BP prediction accuracy.%
+    }
+    \field{title}{Long-term Blood Pressure Prediction with Deep Recurrent
+  Neural Networks}
+    \verb{url}
+    \verb http://arxiv.org/abs/1705.04524
+    \endverb
+    \field{month}{05}
+    \field{year}{2017}
+  \endentry
 
-\bibitem{wfdb}
-Python.
-\newblock Wfdb-python documentation.
-\newblock \url{https://wfdb.readthedocs.io/en/latest/}, 6 2022.
+  \entry{Python}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://docs.python.org/3/license.html}}
+    \field{title}{History and License for Python}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Ripoll2019}
-V.~Ripoll and A.~Vellido.
-\newblock Blood pressure assessment with differential pulse transit time and
-  deep learning: A proof of concept.
-\newblock {\em Kidney Diseases}, 5:23--27, 2019.
+  \entry{numpy}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://numpy.org/doc/stable/}}
+    \field{title}{Numpy documentation}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Sharma2017}
-M.~Sharma, K.~Barbosa, V.~Ho, D.~Griggs, T.~Ghirmai, S.~Krishnan, T.~Hsiai,
-  J.-C. Chiao, and H.~Cao.
-\newblock Cuff-less and continuous blood pressure monitoring: A methodological
-  review.
-\newblock {\em Technologies}, 5:21, 5 2017.
+  \entry{pandas}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://pandas.pydata.org/docs/}}
+    \field{title}{Pandas documentation}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Simjanoska20181}
-M.~Simjanoska, M.~Gjoreski, A.~M. Bogdanova, B.~Koteska, M.~Gams, and
-  J.~Tasič.
-\newblock Ecg-derived blood pressure classification using complexity
-  analysis-based machine learning.
-\newblock {\em HEALTHINF 2018 - 11th International Conference on Health
-  Informatics, Proceedings; Part of 11th International Joint Conference on
-  Biomedical Engineering Systems and Technologies, BIOSTEC 2018}, 5:282--292,
-  2018.
+  \entry{tensorflow}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://www.tensorflow.org/api_docs}}
+    \field{title}{Tensorflow documentation}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Simjanoska20182}
-M.~Simjanoska, M.~Gjoreski, M.~Gams, and A.~M. Bogdanova.
-\newblock Non-invasive blood pressure estimation from ecg using machine
-  learning techniques.
-\newblock {\em Sensors (Switzerland)}, 18, 4 2018.
+  \entry{keras}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://keras.io/}}
+    \field{title}{Keras documentation}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Su2017}
-P.~Su, X.-R. Ding, Y.-T. Zhang, J.~Liu, F.~Miao, and N.~Zhao.
-\newblock Long-term blood pressure prediction with deep recurrent neural
-  networks.
-\newblock 5 2017.
+  \entry{scikit}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://scikit-learn.org/stable/}}
+    \field{title}{Scikit-Learn documentation}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Tanveer2018}
-M.~S. Tanveer and M.~K. Hasan.
-\newblock Cuffless blood pressure estimation from electrocardiogram and
-  photoplethysmogram using waveform based ann-lstm network.
-\newblock {\em Bangladesh University of Engineering and Technology}, 11 2018.
+  \entry{heartpy}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://python-heart-rate-analysis-toolkit.readthedocs.io/en/latest/}}
+    \field{title}{Heartpy documentation}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{Wang2018}
-L.~Wang, W.~Zhou, Y.~Xing, and X.~Zhou.
-\newblock A novel neural network model for blood pressure estimation using
-  photoplethesmography without electrocardiogram.
-\newblock {\em Journal of Healthcare Engineering}, 2018, 2018.
+  \entry{wfdb}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://wfdb.readthedocs.io/en/latest/}}
+    \field{title}{WFDB-Python documentation}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{ecgWiki}
-Wikipedia.
-\newblock Electrocardiography.
-\newblock \url{https://en.wikipedia.org/wiki/Electrocardiography}, 6 2022.
+  \entry{matplotlib}{report}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Python},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://matplotlib.org/stable/index.html}}
+    \field{title}{Matplotlib documentation}
+    \field{month}{06}
+    \field{year}{2022}
+  \endentry
 
-\bibitem{qrsWiki}
-Wikipedia.
-\newblock Qrs complex.
-\newblock \url{https://en.wikipedia.org/wiki/QRS_complex}, 6 2022.
-
-\bibitem{Yang2020}
-S.~Yang, W.~S.~W. Zaki, S.~P. Morgan, S.-Y. Cho, R.~Correia, and Y.~Zhang.
-\newblock Blood pressure estimation with complexity features from
-  electrocardiogram and photoplethysmogram signals.
-
-\bibitem{Zaki2018}
-W.~S. Zaki, S.~P. Morgan, S.-Y. Cho, R.~Correia, L.~Wen, and Y.~Zhang.
-\newblock Blood pressure estimation from photoplethysmogram and
-  electrocardiogram signals using machine learning.
-\newblock {\em University of Nottingham}, 2018.
-
-\end{thebibliography}
+  \entry{Moody1996}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MGB}{%
+         family={Moody},
+         familyi={M\bibinitperiod},
+         given={George\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MRG}{%
+         family={Mark},
+         familyi={M\bibinitperiod},
+         given={Roger\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MGBMRG1}
+    \strng{fullhash}{MGBMRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Development and evaluation of automated decision support systems requires
+  large amounts of well-characterized, reproducible test data. The MIMIC
+  (Multi-parameter Intelligent Monitoring for Intensive Care) Database is
+  intended to meet these needs. The database, currently nearing completion,
+  will include 100 patient records, each typically containing between 24 and 48
+  hours of continuous data recorded from patient monitors in the medical,
+  surgical, and cardiac intensive care units of Boston's Beth Israel Hospital.
+  Each record will be accompanied by detailed clinical data derived from the
+  patient's medical record and from the hospital's on-line medical information
+  systems. We select patients to record from those likely to be hemodynamically
+  unstable during the planned recording period. We expect to complete the
+  selection of the recordings to be included in the database by the end of
+  1996, and to make the database available to other researchers shortly
+  thereafter.%
+    }
+    \verb{doi}
+    \verb 10.1109/cic.1996.542622
+    \endverb
+    \field{issn}{02766574}
+    \field{issue}{0}
+    \field{pages}{657\bibrangedash 660}
+    \field{title}{A database to support development and evaluation of
+  intelligent intensive care monitoring}
+    \field{volume}{0}
+    \field{journaltitle}{Computers in Cardiology}
+    \field{year}{1996}
+  \endentry
+\enddatalist
+\endinput

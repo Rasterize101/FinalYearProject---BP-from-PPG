@@ -8,7 +8,7 @@
 \usepackage{nccmath}
 \usepackage{mathtools}
 \usepackage{bm}
-\usepackage[numbers]{natbib}
+\usepackage[backend=bibtex,style=numeric,sortcites,sorting=none,backref,natbib,hyperref]{biblatex}
 \usepackage{caption}
 \usepackage{float}
 \usepackage{color}
@@ -29,6 +29,10 @@
 \usepackage{url}
 \usepackage[nottoc,numbib]{tocbibind}
 \usepackage{rotating}
+
+\bibliography{references}
+
+% \bibliographystyle{ieee}
 
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{3}
@@ -71,13 +75,12 @@
 \vfill
     \begin{center}
     \quad\\[1.1cm]
-    \includegraphics[width=7cm]{logo.png}\\[1cm]
+    \includegraphics[width=15cm]{logo2.png}\\[1cm] % width=7cm
     \end{center}\vfill
 \setlength{\tabcolsep}{0pt}
 
 \begin{tabular}{p{40mm}p{\dimexpr\columnwidth-40mm}}
-    Project Title: & \textbf{Cuffless Blood Pressure Estimation from Photoplethysmography Signals using Recurrent Neural Networks
-    } \\[12pt]
+    Project Title: & \textbf{Cuffless Estimation of Blood Pressure from Photoplethysmography Signals using Transformers} \\[12pt]
     Student: & \textbf{Arijit Bhattacharyya} \\[12pt]
     CID: & \textbf{01496199} \\[12pt]
     Course: & \textbf{MEng Electrical and Electronic Engineering} \\[12pt]
@@ -115,13 +118,14 @@
 \input{Results/index.tex}
 \newpage
 \input{Evaluation/index.tex}
-\newpage
-\input{Ethics/index.tex}
+%\newpage
+%\input{Ethics/index.tex}
 \newpage
 \input{ConclusionFW/index.tex}
 \newpage
-\bibliographystyle{ieee}
-\bibliography{references}
+\printbibliography[heading=bibintoc]
+%\addcontentsline{toc}{section}{Bibliography}
+%\bibliography{references}
 
 \newpage
 \input{Appendix/index.tex}
