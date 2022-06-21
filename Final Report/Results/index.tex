@@ -1,4 +1,10 @@
 \section{Overview of Results}
+In this chapter, the aim is to:
+\begin{itemize}
+    \item Apply the objectives set out in the Testing Plan in Chapter 5
+    \item Compare the performance of the five neural network architectures for cuffless estimation of blood pressure using PPG
+    \item Assess whether the performance of the neural networks is estimate blood pressure effectively
+\end{itemize}
 \begin{comment}
     This covers an area different from the 'Testing'
 chapter, and relates to the understanding and analysis
@@ -35,7 +41,6 @@ applicable to all projects.
 \end{itemize}
 \end{comment}
 
-\textcolor{red}{For all results:}
 
 \textcolor{red}{1. Ensure all results have units (if it doesn't have units, it's A.U for arbitrary units)}
 
@@ -46,15 +51,16 @@ applicable to all projects.
 
 \begin{itemize}
     \item KEEP ADDING MORE STUFF
-    \item GPU used
-    \item Features used for each set of results
-    \item Learning rate
-    \item Optimizer
-    \item Loss function
-    \item 
+    \item For all testing performed in Google Colaboratory, the GPU being used to compute
+    inference times was the Tesla T4 Persistence-M GPU
+    \item $\text{Learning rate } = 0.005$
+    \item The Adam optimizer was used for all experiments
+    \item Loss function?
 \end{itemize}
 
-\subsection{Performance of AlexNet architecture}
+\subsection{Training and Validation MAE for the deep learning architectures}
+
+\subsubsection{AlexNet}
 
 \begin{figure}[H]
     \centering
@@ -63,11 +69,40 @@ applicable to all projects.
     \label{alexnetResults}
 \end{figure}
 
-\subsection{Performance of ResNet architecture}
+\subsubsection{ResNet}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=15cm,height=15cm,keepaspectratio]{Results/resnet.png}
     \caption{MAE of SBP and DBP for ResNet architecture}
     \label{resnetResults}
+\end{figure}
+
+\subsubsection{ResNet with LOSO}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=15cm,keepaspectratio]{Results/slapnicar.png}
+    \caption{MAE of SBP and DBP for ResNet-LOSO architecture}
+    \label{resnetLosoResults}
+\end{figure}
+
+
+\subsubsection{LSTM}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=15cm,keepaspectratio]{Results/lstm.png}
+    \caption{MAE of SBP and DBP for LSTM architecture}
+    \label{lstmResults}
+\end{figure}
+
+
+\subsubsection{Transformer Encoder}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=15cm,height=15cm,keepaspectratio]{Results/encoder.png}
+    \caption{MAE of SBP and DBP for the Transformer encoder architecture}
+    \label{encoderResults}
 \end{figure}

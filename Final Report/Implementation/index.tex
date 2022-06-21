@@ -4,11 +4,15 @@ In this chapter, the aim is to:
 \begin{itemize}
     \item Provide a detailed description of the Python code used to estimate cuffless blood pressure from PPG signals
     \item Discuss any changes or justifications made to the code
+\end{itemize}
 
-\subsection{Description of dataset}
+\subsection{Stage 1: Filtering the dataset}
 As discussed in Chapter 3, the MIMIC Database includes data
 recorded for 72 ICU patients, ranging from patient indexes '037' to '485'. Firstly, it was necessary to check which 
-of these patients contained signal data for the PPG and ABP channels. As a result, the following patients were excluded from the dataset:
+of these patients contained signal data for the PPG and ABP channels. In Python, this was performed by inspecting the 
+\texttt{wfdb.rdrecord.sig\_name} string array for each patient record, and checking to see if the ABP and PPG channels were present (indicated by the 
+\texttt{ABP} and \texttt{PLETH} keywords). As a result, the following patients were excluded from the dataset:
+
 \begin{itemize}
     \item '037'
     \item '208'
@@ -23,40 +27,92 @@ of these patients contained signal data for the PPG and ABP channels. As a resul
     \item '450'
 \end{itemize}\noindent Hence, there was now data available from 61 ICU patients.
 
+\subsection{Stage 2: Decision on the window length}
+The next stage is to split up the PPG signal into discrete intervals of the same time interval. In order to justify the window length used, 
+it was necessary to analysis the waveform structure of the PPG for particular patients. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=16cm,height=16cm,keepaspectratio]{Implementation/window.png}
+    \caption{Decision to window the signal}
+    \label{windowing}
+\end{figure}
+
+
+
+\subsection{Stage 3: Choosing the patients}
+
 \textcolor{red}{Why a subset? Why not all? If you're doing a split, explain this. Are you only using 8 patients out of the 90?}
 
+Based on the decision to use a window length of 1 second, it was necessary to take a subset of the dataset. WHY? 
+This was because a small window length means that a lot of datapoints are available for training already, so there 
+is no need to acquire data from all 61 patients. By considering that the motivation of the FYP is to investigate the detection and prevention 
+of hypertension, the decision was to examine the records of patients suffering with 
+Cardiovascular diseases or other heart-related illnesses. Hence, a subset of the MIMIC I database was chosen, as illustrated 
+in Table \ref{tabDatasetChosen}.
 \begin{table}[H]
     \centering
-    \begin{tabular}{|cccc|}
+    \caption{Characteristics of the chosen 12 patients from the MIMIC-I database}
+    \label{tabDatasetChosen}
+    \begin{tabular}{cccc}
     \hline
-    \textbf{Patient Number} & \textbf{Gender} & \textbf{Age} & \textbf{Health issue faced by the patient} \\ \hline
-    224 & Male   & 21 & Sepsis                                  \\
-    225 & Male   & 73 & Pulmonary edema                         \\
-    230 & Female & 75 & Cardiac Heart Failure/Pulmonary edema   \\
-    232 & Male   & 68 & Myocardial infarction/Cardiogenic shock \\
-    235 & Female & 67 & Myocardial infarction/Cardiogenic shock \\
-    240 & Male   & 68 & Angina                                  \\
-    252 & Male   & 52 & Respiratory Failure                     \\
-    255 & Male   & 67 & Cardiac Heart Failure/Pulmonary edema   \\ \hline
+    \textbf{Patient record number} & \textbf{Age} & \textbf{Gender} & \textbf{Health condition} \\ \hline
+    418 & 52 & M & CHF/pulmonary edema  \\
+    480 & 52 & M & Post-op CABG         \\
+    237 & 63 & F & MI/cardiogenic shock \\
+    477 & 67 & M & Post-op CABG         \\
+    466 & 70 & M & CHF/pulmonary edema  \\
+    476 & 72 & F & Post-op CABG         \\
+    225 & 73 & M & CHF/pulmonary edema  \\
+    230 & 75 & F & CHF/pulmonary edema  \\
+    213 & 82 & F & CHF/pulmonary edema  \\
+    212 & 84 & M & CHF/pulmonary edema  \\
+    456 & 84 & M & Post-op CABG         \\ 
+    417 & 85 & M & CHF/pulmonary edema \\\hline
     \end{tabular}
-    \caption{Characteristics of the patients from the MIMIC-I database}
-    \label{tabPatients}
-    \end{table}
+\end{table}\noindent 
 
 
-\subsection{Extracting the ground truth blood pressure values}
+
+\begin{table}[H]
+        \centering
+        \caption{Number of samples available after initial preprocessing from the MIMIC database subset}
+        \label{tabSamplesAvailable}
+        \begin{tabular}{cc}
+        \hline
+        \textbf{Patient record number} & \textbf{10-minute Samples} \\ \hline
+        418 &  0\\
+        480 &  30\\
+        237 &  17\\
+        477 &  3\\
+        466 &  139\\
+        476 &  67\\
+        225 &  17\\
+        230 &  38\\
+        213 &  42\\
+        212 &  143\\
+        456 &  83\\
+        417 &  0\\ \hline
+        \end{tabular}
+\end{table}   
+
+\subsection{Stage 4: Extracting the ground truth blood pressure values}
 The ground truth Systolic and Diastolic blood pressure values are calculated by taking the respective 
 maxima and minima of the arterial blood pressure signal within each window of the signal.
 
+THEN TALK ABOUT PREPROCESSING APPLIED TO ABP
 
 
 
-\subsection{Signal preprocessing steps}
+
+\subsection{Stage 5: Preprocessing the PPG signal}
+
+\subsection{Stage 6: Processing of data before training}
 
 
-\subsection{Windowing of PPG and ABP data}
+\subsection{Stage 7: Overview of Neural Network models used}
 
-\subsection{Convolutional Neural Network (CNN) model}
+\subsubsection{CNN AlexNet model}
 
 \textcolor{red}{What type of information should the reader gather from this figure? It needs explaining and annotations/labelling.}
 
@@ -67,9 +123,16 @@ maxima and minima of the arterial blood pressure signal within each window of th
     \label{alexnetArch}
 \end{figure}
 
+\subsubsection{CNN ResNet model}
+
+\subsubsection{ResNet with LOSO model}
+
+\subsubsection{LSTM model}
+
+\subsubsection{Proposed Transformer Encoder model}
 
 
-\subsection{ResNet model}
+\subsection{Stage 8: Training the model}
+PARAMETERS used
 
-
-%\subsection{Potentially for appendix: Description of other models the transformer is compared with}
+\subsection{Stage 9: How the error is evaluated}

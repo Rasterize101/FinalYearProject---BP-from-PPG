@@ -1,0 +1,2424 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.3)  19 JUN 2022 21:31
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex"
+(c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(c:/texlive/2021/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (c:/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (c:/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks17
+) (c:/texlive/2021/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+) (c:/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen147
+)) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+) (c:/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count196
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count197
+\leftroot@=\count198
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count199
+\DOTSCASE@=\count266
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count267
+\c@MaxMatrixCols=\count268
+\dotsspace@=\muskip16
+\c@parentequation=\count269
+\dspbrk@lvl=\count270
+\tag@help=\toks21
+\row@=\count271
+\column@=\count272
+\maxfields@=\count273
+\andhelp@=\toks22
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks23
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (c:/texlive/2021/texmf-dist/tex/latex/ncctools/nccmath.sty
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen156
+) (c:/texlive/2021/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2021/02/02 v1.28 mathematical typesetting tools
+ (c:/texlive/2021/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count274
+\calc@Bcount=\count275
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip61
+\calc@Bskip=\skip62
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count276
+\calc@Cskip=\skip63
+) (c:/texlive/2021/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count277
+\l_MT_multwidth_dim=\dimen159
+\origjot=\skip64
+\l_MT_shortvdotswithinadjustabove_dim=\dimen160
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen161
+\l_MT_above_intertext_sep=\dimen162
+\l_MT_below_intertext_sep=\dimen163
+\l_MT_above_shortintertext_sep=\dimen164
+\l_MT_below_shortintertext_sep=\dimen165
+\xmathstrut@box=\box52
+\xmathstrut@dim=\dimen166
+) (c:/texlive/2021/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/rsfs/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (c:/texlive/2021/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip65
+\bibsep=\skip66
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count278
+) (c:/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (c:/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen167
+\captionmargin@=\dimen168
+\captionwidth=\dimen169
+\caption@tempdima=\dimen170
+\caption@indent=\dimen171
+\caption@parindent=\dimen172
+\caption@hangindent=\dimen173
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count279
+\c@continuedfloat=\count280
+) (c:/texlive/2021/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count281
+\float@exts=\toks25
+\float@box=\box53
+\@float@everytoks=\toks26
+\@floatcapt=\box54
+) (c:/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (c:/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count282
+\lst@gtempboxa=\box55
+\lst@token=\toks27
+\lst@length=\count283
+\lst@currlwidth=\dimen174
+\lst@column=\count284
+\lst@pos=\count285
+\lst@lostspace=\dimen175
+\lst@width=\dimen176
+\lst@newlines=\count286
+\lst@lineno=\count287
+\lst@maxwidth=\dimen177
+ (c:/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count288
+\lst@skipnumbers=\count289
+\lst@framebox=\box56
+) (c:/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (c:/texlive/2021/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count290
+\sf@farskip=\skip67
+\sf@captopadj=\dimen178
+\sf@capskip=\skip68
+\sf@nearskip=\skip69
+\c@subfigure=\count291
+\c@subfigure@save=\count292
+\c@lofdepth=\count293
+\c@subtable=\count294
+\c@subtable@save=\count295
+\c@lotdepth=\count296
+\sf@top=\skip70
+\sf@bottom=\skip71
+) (c:/texlive/2021/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup8
+\symAMSb=\mathgroup9
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (c:/texlive/2021/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box57
+\beforetitleunit=\skip72
+\aftertitleunit=\skip73
+\ttl@plus=\dimen179
+\ttl@minus=\dimen180
+\ttl@toksa=\toks28
+\titlewidth=\dimen181
+\titlewidthlast=\dimen182
+\titlewidthfirst=\dimen183
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen184
+\Gin@req@width=\dimen185
+) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ (c:/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+ (c:/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)) (c:/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (c:/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) (c:/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+ (c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))) (c:/texlive/2021/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip74
+\multirow@cntb=\count297
+\multirow@dima=\skip75
+\bigstrutjot=\dimen186
+) (c:/texlive/2021/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (c:/texlive/2021/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
+
+
+Package tocbibind Note: Using section or other style headings.
+
+) (c:/texlive/2021/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (c:/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count298
+\rotFPtop=\skip76
+\rotFPbot=\skip77
+\rot@float@box=\box58
+\rot@mess@toks=\toks29
+) (c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count299
+\l__pdf_internal_box=\box59
+) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=674.33032pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+(c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count300
+\scratchdimen=\dimen187
+\scratchbox=\box60
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen188
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks31
+)
+\c@lstlisting=\count306
+<logo.png, id=1, 1204.5pt x 1284.8pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 70.
+(pdftex.def)             Requested size: 199.16928pt x 212.43375pt.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 74.
+ (c:/texlive/2021/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+ (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo.png>]
+No file main.toc.
+\tf@toc=\write3
+\openout3 = `main.toc'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1]
+
+Package natbib Warning: Citation `FYP2022' on page 1 undefined on input line 100.
+
+
+Package natbib Warning: Citation `Sharma2017' on page 1 undefined on input line 111.
+
+
+Package natbib Warning: Citation `Janjua2017' on page 1 undefined on input line 111.
+
+
+Package natbib Warning: Citation `Janjua2017' on page 1 undefined on input line 111.
+
+
+Package natbib Warning: Citation `Simjanoska20182' on page 1 undefined on input line 111.
+
+
+Package natbib Warning: Citation `Kario2021' on page 1 undefined on input line 111.
+
+
+Package natbib Warning: Citation `Zaki2018' on page 1 undefined on input line 111.
+
+
+Package natbib Warning: Citation `Malikeh2019' on page 1 undefined on input line 111.
+
+
+Package natbib Warning: Citation `Bard2019' on page 1 undefined on input line 111.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[1]
+
+Package natbib Warning: Citation `Tanveer2018' on page 2 undefined on input line 119.
+
+
+Package natbib Warning: Citation `Wang2018' on page 2 undefined on input line 119.
+
+
+Package natbib Warning: Citation `Bard2019' on page 2 undefined on input line 119.
+
+
+Package natbib Warning: Citation `Janjua2017' on page 2 undefined on input line 119.
+
+
+LaTeX Warning: Reference `hypertension' on page 2 undefined on input line 119.
+
+<Figures/hypertension.jpeg, id=20, 1161.33875pt x 567.11874pt>
+File: Figures/hypertension.jpeg Graphic file (type jpg)
+<use Figures/hypertension.jpeg>
+Package pdftex.def Info: Figures/hypertension.jpeg  used on input line 121.
+(pdftex.def)             Requested size: 341.42241pt x 166.72745pt.
+
+Package natbib Warning: Citation `hypertrophic' on page 2 undefined on input line 122.
+
+
+Package natbib Warning: Citation `hypertrophic' on page 2 undefined on input line 122.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
+
+ []
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:124: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \end{figure} \\ \newline
+                               \noindent Hence it is clear that hypertension...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:124: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \end{figure} \\ \newline
+                               \noindent Hence it is clear that hypertension...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `Simjanoska20182' on page 2 undefined on input line 128.
+
+
+Package natbib Warning: Citation `Simjanoska20181' on page 2 undefined on input line 128.
+
+
+Package natbib Warning: Citation `Pradenas2020' on page 2 undefined on input line 128.
+
+<Figures/sbp_dbp.png, id=21, 692.5875pt x 469.755pt>
+File: Figures/sbp_dbp.png Graphic file (type png)
+<use Figures/sbp_dbp.png>
+Package pdftex.def Info: Figures/sbp_dbp.png  used on input line 130.
+(pdftex.def)             Requested size: 341.44217pt x 231.58687pt.
+
+Package natbib Warning: Citation `SBP' on page 2 undefined on input line 131.
+
+
+Package natbib Warning: Citation `SBP' on page 2 undefined on input line 131.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--133
+
+ []
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:133: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \end{figure} \\ \newline
+                               \noindent There are two  conventional  method...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:133: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \end{figure} \\ \newline
+                               \noindent There are two  conventional  method...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2 <./Figures/hypertension.jpeg>]
+
+Package natbib Warning: Citation `Zaki2018' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `Sharma2017' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `Pradenas2020' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `Zaki2018' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `Tanveer2018' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `Leung2016' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 3 undefined on input line 133.
+
+
+Package natbib Warning: Citation `Sharma2017' on page 3 undefined on input line 133.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:141: Undefined control sequence.
+<recently read> \lt 
+                    
+l.141 Normal & $\lt
+                   $ 90-119 & And 60-79 \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `Wang2018' on page 3 undefined on input line 149.
+
+
+Package natbib Warning: Citation `Simjanoska20181' on page 3 undefined on input line 149.
+
+
+Package natbib Warning: Citation `Wang2018' on page 3 undefined on input line 149.
+
+
+Package natbib Warning: Citation `Simjanoska20181' on page 3 undefined on input line 149.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--150
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 <./Figures/sbp_dbp.png>]
+
+Package natbib Warning: Citation `Huang2021' on page 4 undefined on input line 153.
+
+
+Package natbib Warning: Citation `Kario2021' on page 4 undefined on input line 153.
+
+
+Package natbib Warning: Citation `Kario2021' on page 4 undefined on input line 153.
+
+
+Package natbib Warning: Citation `Huang2021' on page 4 undefined on input line 153.
+
+
+Package natbib Warning: Citation `Kario2021' on page 4 undefined on input line 153.
+
+
+Package natbib Warning: Citation `Simjanoska20181' on page 4 undefined on input line 155.
+
+
+Package natbib Warning: Citation `Kumar2015' on page 4 undefined on input line 155.
+
+
+Package natbib Warning: Citation `Tanveer2018' on page 4 undefined on input line 155.
+
+
+Package natbib Warning: Citation `Simjanoska20181' on page 4 undefined on input line 155.
+
+
+Package natbib Warning: Citation `Tanveer2018' on page 4 undefined on input line 155.
+
+
+LaTeX Warning: Reference `qrs' on page 4 undefined on input line 155.
+
+
+Package natbib Warning: Citation `Kumar2015' on page 4 undefined on input line 155.
+
+<Figures/qrs.png, id=30, 613.29124pt x 250.9375pt>
+File: Figures/qrs.png Graphic file (type png)
+<use Figures/qrs.png>
+Package pdftex.def Info: Figures/qrs.png  used on input line 157.
+(pdftex.def)             Requested size: 341.42876pt x 139.70079pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--160
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4]
+
+Package natbib Warning: Citation `ElHajj2020' on page 5 undefined on input line 162.
+
+
+Package natbib Warning: Citation `Tanveer2018' on page 5 undefined on input line 162.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 5 undefined on input line 162.
+
+
+Package natbib Warning: Citation `Kumar2015' on page 5 undefined on input line 162.
+
+<Figures/ppg.png, id=35, 329.43076pt x 243.309pt>
+File: Figures/ppg.png Graphic file (type png)
+<use Figures/ppg.png>
+Package pdftex.def Info: Figures/ppg.png  used on input line 164.
+(pdftex.def)             Requested size: 341.45381pt x 252.18892pt.
+
+Package natbib Warning: Citation `ElHajj2020' on page 5 undefined on input line 165.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 5 undefined on input line 165.
+
+
+LaTeX Warning: Reference `ppg' on page 5 undefined on input line 167.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 5 undefined on input line 167.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 5 undefined on input line 167.
+
+
+Package natbib Warning: Citation `Pradenas2020' on page 5 undefined on input line 167.
+
+
+Package natbib Warning: Citation `Liu2020' on page 5 undefined on input line 169.
+
+
+Package natbib Warning: Citation `Nye2015' on page 5 undefined on input line 169.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5 <./Figures/qrs.png> <./Figures/ppg.png>]
+
+Package natbib Warning: Citation `Tanveer2018' on page 6 undefined on input line 172.
+
+
+Package natbib Warning: Citation `Wang2018' on page 6 undefined on input line 172.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 6 undefined on input line 172.
+
+
+LaTeX Warning: Reference `ptt' on page 6 undefined on input line 172.
+
+<Figures/ptt.png, id=42, 391.4625pt x 287.27325pt>
+File: Figures/ptt.png Graphic file (type png)
+<use Figures/ptt.png>
+Package pdftex.def Info: Figures/ptt.png  used on input line 175.
+(pdftex.def)             Requested size: 341.45366pt x 250.57446pt.
+
+Package natbib Warning: Citation `ElHajj2020' on page 6 undefined on input line 176.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 6 undefined on input line 176.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:178: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \end{figure} \\ \newline
+                               \noindent It is important to note for Figure ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:178: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \end{figure} \\ \newline
+                               \noindent It is important to note for Figure ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `ptt' on page 6 undefined on input line 178.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 6 undefined on input line 178.
+
+
+Package natbib Warning: Citation `Kumar2015' on page 6 undefined on input line 178.
+
+
+LaTeX Warning: Reference `pat' on page 6 undefined on input line 181.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 6 undefined on input line 181.
+
+
+Package natbib Warning: Citation `Malikeh2019' on page 6 undefined on input line 181.
+
+
+Package natbib Warning: Citation `Jeong2021' on page 6 undefined on input line 181.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 6 undefined on input line 181.
+
+<Figures/pat.png, id=43, 558.28575pt x 308.95425pt>
+File: Figures/pat.png Graphic file (type png)
+<use Figures/pat.png>
+Package pdftex.def Info: Figures/pat.png  used on input line 183.
+(pdftex.def)             Requested size: 341.43123pt x 188.94737pt.
+
+Package natbib Warning: Citation `ElHajj2020' on page 6 undefined on input line 184.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 6 undefined on input line 184.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:186: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 \end{figure} \\ \newline
+                               \noindent The Pre-ejection Period (PEP) delay...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:186: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 \end{figure} \\ \newline
+                               \noindent The Pre-ejection Period (PEP) delay...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6 <./Figures/ptt.png>]
+
+Package natbib Warning: Citation `Pradenas2020' on page 7 undefined on input line 191.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 7 undefined on input line 191.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:195: LaTeX Error: Environment flushleft* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 ... \\ \newline \noindent \begin{flushleft*}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:196: Misplaced alignment tab character &.
+l.196     PWV &
+               = Velocity of the pulse wave (m/s)\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:197: Misplaced alignment tab character &.
+l.197     E &
+             = \text{ Young's modulus of vessel wall (Pa)}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:198: Misplaced alignment tab character &.
+l.198     h &
+             = \text{ vessel thickness (m)}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:199: Missing $ inserted.
+<inserted text> 
+                $
+l.199     \rho
+               &= \text{ blood density (kg/$m^3$)}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:199: Misplaced alignment tab character &.
+l.199     \rho &
+                = \text{ blood density (kg/$m^3$)}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:200: Misplaced alignment tab character &.
+l.200     d &
+             = \text{ arterial diameter (m)}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:201: LaTeX Error: \begin{document} ended by \end{flushleft*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \end{flushleft*}
+                      \\ \newline \noindent The Young's modulus of the vesse...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:201: Missing $ inserted.
+<inserted text> 
+                $
+l.201 \end{flushleft*}
+                      \\ \newline \noindent The Young's modulus of the vesse...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--201
+
+ []
+
+
+Package natbib Warning: Citation `Janjua2017' on page 7 undefined on input line 203.
+
+
+Package natbib Warning: Citation `Tanveer2018' on page 7 undefined on input line 203.
+
+
+Package natbib Warning: Citation `Yang2020' on page 7 undefined on input line 203.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7 <./Figures/pat.png>]
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:205: LaTeX Error: Environment flushleft* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 ... \\ \newline \noindent \begin{flushleft*}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:206: Misplaced alignment tab character &.
+l.206     r &
+             = $\frac{d}{2}$ = \text{ arterial radius}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:207: Missing $ inserted.
+<inserted text> 
+                $
+l.207     \Delta
+                 X &= \text{ distance from heart to vessel}\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:207: Misplaced alignment tab character &.
+l.207     \Delta X &
+                    = \text{ distance from heart to vessel}\\
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:208: LaTeX Error: \begin{document} ended by \end{flushleft*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.208 \end{flushleft*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:208: Missing $ inserted.
+<inserted text> 
+                $
+l.208 \end{flushleft*}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
+
+ []
+
+
+Package natbib Warning: Citation `Jeong2021' on page 8 undefined on input line 211.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 8 undefined on input line 211.
+
+
+Package natbib Warning: Citation `Jeong2021' on page 8 undefined on input line 211.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 8 undefined on input line 211.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8]
+
+Package natbib Warning: Citation `Simjanoska20182' on page 9 undefined on input line 213.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 9 undefined on input line 213.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
+
+ []
+
+
+Package natbib Warning: Citation `Bard2019' on page 9 undefined on input line 216.
+
+
+Package natbib Warning: Citation `Bard2019' on page 9 undefined on input line 216.
+
+<Figures/arterial.png, id=55, 367.97475pt x 364.36125pt>
+File: Figures/arterial.png Graphic file (type png)
+<use Figures/arterial.png>
+Package pdftex.def Info: Figures/arterial.png  used on input line 218.
+(pdftex.def)             Requested size: 170.71344pt x 169.03705pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--221
+
+ []
+
+
+LaTeX Warning: Reference `tonometry' on page 9 undefined on input line 221.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9 <./Figures/arterial.png>]
+
+Package natbib Warning: Citation `Bard2019' on page 10 undefined on input line 224.
+
+
+Package natbib Warning: Citation `Bard2019' on page 10 undefined on input line 224.
+
+
+Package natbib Warning: Citation `Bard2019' on page 10 undefined on input line 227.
+
+
+Package natbib Warning: Citation `Bard2019' on page 10 undefined on input line 227.
+
+
+Package natbib Warning: Citation `Bard2019' on page 10 undefined on input line 227.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Overfull \hbox (3.7307pt too wide) in paragraph at lines 227--228
+\OT1/cmr/m/n/10.95 The FreeS-can Per-sonal Car-dio-vas-cu-lar Mon-i-tor, which is de-vel-oped by the Tai-wanese com-pany Maisense
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
+
+Package natbib Warning: Citation `Pradenas2020' on page 11 undefined on input line 233.
+
+
+Package natbib Warning: Citation `ElHajj2020' on page 11 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Pradenas2020' on page 11 undefined on input line 233.
+
+
+Package natbib Warning: Citation `Yang2020' on page 11 undefined on input line 233.
+
+
+Package natbib Warning: Citation `deeplearning' on page 11 undefined on input line 233.
+
+<Figures/ann.png, id=62, 464.33475pt x 206.57175pt>
+File: Figures/ann.png Graphic file (type png)
+<use Figures/ann.png>
+Package pdftex.def Info: Figures/ann.png  used on input line 235.
+(pdftex.def)             Requested size: 284.54036pt x 126.58539pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--238
+
+ []
+
+
+LaTeX Warning: Reference `resnet' on page 11 undefined on input line 241.
+
+
+Package natbib Warning: Citation `deeplearning' on page 11 undefined on input line 241.
+
+<Figures/resnet.png, id=63, 615.4995pt x 174.6525pt>
+File: Figures/resnet.png Graphic file (type png)
+<use Figures/resnet.png>
+Package pdftex.def Info: Figures/resnet.png  used on input line 243.
+(pdftex.def)             Requested size: 426.80824pt x 121.10997pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--246
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11 <./Figures/ann.png>]
+
+Package natbib Warning: Citation `rnns' on page 12 undefined on input line 250.
+
+
+Package natbib Warning: Citation `rnns' on page 12 undefined on input line 250.
+
+
+Package natbib Warning: Citation `deeplearning' on page 12 undefined on input line 250.
+
+
+Package natbib Warning: Citation `rnns' on page 12 undefined on input line 250.
+
+<Figures/rnn.png, id=68, 820.86674pt x 259.56975pt>
+File: Figures/rnn.png Graphic file (type png)
+<use Figures/rnn.png>
+Package pdftex.def Info: Figures/rnn.png  used on input line 252.
+(pdftex.def)             Requested size: 426.79054pt x 134.95723pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--255
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--255
+
+ []
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:255: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255 \end{figure} \\ \newline
+                               \noindent Figure \ref{rnn2} shows the simples...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:255: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255 \end{figure} \\ \newline
+                               \noindent Figure \ref{rnn2} shows the simples...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `rnn2' on page 12 undefined on input line 255.
+
+<Figures/rnn2.png, id=69, 479.391pt x 213.1965pt>
+File: Figures/rnn2.png Graphic file (type png)
+<use Figures/rnn2.png>
+Package pdftex.def Info: Figures/rnn2.png  used on input line 257.
+(pdftex.def)             Requested size: 426.80295pt x 189.80934pt.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:260: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 \end{figure} \\ \newline
+                               \noindent During training, the hidden state $...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:260: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 \end{figure} \\ \newline
+                               \noindent During training, the hidden state $...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12 <./Figures/resnet.png> <./Figures/rnn.png>]
+
+Package natbib Warning: Citation `lstm' on page 13 undefined on input line 260.
+
+<Figures/rnn3.png, id=73, 829.29825pt x 309.5565pt>
+File: Figures/rnn3.png Graphic file (type png)
+<use Figures/rnn3.png>
+Package pdftex.def Info: Figures/rnn3.png  used on input line 262.
+(pdftex.def)             Requested size: 426.79599pt x 159.31238pt.
+
+Package natbib Warning: Citation `deeplearning' on page 13 undefined on input line 268.
+
+
+Package natbib Warning: Citation `deeplearning' on page 13 undefined on input line 268.
+
+<Figures/tnn.png, id=74, 313.17pt x 438.438pt>
+File: Figures/tnn.png Graphic file (type png)
+<use Figures/tnn.png>
+Package pdftex.def Info: Figures/tnn.png  used on input line 270.
+(pdftex.def)             Requested size: 203.24747pt x 284.54646pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--273
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13 <./Figures/rnn2.png> <./Figures/rnn3.png>]
+
+Package natbib Warning: Citation `LitSurvey' on page 14 undefined on input line 281.
+
+
+LaTeX Warning: Reference `litsurveytab' on page 14 undefined on input line 281.
+
+
+Package natbib Warning: Citation `Ahmad2012' on page 14 undefined on input line 286.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:286: Missing $ inserted.
+<inserted text> 
+                $
+l.286 ...P & 10 & 24-63 & Numerical solution & \pm
+                                                   5.93 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:287: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.287 \cite
+           {Chen2013} & ECG & 5 & N/A & Analytical solution &  9 \pm 5.6\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:287: Missing $ inserted.
+<inserted text> 
+                $
+l.287 \cite
+           {Chen2013} & ECG & 5 & N/A & Analytical solution &  9 \pm 5.6\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:287: Missing } inserted.
+<inserted text> 
+                }
+l.287 \cite
+           {Chen2013} & ECG & 5 & N/A & Analytical solution &  9 \pm 5.6\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Chen2013' on page 14 undefined on input line 287.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:287: Missing $ inserted.
+<inserted text> 
+                $
+l.287 ... & 5 & N/A & Analytical solution &  9 \pm
+                                                   5.6\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:288: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.288 \cite
+           {Daimiwal2014} & PPG & 16 & 18-48 & Frequency analysis &  0.8 \pm...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 \cite
+           {Daimiwal2014} & PPG & 16 & 18-48 & Frequency analysis &  0.8 \pm...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:288: Missing } inserted.
+<inserted text> 
+                }
+l.288 \cite
+           {Daimiwal2014} & PPG & 16 & 18-48 & Frequency analysis &  0.8 \pm...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Daimiwal2014' on page 14 undefined on input line 288.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:288: Missing $ inserted.
+<inserted text> 
+                $
+l.288 ...6 & 18-48 & Frequency analysis &  0.8 \pm
+                                                    7\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:289: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.289 \cite
+           {Chan2001} & ECG, PPG, PTT & N/A & N/A & Analytical solution &  7...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:289: Missing $ inserted.
+<inserted text> 
+                $
+l.289 \cite
+           {Chan2001} & ECG, PPG, PTT & N/A & N/A & Analytical solution &  7...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:289: Missing } inserted.
+<inserted text> 
+                }
+l.289 \cite
+           {Chan2001} & ECG, PPG, PTT & N/A & N/A & Analytical solution &  7...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Chan2001' on page 14 undefined on input line 289.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:289: Missing $ inserted.
+<inserted text> 
+                $
+l.289 ...A & N/A & Analytical solution &  7.49 \pm
+                                                    8.8\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:290: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.290 \cite
+           {Yamanaka2016} & PTT & 127 & N/A & Wavelet transforms &  \pm 7.63\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:290: Missing $ inserted.
+<inserted text> 
+                $
+l.290 \cite
+           {Yamanaka2016} & PTT & 127 & N/A & Wavelet transforms &  \pm 7.63\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:290: Missing } inserted.
+<inserted text> 
+                }
+l.290 \cite
+           {Yamanaka2016} & PTT & 127 & N/A & Wavelet transforms &  \pm 7.63\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Yamanaka2016' on page 14 undefined on input line 290.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:290: Missing $ inserted.
+<inserted text> 
+                $
+l.290 ...T & 127 & N/A & Wavelet transforms &  \pm
+                                                   7.63\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:291: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.291 \cite
+           {Ding2016} & PTT, PPG & 27 & 21-29 & Analytical solution &  -0.37...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:291: Missing $ inserted.
+<inserted text> 
+                $
+l.291 \cite
+           {Ding2016} & PTT, PPG & 27 & 21-29 & Analytical solution &  -0.37...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:291: Missing } inserted.
+<inserted text> 
+                }
+l.291 \cite
+           {Ding2016} & PTT, PPG & 27 & 21-29 & Analytical solution &  -0.37...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Ding2016' on page 14 undefined on input line 291.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:291: Missing $ inserted.
+<inserted text> 
+                $
+l.291 ... 21-29 & Analytical solution &  -0.37 \pm
+                                                    5.21\\ \hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:291: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.291 ...ical solution &  -0.37 \pm  5.21\\ \hline
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:291: Missing $ inserted.
+<inserted text> 
+                $
+l.291 ...ical solution &  -0.37 \pm  5.21\\ \hline
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:291: Missing } inserted.
+<inserted text> 
+                }
+l.291 ...ical solution &  -0.37 \pm  5.21\\ \hline
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14 <./Figures/tnn.png>]
+
+Package natbib Warning: Citation `Yang2020' on page 15 undefined on input line 301.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:301: Missing $ inserted.
+<inserted text> 
+                $
+l.301 ..., PPG & 14 males & 17-43 & ANN & 7.99 \pm
+                                                   10.34\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:302: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.302 \cite
+           {Gao2016} & PPG & 65 & 22-65 & Wavelet, SVM & 5.1 \pm 4.3\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:302: Missing $ inserted.
+<inserted text> 
+                $
+l.302 \cite
+           {Gao2016} & PPG & 65 & 22-65 & Wavelet, SVM & 5.1 \pm 4.3\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:302: Missing } inserted.
+<inserted text> 
+                }
+l.302 \cite
+           {Gao2016} & PPG & 65 & 22-65 & Wavelet, SVM & 5.1 \pm 4.3\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Gao2016' on page 15 undefined on input line 302.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:302: Missing $ inserted.
+<inserted text> 
+                $
+l.302 ...PPG & 65 & 22-65 & Wavelet, SVM & 5.1 \pm
+                                                   4.3\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:303: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.303 \cite
+           {Kachuee2015} & PPG & MIMIC II & Adults & Linear Reg., ANN, SVM &...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:303: Missing $ inserted.
+<inserted text> 
+                $
+l.303 \cite
+           {Kachuee2015} & PPG & MIMIC II & Adults & Linear Reg., ANN, SVM &...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:303: Missing } inserted.
+<inserted text> 
+                }
+l.303 \cite
+           {Kachuee2015} & PPG & MIMIC II & Adults & Linear Reg., ANN, SVM &...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Kachuee2015' on page 15 undefined on input line 303.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:303: Missing $ inserted.
+<inserted text> 
+                $
+l.303 ...dults & Linear Reg., ANN, SVM &  13.84\pm
+                                                    17.56\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:304: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.304 \cite
+           {Simjanoska20182} & ECG & 51 & 16-83 & Complexity analysis + ML &...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:304: Missing $ inserted.
+<inserted text> 
+                $
+l.304 \cite
+           {Simjanoska20182} & ECG & 51 & 16-83 & Complexity analysis + ML &...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:304: Missing } inserted.
+<inserted text> 
+                }
+l.304 \cite
+           {Simjanoska20182} & ECG & 51 & 16-83 & Complexity analysis + ML &...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Simjanoska20182' on page 15 undefined on input line 304.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:304: Missing $ inserted.
+<inserted text> 
+                $
+l.304 ...83 & Complexity analysis + ML &  7.72 \pm
+                                                    10.22\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:305: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.305 \cite
+           {Wang2018} & PPG & 72 & N/A & ANN (MLP) & 4.02 \pm 2.79\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:305: Missing $ inserted.
+<inserted text> 
+                $
+l.305 \cite
+           {Wang2018} & PPG & 72 & N/A & ANN (MLP) & 4.02 \pm 2.79\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:305: Missing } inserted.
+<inserted text> 
+                }
+l.305 \cite
+           {Wang2018} & PPG & 72 & N/A & ANN (MLP) & 4.02 \pm 2.79\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Wang2018' on page 15 undefined on input line 305.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:305: Missing $ inserted.
+<inserted text> 
+                $
+l.305 ...} & PPG & 72 & N/A & ANN (MLP) & 4.02 \pm
+                                                   2.79\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:306: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.306 \cite
+           {Pradenas2020} & ECG, PPG & MIMIC II & Adults,  neonatal & ANN (1...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:306: Missing $ inserted.
+<inserted text> 
+                $
+l.306 \cite
+           {Pradenas2020} & ECG, PPG & MIMIC II & Adults,  neonatal & ANN (1...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:306: Missing } inserted.
+<inserted text> 
+                }
+l.306 \cite
+           {Pradenas2020} & ECG, PPG & MIMIC II & Adults,  neonatal & ANN (1...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Pradenas2020' on page 15 undefined on input line 306.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:306: Missing $ inserted.
+<inserted text> 
+                $
+l.306 ...  neonatal & ANN (150 neurons) & 5.76 \pm
+                                                   6.39\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:307: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.307 \cite
+           {Tanveer2018} & ECG, PPG & 39 & 20-100 & ANN-LSTM & 1.10\\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:307: Missing $ inserted.
+<inserted text> 
+                $
+l.307 \cite
+           {Tanveer2018} & ECG, PPG & 39 & 20-100 & ANN-LSTM & 1.10\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:307: Missing } inserted.
+<inserted text> 
+                }
+l.307 \cite
+           {Tanveer2018} & ECG, PPG & 39 & 20-100 & ANN-LSTM & 1.10\\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Tanveer2018' on page 15 undefined on input line 307.
+
+
+Package natbib Warning: Citation `Chen2019' on page 15 undefined on input line 308.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:308: Missing $ inserted.
+<inserted text> 
+                $
+l.308 ... MIMIC I & N/A & SVM, Lin Reg. & 3.27 \pm
+                                                   5.52\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:309: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.309 \cite
+           {Ripoll2019} & PTT & 250 & MIMIC I & ANN-RBM & 3.70\\\hline
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:309: Missing $ inserted.
+<inserted text> 
+                $
+l.309 \cite
+           {Ripoll2019} & PTT & 250 & MIMIC I & ANN-RBM & 3.70\\\hline
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:309: Missing } inserted.
+<inserted text> 
+                }
+l.309 \cite
+           {Ripoll2019} & PTT & 250 & MIMIC I & ANN-RBM & 3.70\\\hline
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Package natbib Warning: Citation `Ripoll2019' on page 15 undefined on input line 309.
+
+
+Overfull \hbox (44.01418pt too wide) in paragraph at lines 298--311
+[][] 
+ []
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:313: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.313 \end{table} \\ \newline
+                              \noindent The Mean Absolute Error (MAE) of the...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:313: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.313 \end{table} \\ \newline
+                              \noindent The Mean Absolute Error (MAE) of the...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+
+ []
+
+
+LaTeX Warning: Reference `litsurveytab2' on page 15 undefined on input line 319.
+
+
+Package natbib Warning: Citation `Su2017' on page 15 undefined on input line 319.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15]
+
+Package natbib Warning: Citation `Gantt' on page 16 undefined on input line 325.
+
+
+LaTeX Warning: Reference `gantt1' on page 16 undefined on input line 328.
+
+
+Package natbib Warning: Citation `challenge2010' on page 16 undefined on input line 332.
+
+<Figures/part1_gantt.png, id=85, 340.27126pt x 135.50626pt>
+File: Figures/part1_gantt.png Graphic file (type png)
+<use Figures/part1_gantt.png>
+Package pdftex.def Info: Figures/part1_gantt.png  used on input line 336.
+(pdftex.def)             Requested size: 284.54344pt x 113.31375pt.
+<Figures/part2_gantt.png, id=86, 292.09125pt x 99.37125pt>
+File: Figures/part2_gantt.png Graphic file (type png)
+<use Figures/part2_gantt.png>
+Package pdftex.def Info: Figures/part2_gantt.png  used on input line 350.
+(pdftex.def)             Requested size: 284.5538pt x 96.80696pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16 <./Figures/part1_gantt.png>]
+
+Package natbib Warning: Citation `challenge2010' on page 17 undefined on input line 358.
+
+<Figures/part3_gantt.png, id=90, 342.68025pt x 107.80275pt>
+File: Figures/part3_gantt.png Graphic file (type png)
+<use Figures/part3_gantt.png>
+Package pdftex.def Info: Figures/part3_gantt.png  used on input line 364.
+(pdftex.def)             Requested size: 284.5448pt x 89.51408pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17 <./Figures/part2_gantt.png> <./Figures/part3_gantt.png>]
+
+LaTeX Warning: Reference `gantt4' on page 18 undefined on input line 370.
+
+<Figures/part4_gantt.png, id=95, 342.68025pt x 118.64325pt>
+File: Figures/part4_gantt.png Graphic file (type png)
+<use Figures/part4_gantt.png>
+Package pdftex.def Info: Figures/part4_gantt.png  used on input line 378.
+(pdftex.def)             Requested size: 284.5448pt x 98.51549pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18 <./Figures/part4_gantt.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19]
+
+Package natbib Warning: Citation `Moody1996' on page 20 undefined on input line 405.
+
+
+Package natbib Warning: Citation `Saeed2011' on page 20 undefined on input line 405.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+
+Package natbib Warning: Citation `challenge2010' on page 20 undefined on input line 407.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:411: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.411 \end{itemize} \\ \newline
+                                \noindent Once a greater understanding of th...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:411: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.411 \end{itemize} \\ \newline
+                                \noindent Once a greater understanding of th...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `Github' on page 20 undefined on input line 414.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21]
+
+Package natbib Warning: Citation `MedicalEthics' on page 22 undefined on input line 421.
+
+
+Package natbib Warning: Citation `Bard2019' on page 22 undefined on input line 424.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22]
+
+Package natbib Warning: Citation `Python' on page 23 undefined on input line 436.
+
+
+Package natbib Warning: Citation `Goldberger2000' on page 23 undefined on input line 436.
+
+
+Package natbib Warning: Citation `Physionet' on page 23 undefined on input line 436.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 439--441
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[23]
+
+LaTeX Warning: Reference `tab_experimentation' on page 24 undefined on input line 445.
+
+
+Overfull \hbox (0.85834pt too wide) in paragraph at lines 447--458
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `challenge2010' on page 24 undefined on input line 458.
+
+
+Package natbib Warning: Citation `challenge2010' on page 24 undefined on input line 458.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:460: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.460 \end{table} \\ \newline
+                              \noindent It is noted that the first three met...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:460: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.460 \end{table} \\ \newline
+                              \noindent It is noted that the first three met...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Package natbib Warning: Citation `hartmann' on page 24 undefined on input line 460.
+
+
+Package natbib Warning: Citation `mneimneh' on page 24 undefined on input line 460.
+
+
+Package natbib Warning: Citation `iSilva' on page 24 undefined on input line 460.
+
+
+Package natbib Warning: Citation `lSilva' on page 24 undefined on input line 460.
+
+
+Package natbib Warning: Citation `rodrigues' on page 24 undefined on input line 460.
+
+
+Package natbib Warning: Citation `sullivan' on page 24 undefined on input line 460.
+
+
+Package natbib Warning: Citation `challenge2010' on page 24 undefined on input line 460.
+
+
+LaTeX Warning: Reference `lol' on page 24 undefined on input line 460.
+
+Package epstopdf Info: Source file: <Figures/challenge2010.eps>
+(epstopdf)                    date: 2022-02-03 18:21:23
+(epstopdf)                    size: 29875 bytes
+(epstopdf)             Output file: <Figures/challenge2010-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-06-19 21:31:35
+(epstopdf)                    size: 11715 bytes
+(epstopdf)             Command: <repstopdf --outfile=Figures/challenge2010-eps-converted-to.pdf Figures/challenge2010.eps>
+(epstopdf)             \includegraphics on input line 462.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/challenge2010-eps-converted-to.pdf, id=116, 421.575pt x 316.18124pt>
+File: Figures/challenge2010-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/challenge2010-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/challenge2010-eps-converted-to.pdf  used on input line 462.
+(pdftex.def)             Requested size: 398.34544pt x 298.75908pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--465
+
+ []
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:465: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.465 \end{figure} \\ \newline
+                               \noindent As the results in Figure \ref{lol} ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:465: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.465 \end{figure} \\ \newline
+                               \noindent As the results in Figure \ref{lol} ...
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Reference `lol' on page 24 undefined on input line 465.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24 <./Figures/challenge2010-eps-converted-to.pdf>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 472--473
+
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26]
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:479: Undefined control sequence.
+<recently read> \gt 
+                    
+l.479 ...ificant variation in BP measurements($\gt
+                                                   12$ mmHg systolic or $\gt...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/jitbh/OneDrive/Documents/GitHub/FinalYearProject---BP-from-ECG-PPG/Interim Report/main.tex:479: Undefined control sequence.
+<recently read> \gt 
+                    
+l.479 ...asurements($\gt 12$ mmHg systolic or $\gt
+                                                   8$ mmHg diastolic) from t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Package natbib Warning: Citation `Bard2019' on page 27 undefined on input line 479.
+
+<Figures/gantt.png, id=135, 1087.6635pt x 200.54926pt>
+File: Figures/gantt.png Graphic file (type png)
+<use Figures/gantt.png>
+Package pdftex.def Info: Figures/gantt.png  used on input line 486.
+(pdftex.def)             Requested size: 512.1645pt x 94.43564pt.
+
+Overfull \hbox (28.46764pt too wide) in paragraph at lines 486--487
+ [][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27 <./Figures/gantt.png>]
+No file main.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+(./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 9288 strings out of 478287
+ 148816 string characters out of 5850750
+ 653051 words of memory out of 5000000
+ 27306 multiletter control sequences out of 15000+600000
+ 480615 words of font info for 71 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,12n,63p,2255b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (29 pages, 1982391 bytes).
+PDF statistics:
+ 192 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+

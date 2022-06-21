@@ -1,69 +1,42 @@
 \section{Analysis and Design}
-\begin{comment}
-If your project involves designing a system, give a
-good high-level overview of your design.\\ \newline \noindent In many projects, the final design is different from
-that originally envisaged. If the differences are
-interesting, write about them, and why the changes
-were made. Discoveries during the project may have changed the direction of work, or invalidated prior
-work, in which case you get credit for the design
-process, if it is principled, as well as the end product.\\ \newline \noindent If your design was not implemented fully, describe
-which parts you did implement, and which you didn't.
-If the reason you didn't implement everything is
-interesting (eg it turned out to be difficult for
-unexpected reasons), write about it.\\ \newline \noindent Note that the Project Report is written at the end of
-project work and must describe the project work, but
-need not do this chronologically. Often the best
-description of design, in retrospect, is far from the
-way in which you developed it. Where the evolution
-of ideas is interesting or relevant it can be described,
-as above, but otherwise the order in which things
-were done need not be documented.\\ \newline \noindent The Examiners are just as interested in the
-engineering process you went through in performing
-your project work as the results you finally produced.
-So make sure your report identifies when design
-choices have to be made, what were the possibilities,
-and why you made the particular choices and
-decisions that you did. They are looking for principled
-rational arguments and for critical assessment.
-Engineering involves trade-offs and the reasons for a
-design decision may be various, and may in some
-cases be out of your control. Explicit understanding of
-this, and the ability to communicate it, is important.
-\end{comment}
 
 In this chapter, the aims are to:
 
 \begin{itemize}
     \item Provide a high-level overview of the design of the system to estimate blood pressure values from PPG signals
-    \item Describe the specifications of each block of the system
+    \item Describe the specifications of each stage of the system based on the findings of the literature review in Chapter 2
     \item Discuss any changes or justifications for design choices made for the system blocks where appropriate
 \end{itemize}
 
 \subsection{High Level overview of proposed design}
-
-\begin{itemize}
-    \item Block diagram of ALL STAGES
-    \item Just intro paragraph, based directly off of literature review findings
-    \item Then go into sub chapters for each block
-\end{itemize}
+Figure \ref{blockdiag} illustrates the high-level design specification for the 
+cuffless estimation of blood pressure from PPG signals. The diagram describes 
+each discrete stage that is required. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=15cm,height=15cm,keepaspectratio]{AnalysisDesign/blockDiag.png}
     \caption{High-level block diagram of blood pressure cuffless estimation from PPG}
     \label{blockdiag}
-\end{figure} 
+\end{figure}\noindent The following subchapters will explain each stage in more detail.
 
-\subsection{Choice of dataset}
-\textcolor{red}{Give a better explanation of the dataset you're using. Age range, gender split, any medical conditions.. This can all be found in the dataset website or the relevant papers linked to the dataset.}
-As previously discussed in the literature review in Chapter 2, the chosen dataset is the 
-Medical Information Mart for Intensive Care (MIMIC) dataset. \textcolor{red}{Did you? I must have overlooked it.} The MIMIC Database 
-includes data recorded from over 90 ICU patients. The data in each case include 
-signals and periodic measurements obtained from a bedside monitor as well as clinical 
-data obtained from the patient's medical record. The recordings vary in length; almost 
-all of them are at least 20 hours, and many are 40 hours or more \textcolor{red}{If you know how many, state it. Don't be chatty.}. In all, the database 
-contains nearly 200 patient-days of real-time signals and accompanying data \cite{Moody1996}.
-\textcolor{red}{I don't understand.. You say there are over 90 ICU patients (again state the exact number because it is known). So where do the 200 come from? (again can't be nearly 200.. Be exact.) - Did you use all 90 or 200 patients data. Everything you write in your methods needs to be clear for someone to repeat exactly what you have done. This will also help us review your code and run it to produce the exact same results you will be showing in the report.}
+\subsection{Choice of database}
+As previously discussed in the literature review in Chapter 2, the 
+MIMIC (Multi-parameter Intelligent Monitoring for Intensive Care) database has been chosen 
+for the implementation. The data has been recorded from patient monitors in the medical, 
+surgical, and cardiac intensive care units of Boston's Beth Israel Hospital. The MIMIC Database 
+has records for 72 ICU patients. Referring back to the motivation for this FYP, the early detection and prevention of hypertension and other Cardiovascular diseases (CVDs) is 
+crucial. Therefore, testing was only performed on patients with CVDs or heart-related issues, which was a data subset of 12 patients. The age range of the patients 
+is 52 to 85 years. In addition, the data is from 8 males and 4 females. The data obtained from the bedside monitors are divided into files 
+each containing 10 minutes of recorded signals, which can then be assembled without 
+gaps to form a continuous recording \cite{Moody1996}. Both the PPG and ABP signals in the MIMIC database 
+are sampled at a frequency of $125$ Hz. Each patient record contains a minimum of 73 and a maximum of 412 individual files.
+ The patients contain one of the following heart-related diseases:
+\begin{itemize}
+    \item \textbf{Congestive Heart Failure} (CHF). This refers to patients who suffer a chronic progressive condition that affects the pumping power of your heart muscle
+    \item \textbf{Postoperative Coronary Artery Bypass Graft} (CABG). This refers to patients recovering from a surgical procedure to restore normal blood flow to an obstructed coronary artery
+    \item \textbf{Myocardial Infarction} (MI) / \textbf{Cardiogenic shock}. This refers to patients who have suffered heart attacks or cardiac shock
+\end{itemize}NEED REFERENCES HERE!
 
 
 \subsection{Choice of programming language}
@@ -77,22 +50,26 @@ considered as a potential programming language to use, due to it having a wide r
 signal processing and machine learning add-on toolboxes. However Python has been shown 
 to offer a wider set of choices in graphics packages and toolsets, such as 
 through \texttt{matplotlib} \cite{matplotlib}, and it also produces more compact and readable 
-code.
+code. For this FYP, Python will be used in the Google Colaboratory environment in the form of a Jupyter notebook, as there is access to 
+to high-performance Graphics Processing Units (GPUs) on Google Cloud for training using machine learning. 
 
-\subsection{Extraction of raw ABP signal data}
-JUST DESCRIBE HERE! DONT SAY HOW IT IS DONE, JUST SAY WHY WHERE NEEDED!
+
+\subsection{Extraction of raw signal data}
+For this implementation, it is necessary to extract the raw signal data 
+for two signals, the ABP and PPG. Both signals are first extracted from 
+the Physionet website using the \texttt{wfdb} package.
 \begin{itemize}
     \item Use heartpy library (hp.process)
     \item Despite being measured using gold-standard invasive, still needs preprocessing. TALK ABOUT ALL STEPS!
 \end{itemize}
 
-\subsection{Extraction of raw PPG signal data}
 
 \subsection{Pre-processing of PPG}
 \begin{itemize}
     \item hp.process
     \item Butterworth filter
     \item Z-normalisation
+    \item Additional sanity checks using custom SBP and DBP min and max values
 \end{itemize}
 
 The $Z$-score normalisation equation is applied to the PPG signal, 
@@ -103,8 +80,19 @@ $PPG_{i}$ is the raw PPG signal, $\mu$ is the mean of the PPG signal and $\sigma
 
 
 \subsection{Feature extraction}
+\begin{itemize}
+    \item Based on Literature review, machine learning methods are favouring automated feature extraction
+    \item Hence, this method will segment the PPG signal into discrete windows and feed this into the network
+    \item However, there is still prominence among the handcrafted feature methods
+    \item Provide an additional exploration to add the first and second derivatives of the PPG to see if this affects the accuracy for any model
+\end{itemize}
 
-\subsection{Proposed Transformer model}
+\subsection{Machine Learning models}
+\begin{itemize}
+    \item Function based for each ML model
+    \item Using tensorflow and keras
+\end{itemize}
+
 
 \subsection{Error metrics}
 The two considered error calculations used in this experimentation are the Mean Absolute Error 

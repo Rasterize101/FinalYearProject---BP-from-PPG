@@ -1,5 +1,5 @@
 % !TEX encoding = UTF-8 Unicode
-\documentclass[12pt, a4paper,dvipsnames]{article}
+\documentclass[12pt, a4paper]{article}
 \usepackage[a4paper,left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
 \usepackage[utf8]{inputenc}
 \PassOptionsToPackage{hyphens}{url}
@@ -26,16 +26,14 @@
 \usepackage{ragged2e}
 \usepackage{lscape}
 \usepackage{hyperref}
+\usepackage{longtable}
 \usepackage{url}
+\usepackage{pythonhighlight}
 \usepackage[nottoc,numbib]{tocbibind}
 \usepackage{rotating}
 
-\bibliography{references}
-
-% \bibliographystyle{ieee}
-
 \setcounter{secnumdepth}{4}
-\setcounter{tocdepth}{3}
+\setcounter{tocdepth}{2}
 \lstset{language=MATLAB,
 	        frame=single,
 	        breaklines=true,
@@ -55,6 +53,8 @@
 \chead{}
 \rhead{}
 \cfoot{\thepage}
+
+\addbibresource{references.bib}
 
 \begin{document}\thispagestyle{empty}
 
@@ -107,19 +107,15 @@
 \newpage
 \input{Background/index.tex}
 \newpage
-%\input{RequirementsCapture/index.tex}
-%\newpage
 \input{AnalysisDesign/index.tex}
 \newpage
 \input{Implementation/index.tex}
-%\newpage
-%\input{Testing/index.tex}
+\newpage
+\input{Testing/index.tex}
 \newpage
 \input{Results/index.tex}
 \newpage
 \input{Evaluation/index.tex}
-%\newpage
-%\input{Ethics/index.tex}
 \newpage
 \input{ConclusionFW/index.tex}
 \newpage
@@ -128,6 +124,7 @@
 %\bibliography{references}
 
 \newpage
+\addcontentsline{toc}{section}{\appendixname}
 \input{Appendix/index.tex}
 
 
