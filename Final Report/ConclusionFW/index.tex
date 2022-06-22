@@ -1,20 +1,9 @@
 \section{Conclusions and Further Work}
 \begin{comment}
-    All good projects conclude with an objective evaluation of 
-the project's successes and failures and
+   successes and failures and
 suggestions for future work which can take the
-project further. It is important to understand that
-there is no such thing as a perfect project. Even
-the very best pieces of work have their
-limitations and you are expected to provide a
-proper critical appraisal of what you have done.
-Your assessors are bound to spot the limitations
-of your work and you are expected to be able to
-do the same. Further information can be found in the separate
-Final Report Structure and Contents document.\\ \newline \noindent How successful have you been? What have you
-achieved? How could the work be taken further given
-more time (perhaps by another student next year)? It
-is important here to identify positively what is
+project further.\\ \newline \noindent How successful have you been? What have you
+achieved?  It is important here to identify positively what is
 worthwhile in your work. At the same time, honesty,
 and a clear description of the limits of your work, is
 equally important. It is often most appropriate to
@@ -24,14 +13,10 @@ report, are your most significant achievements. In the
 conclusions you must summarise this, referring as
 necessary to other sections for more detail.
 \begin{itemize}
-    \item What design choices did you have along the
-    way, and why did you make the choices you
-    made?
     \item What was the most difficult and/or clever part
     of the project?
     \item Why was it difficult?
     \item How did you overcome the difficulties?
-    \item Did you discover or invent anything novel?
     \item What did you learn?
 \end{itemize}\noindent Note that “difficult” does not necessarily mean the
 thing that took you the longest amount of time. Note
@@ -40,22 +25,45 @@ this material, and refer to other sections for the
 details.
 \end{comment}
 
-
-
-
 \subsection{Summary of project achievements}
-
-\begin{itemize}
-    \item Design choices: Aim was to minimize complexity of the neural network model in order to effectively monitor BP 
-    \item What was most difficult: 2 parts to this: Firstly the choice of how to preprocess the signal for effective analysis. This was solved by surveying the relevant literature 
-    and assessing the most feasible set of steps. Secondly, designing the ideal neural network architectures 
-    \item What I learned: Despite what was expected from the theory, the CNN Resnet performs better on the PPG signal data than the LSTM networks
-    \item 
-\end{itemize}
+This project has proposed and analysed a novel Transformer Encoder neural network architecture in order 
+to perform the cuffless estimation of blood pressure values from PPG signals. In addition, it has also compared 
+this novel architecture against four existing implementations for cuffless BP estimation. The results have 
+demonstrated that the transformer does have acceptable performance on the MIMIC database subset, only being slightly outperformed by 
+the other four architectures. However, it is important to note that the transformer encoder has lower computational 
+complexity, due to how it processes the data. As a result, there is a lot of potential to improve this novel architecture 
+further so that it can match and even outperform the existing CNN and RNN architectures.\\ \newline \noindent Throughout the course of this FYP, several important design choices were made in order to implement this novel architecture. 
+A large amount of these decisions were explained and verified through the findings of the literature review. These choices included the 
+database used, only using PPG signals, the preprocessing stages applied to the PPG signals, the segmentation window length, the decision to investigate the differences between 
+automated feature extraction and handpicked features and crucially the decision to propose the novel transformer encoder architecture.\\ \newline \noindent The main difficulties arose in the analysis of the MAE curves produced in the Results chapter. 
+The choice was made in the Implementation chapter to only extract the patients suffering 
+with cardiovascular diseases and other heart-related illnesses. This decision was made to address 
+the tradeoff between minimising the training time of the transformer whilst also aiming to maximise 
+the estimation accuracy. In addition, the initial intention was to use the Association for the Advancement of Medical Instrumentation (AAMI) 
+standards as a marker of performance. However these standards can only be verified if the study uses 85 patients or more, which would not even be possible with the full MIMIC-I database. Regardless of this, it is clear that further data is now required to train the 
+transformer encoder model. Ideally, the whole Physionet MIMIC database should now be used, as 
+this includes patients suffering from a wider range of diseases, including respiratory failure and sepsis, but in order to be able to check 
+performance against the AAMI standards, more time should be spent in choosing another online database with sufficient data for PPG and ABP signals.
 
 \subsection{Future work}
-
-\begin{itemize}
-    \item Discuss the transformer papers and the attention mechanism. The main reason the transformer model was not explored for this paper is due to its high model complexity. However, this could be tested on in the future and see if the results are any/much better than the Resnet/LSTM models
-    \item 
-\end{itemize}
+Although this novel transformer encoder architecture appears to 
+have acceptable performance on the MIMIC subset database, it is 
+clear that there are several opportunities for improvement in 
+future work. \\ \newline \noindent Firstly, there are several hyperparameters required 
+to set up the transformer encoder architecture. For the purposes of this project, the chosen 
+hyperparameters were chosen to minimise training data whilst still achieving an acceptable performance in cuffless blood pressure estimation. 
+In order to achieve optimal performance, it is essential that 
+further testing is carried out to assess the tradeoff between the hyperparameter values, training time and estimation performance.\\ \newline \noindent Secondly, due to limitations in the quality of the signal recordings, only 2 physiological features of the PPG signal 
+were extracted and used as input to the neural network architectures (alongside the PPG windowed segment). These were the first and second order 
+derivatives of the PPG signal with respect to time. It has been evidently shown in the Results chapter that the addition of these features did not have any significant effect on the 
+estimation performance of the transformer encoder. However, it has been displayed in the literature review in Chapter 2 that there are a wide variety of features that have been previously 
+used in both implementations involving CNNs and RNNs. These include other physiological features, such as the cardiac period, systolic and diastolic widths at different amplitude heights. However, other arbitrary features relating to the patient, such as age and heart rate, have also been used 
+in other previous experiments. \\ \newline \noindent Finally, it is clear that a lot of the findings displayed in this report do not 
+provide any suggestions as to how the transformer encoder solution can be implemented into wearable technologies. The main reason for this was discovered 
+during the Literature Review in Chapter 2, as there was very little discussion about how neural network based implementations are feasible. There were only 
+comments made on the complexity of the models used, and how this may affect the computational power requirements in future wearable devices. As a result, 
+the aim was to implement the Transformer Encoder, a model that was motivated by the paper \emph{Attention Is All You Need} \cite{transformers}, a class of 
+neural network which aims to maximise estimation accuracy whilst minimising the computational complexity of the calculations involved. However, during the Literature Review in Chapter 2, a paper, titled \emph{Cuff-Less Blood Pressure Estimation From Photoplethysmography via Visibility Graph and Transfer Learning} \cite{Wang2022}, was found to implement a completely novel 
+technique for cuffless blood pressure estimation using PPG signals through Visibility Graphs and Transfer Learning, which is demonstrated to minimise computational complexity in the neural network architecture but to also implement a solution that is potentially feasible for 
+future wearable technologies. As stated previously, this method was not considered feasible for this FYP, due to the lack 
+of papers supporting this method.

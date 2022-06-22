@@ -6,7 +6,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}High-level problem statement}{1}{subsection.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Overview of work}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Overview of work}{1}{subsection.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.3.1}Autumn Term 2021}{2}{subsubsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
@@ -24,25 +24,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.3}Blood Pressure measurements}{4}{subsubsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.4}Electrocardiogram (ECG) signals}{7}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4}Electrocardiogram (ECG) signals}{6}{subsubsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.5}Photoplethysmography (PPG) signals}{7}{subsubsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Cuff-less methods for deriving BP}{8}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Cuff-less methods for deriving blood pressure (BP)}{8}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.1}Pulse Transit Time (PTT)}{8}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Pulse Arrival Time (PAT)}{9}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}Pulse Arrival Time (PAT)}{8}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Pulse Wave Velocity (PWV)}{10}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3}Pulse Wave Velocity (PWV)}{9}{subsubsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4}Limitations}{11}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4}Limitations}{10}{subsubsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3}Neural Networks}{11}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Artificial neural networks}{12}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1}Artificial neural networks}{11}{subsubsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}Recurrent Neural Networks (RNNs)}{13}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2}Recurrent Neural Networks (RNNs)}{12}{subsubsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.3}Transformers}{14}{subsubsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
@@ -50,94 +50,98 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.5}Loss Functions}{15}{subsubsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.6}Neural Network Training}{15}{subsubsection.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.6}Complexity of neural networks}{15}{subsubsection.2.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.7}Conclusion}{16}{subsubsection.2.3.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4}Literature Review}{16}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.1}Survey Equation}{16}{subsubsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}PRISMA checklist}{18}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2}PRISMA checklist}{17}{subsubsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.3}Literature survey table}{18}{subsubsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.4}Critical analysis of literature survey table}{21}{subsubsection.2.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.5}Conclusions of literature survey}{21}{subsubsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.5}Conclusions of literature survey}{22}{subsubsection.2.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Analysis and Design}{22}{section.3}%
+\contentsline {section}{\numberline {3}Analysis and Design}{23}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}High Level overview of proposed design}{22}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}High Level overview of proposed design}{23}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Choice of database}{22}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Choice of database}{23}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Choice of programming language}{23}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Choice of programming language}{24}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Extraction of raw signal data}{23}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Extraction of raw signal data}{24}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.5}Pre-processing of PPG}{24}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.5}Pre-processing of PPG}{25}{subsection.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6}Feature extraction}{24}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.6}Segmentation (and feature extraction)}{25}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7}Machine Learning models}{24}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.7}Neural Network models}{25}{subsection.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.8}Error metrics}{24}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.8}Error metrics}{26}{subsection.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Implementation}{25}{section.4}%
+\contentsline {subsection}{\numberline {3.9}Evaluation of error metrics}{26}{subsection.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Stage 1: Filtering the dataset}{25}{subsection.4.1}%
+\contentsline {section}{\numberline {4}Implementation}{27}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Stage 2: Decision on the window length}{25}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.1}Filtering the dataset}{27}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Stage 3: Choosing the patients}{26}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.2}Decision on the window length}{27}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Stage 4: Extracting the ground truth blood pressure values}{27}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.3}Choosing the patients}{28}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Stage 5: Preprocessing the PPG signal}{28}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.4}Extracting the ground truth blood pressure values}{29}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}Stage 6: Processing of data before training}{28}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.5}Preprocessing the PPG signal}{30}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7}Stage 7: Overview of Neural Network models used}{28}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.6}Processing of data before training}{30}{subsection.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.7.1}CNN AlexNet model}{28}{subsubsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7}Overview of Neural Network models used}{32}{subsection.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.7.2}CNN ResNet model}{28}{subsubsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.1}CNN AlexNet model}{32}{subsubsection.4.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.7.3}ResNet with LOSO model}{28}{subsubsection.4.7.3}%
+\contentsline {subsubsection}{\numberline {4.7.2}CNN ResNet model}{34}{subsubsection.4.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.7.4}LSTM model}{28}{subsubsection.4.7.4}%
+\contentsline {subsubsection}{\numberline {4.7.3}ResNet with Leave One Subject Out (LOSO) model}{35}{subsubsection.4.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.7.5}Proposed Transformer Encoder model}{28}{subsubsection.4.7.5}%
+\contentsline {subsubsection}{\numberline {4.7.4}LSTM model}{36}{subsubsection.4.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8}Stage 8: Training the model}{28}{subsection.4.8}%
+\contentsline {subsubsection}{\numberline {4.7.5}Proposed Transformer Encoder model}{37}{subsubsection.4.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.9}Stage 9: How the error is evaluated}{28}{subsection.4.9}%
+\contentsline {section}{\numberline {5}Testing Plan}{40}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Testing Plan}{29}{section.5}%
+\contentsline {section}{\numberline {6}Results}{41}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Overview of Results}{30}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Introduction}{41}{subsection.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Overview of testing parameters}{30}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Introductory disclaimer}{41}{subsubsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Training and Validation MAE for the deep learning architectures}{31}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}AlexNet}{41}{subsection.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.1}AlexNet}{31}{subsubsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.3}ResNet}{43}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.2}ResNet}{32}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.4}ResNet with LOSO}{45}{subsection.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.3}ResNet with LOSO}{33}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.5}Bi-directional LSTM}{47}{subsection.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.4}LSTM}{34}{subsubsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.6}Transformer Encoder}{49}{subsection.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.5}Transformer Encoder}{35}{subsubsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.7}Table of MAE results}{51}{subsection.6.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Evaluation of results}{36}{section.7}%
+\contentsline {subsection}{\numberline {6.8}Training and Inference times}{52}{subsection.6.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Conclusions and Further Work}{37}{section.8}%
+\contentsline {section}{\numberline {7}Evaluation of results}{54}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.1}Summary of project achievements}{37}{subsection.8.1}%
+\contentsline {section}{\numberline {8}Conclusions and Further Work}{55}{section.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {8.2}Future work}{37}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.1}Summary of project achievements}{55}{subsection.8.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{38}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.2}Future work}{55}{subsection.8.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Appendix}{42}{subsection.8.2}%
+\contentsline {section}{References}{57}{subsection.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix}{63}{subsection.8.2}%

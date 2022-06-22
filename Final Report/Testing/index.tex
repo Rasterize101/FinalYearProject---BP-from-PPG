@@ -13,13 +13,40 @@ and how this has been established is important.
 Examiners may try to compile, use, or test
 deliverables themselves (even after your report is
 submitted), and your report should accurately reflect
-the state of the project.\\ \newline \noindent This section is normally useful for software or
-hardware deliverables and less relevant in analytical
-projects.
+the state of the project.
     
 \end{comment}
 
+In this chapter, the aims are to:
 
 \begin{itemize}
-    \item 
-\end{itemize}
+    \item Highlight what neural network architectures are being tested for this FYP
+    \item State what parameters were used for all experiments
+    \item Explain how the results are being calculated
+    \item Highlight any other measures that are calculated
+\end{itemize}\noindent The aim of this project 
+is to assess the best performing neural network 
+for the cuffless estimation of blood pressure values 
+from PPG signals. As a result of the findings of the Literature review, 
+it has been made clear that there are three distinct groups of neural networks 
+that have been able to produce accurate estimates, according to the AAMI/ESH standards. These three groups are:
+
+\begin{itemize}
+    \item \textbf{Convolutional Neural Networks (CNNs)}: AlexNet, ResNet and ResNet- Leave One Subject Out (LOSO)
+    \item \textbf{Recurrent Neural Networks (RNNs)}: Bi-directional Long Short Term Memory (Bi-LSTM) 
+    \item \textbf{Transformer ANNs}: Transformer Encoders
+\end{itemize}\noindent The following parameters are used during the training, validation and testing processes of the models on the MIMIC I database subset:
+
+\begin{itemize}
+    \item The training:test:validation dataset split is 50:25:25
+    \item Loss function: Mean Squared Error
+    \item Optimiser: Adam
+    \item Learning rate: 0.005 arbitary units (AU)
+    \item Batch size: 128 samples
+    \item Window length: 1 second
+    \item Number of epochs: 100
+    \item Metrics: Mean Absolute Error (MAE) of the Systolic and Diastolic blood pressure values, measured in millimetres of Mercury (mmHg)
+    \item For all testing performed in Google Colaboratory, the GPU being used to compute
+    inference times was the Tesla T4 Persistence-M GPU
+    \item In order to produce reproducible results, each of the five models were run 3 times, and the average of the minimum MAE for SBP and DBP is presented in the tables shown in the next chapter
+\end{itemize}\noindent To conclude this chapter, the overview of the testing strategy has now been clearly defined. Hence, it is now suitable to proceed with the collection of results.

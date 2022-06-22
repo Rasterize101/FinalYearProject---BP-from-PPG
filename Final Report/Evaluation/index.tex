@@ -1,35 +1,25 @@
 \section{Evaluation of results}
-
-\begin{comment}
-    This Chapter (or possibly section of the conclusions) is
-distinct from your results. It must contain your critical
-evaluation of your work as compared to previous
-analysis, algorithms, products, and when related to
-your original objectives. To what extent have your
-original objectives been fulfilled? If they have
-changed, what is your rationale for this? What are the
-advantages, disadvantages of your approach
-compared with related work? How does the scope of
-your work differ from related work? Examiners expect
-your project report to show evidence of your ability to
-think as an engineer, and that includes the ability to
-critically reflect on your own work and evaluate its
-significance.\\ \newline \noindent Material here will compare project outcomes with
-initial objectives and requirements captured. Usually
-your Interim Report will contain these. Where these
-have changed significantly over the course of the
-project this should be explained and reasons given.
-This section should not require examiners to read
-your Interim Report, and will not reference it. Changes
-between final and initial objectives should be
-explained in a self-contained manner.\\ \newline \noindent Note that here you will reference and summarise,
-rather than repeat, your description of Requirements
-Capture earlier in the Final Report. 
-\end{comment}
-
-
+In this chapter, the aims are to:
 \begin{itemize}
-    \item All models except AlexNet have acceptable validation errors
-    \item RNN/LSTM perform best on this data, not Transformer as expected (for no derivatives)
-    \item Derivative?
-\end{itemize}
+    \item Critically evaluate the results of the experiments in the previous chapter
+    \item Assess whether the original objectives in Chapter 1 have been fulfilled
+\end{itemize}\noindent The ResNet with derivative architecture is shown to perform best on this dataset, as 
+it produces the smallest Validation SBP and DBP MAE values, as shown in Table \ref{tabMaeResults}. In addition, both the 
+AlexNet and ResNet-LOSO architectures perform well on the dataset, which suggests that 
+the data is more suitable to CNN architectures, especially when extra signal features are applied as input to the neural network. This is supported by the fact that the Bi-LSTM and Transformer Encoder 
+architectures perform worse on the dataset. The Transformer encoder architecture is shown to have the largest SBP MAE (Training and Validation) and 
+However, this architecture also has the lowest inference time as shown in Table \ref{tabTrainInfTimes}, indicating 
+that it is the least complex model with regards to analysing the test dataset.\\ \newline \noindent As a general point, it is clear that the DBP MAE in Table \ref{tabMaeResults} are all noticeably lower than the SBP MAE values for all architectures. This 
+is supported by Figures \ref{histSBP} and \ref{histDBP}, as there is smaller variance in the DBP values compared to the SBP values. As a result, 
+this means that it is easier for the architectures to learn patterns based on the DBP ground truth values. Unfortunately the AAMI standards cannot be used as a benchmark of comparison between the five 
+architectures, as the standards requires experiments to contain at least 85 subjects \cite{aami}.\\ \newline \noindent In this final paragraph, it will be assessed whether the original objectives have been fulfilled. Firstly, 
+a literature review has been successfully carried out to assess what is the most feasible implementation 
+for cuffless blood pressure estimation, however the outcome was unexpected. As there is no clear frontrunner 
+in terms of performance, it was necessary to test a range of feasible neural network architectures on a personalised 
+dataset in order to see which network performs best. Secondly, a novel transformer encoder has 
+been created in Python and although its performance is acceptable, as shown in Table \ref{tabMaeResults}, it is clear 
+that further tuning of the custom parameters is required to allow for better performance. In essence, the motivation 
+for using the transformer was that its network architecture is less complex than the other four architectures, due to its 
+ability to process layers of input data at a time. In this regard, this is a still promising future 
+implementation that could be integrated into future wearable devices, however further validation 
+is required to assess whether this is the case. Therefore, the method can still be seen as feasible for future wearable technology products.

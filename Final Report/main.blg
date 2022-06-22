@@ -17,50 +17,51 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 12420 items from 5000.
+Reallocated field_info (elt_size=4) to 16620 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: references.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 53 entries,
+You've used 83 entries,
             6393 wiz_defined-function locations,
-            1597 strings with 60109 characters,
-and the built_in function-call counts, 541985 in all, are:
-= -- 45350
-> -- 6974
-< -- 1675
-+ -- 14925
-- -- 2607
-* -- 40391
-:= -- 65275
+            1772 strings with 74773 characters,
+and the built_in function-call counts, 749792 in all, are:
+= -- 61066
+> -- 10225
+< -- 2341
++ -- 20156
+- -- 3886
+* -- 55708
+:= -- 88855
 add.period$ -- 0
-call.type$ -- 53
-change.case$ -- 998
-chr.to.int$ -- 180
-cite$ -- 104
-duplicate$ -- 53732
-empty$ -- 47171
-format.name$ -- 4984
-if$ -- 106810
+call.type$ -- 83
+change.case$ -- 1297
+chr.to.int$ -- 192
+cite$ -- 164
+duplicate$ -- 75127
+empty$ -- 66099
+format.name$ -- 7214
+if$ -- 148649
 int.to.chr$ -- 0
-int.to.str$ -- 152
+int.to.str$ -- 227
 missing$ -- 0
-newline$ -- 2702
-num.names$ -- 2729
-pop$ -- 20538
+newline$ -- 3774
+num.names$ -- 4000
+pop$ -- 31441
 preamble$ -- 1
-purify$ -- 1621
+purify$ -- 2157
 quote$ -- 0
-skip$ -- 10779
+skip$ -- 15899
 stack$ -- 0
-substring$ -- 87684
-swap$ -- 10116
-text.length$ -- 1316
-text.prefix$ -- 0
+substring$ -- 116441
+swap$ -- 14460
+text.length$ -- 1986
+text.prefix$ -- 1
 top$ -- 1
-type$ -- 1790
+type$ -- 2810
 warning$ -- 0
-while$ -- 8677
+while$ -- 11840
 width$ -- 0
-write$ -- 2650
+write$ -- 3692

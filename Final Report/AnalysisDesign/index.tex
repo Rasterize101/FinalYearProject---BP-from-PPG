@@ -33,10 +33,10 @@ gaps to form a continuous recording \cite{Moody1996}. Both the PPG and ABP signa
 are sampled at a frequency of $125$ Hz. Each patient record contains a minimum of 73 and a maximum of 412 individual files.
  The patients contain one of the following heart-related diseases:
 \begin{itemize}
-    \item \textbf{Congestive Heart Failure} (CHF). This refers to patients who suffer a chronic progressive condition that affects the pumping power of your heart muscle
-    \item \textbf{Postoperative Coronary Artery Bypass Graft} (CABG). This refers to patients recovering from a surgical procedure to restore normal blood flow to an obstructed coronary artery
-    \item \textbf{Myocardial Infarction} (MI) / \textbf{Cardiogenic shock}. This refers to patients who have suffered heart attacks or cardiac shock
-\end{itemize}NEED REFERENCES HERE!
+    \item \textbf{Congestive Heart Failure} (CHF). This refers to patients who suffer a chronic progressive condition that affects the pumping power of your heart muscle \cite{chf}
+    \item \textbf{Postoperative Coronary Artery Bypass Graft} (CABG). This refers to patients recovering from a surgical procedure to restore normal blood flow to an obstructed coronary artery \cite{cabg}
+    \item \textbf{Myocardial Infarction} (MI) / \textbf{Cardiogenic shock}. This refers to patients who have suffered heart attacks or cardiac shock \cite{mi}
+\end{itemize}
 
 
 \subsection{Choice of programming language}
@@ -45,60 +45,73 @@ variety of easy to use and powerful libraries \cite{Python}. The scientific libr
 that are used for this project are \texttt{numpy} \cite{numpy} and \texttt{pandas} \cite{pandas}. In addition, the 
 machine learning libraries used are \texttt{tensorflow} \cite{tensorflow}, \texttt{keras} \cite{keras} and \texttt{scikit-learn} \cite{scikit}. 
 In addition the \texttt{heartpy} \cite{heartpy} and \texttt{wfdb-python} \cite{wfdb} packages were installed, which are libraries of 
-tools for reading, writing, and processing Waveform-Database (WFDB) signals and annotations. \\ \newline \noindent MATLAB was also 
+tools for reading, writing, and processing Waveform-Database (WFDB) signals and annotations. For this FYP, Python will be used in the Google Colaboratory environment in the form of a Jupyter notebook, as there is access to 
+to high-performance Graphics Processing Units (GPUs) on Google Cloud for training using machine learning.  \\ \newline \noindent MATLAB was also 
 considered as a potential programming language to use, due to it having a wide range of 
 signal processing and machine learning add-on toolboxes. However Python has been shown 
 to offer a wider set of choices in graphics packages and toolsets, such as 
 through \texttt{matplotlib} \cite{matplotlib}, and it also produces more compact and readable 
-code. For this FYP, Python will be used in the Google Colaboratory environment in the form of a Jupyter notebook, as there is access to 
-to high-performance Graphics Processing Units (GPUs) on Google Cloud for training using machine learning. 
+code. 
 
 
 \subsection{Extraction of raw signal data}
 For this implementation, it is necessary to extract the raw signal data 
 for two signals, the ABP and PPG. Both signals are first extracted from 
-the Physionet website using the \texttt{wfdb} package.
+the Physionet website using the \texttt{wfdb} Python package. In order to extract the ground 
+truth values for Systolic and Diastolic blood pressure, the following steps are applied to the ABP signal (more detail is provided in Chapter 4):
+
 \begin{itemize}
-    \item Use heartpy library (hp.process)
-    \item Despite being measured using gold-standard invasive, still needs preprocessing. TALK ABOUT ALL STEPS!
-\end{itemize}
+    \item Use the Python \texttt{heartpy} library to perform sanity checks on the ABP signal (and the PPG) to check whether data can be accurately acquired 
+    \item Use a peak detection algorithm to find the Systolic and Diastolic BP and to perform sanity checks on these values
+\end{itemize}\noindent These steps are described in more detail in Chapter 4.
 
 
 \subsection{Pre-processing of PPG}
+The PPG signals from the Physionet database need to first be cleaned in order to be analysed accurately. The following steps describe how the PPG signal is pre-processed.
 \begin{itemize}
-    \item hp.process
-    \item Butterworth filter
-    \item Z-normalisation
-    \item Additional sanity checks using custom SBP and DBP min and max values
+    \item Apply a 4th order Butterworth bandpass filter
+    \item Apply Z-score normalisation in order to standardise the data
+    \item Additional sanity checks using SBP and DBP minimum and maximum threshold values
 \end{itemize}
 
-The $Z$-score normalisation equation is applied to the PPG signal, 
-\begin{equation}
-    Z_{i} = \frac{(PPG_{i} - \mu_{PPG_i}) }{\sigma_{PPG_i}}
-\end{equation} \noindent where $Z_{i}$ is the $Z$-score normalised PPG signal for a particular window $i$, 
-$PPG_{i}$ is the raw PPG signal, $\mu$ is the mean of the PPG signal and $\sigma$ is the standard deviation.
+\subsection{Segmentation (and feature extraction)}
+Based on the findings of the literature review, the most recent machine learning methods are favouring automated feature extraction from signal 
+data. As a result, the PPG signal itself will be split up, or segmented, into windows of 1 second, and each of these data windows will 
+act as input to the neural network model. In addition, the literature review also suggests that there is still high performance among the machine 
+learning methods which use handcrafted features. Therefore, as the aim is to assess the performance of the transformer encoder for cuffless blood 
+pressure estimation, the following features will also be extracted from the PPG signal and fed into the neural network model (alongside the PPG window segment):
 
-
-\subsection{Feature extraction}
 \begin{itemize}
-    \item Based on Literature review, machine learning methods are favouring automated feature extraction
-    \item Hence, this method will segment the PPG signal into discrete windows and feed this into the network
-    \item However, there is still prominence among the handcrafted feature methods
-    \item Provide an additional exploration to add the first and second derivatives of the PPG to see if this affects the accuracy for any model
-\end{itemize}
+    \item First order derivative of the PPG signal window (with respect to time)
+    \item Second order derivative of the PPG signal window (with respect to time)
+\end{itemize}\noindent The justification for adding these two features to the PPG window segment is that the transformer encoders 
+require a large amount of data to perform well. Therefore, this suggests that purely training the neural network model on the features would be 
+detrimental to performance.
 
-\subsection{Machine Learning models}
+\subsection{Neural Network models}
+The following Neural Network models will be used to estimate cuffless blood pressure values from PPG signals:
 \begin{itemize}
-    \item Function based for each ML model
-    \item Using tensorflow and keras
-\end{itemize}
+    \item AlexNet (Convolutional Neural Network)
+    \item ResNet (Convolutional Neural Network)
+    \item ResNet with Leave One Subject Out (LOSO) (Convolutional Neural Network)
+    \item Bi-directional Long Short Term Memory (Recurrent Neural Network)
+    \item Transformer Encoder
+\end{itemize}\noindent All models above have been programmed using functions from the \texttt{tensorflow} and \texttt{keras} libraries and all 
+code has been provided in the Appendix and on the Github repository. Further details on each of these architectures is provided in Chapter 4.
 
 
 \subsection{Error metrics}
-The two considered error calculations used in this experimentation are the Mean Absolute Error 
-(MAE) and Root Mean Square Error (RMSE). They are defined by the following equations, 
+The error calculation used in this experimentation is the Mean Absolute Error 
+(MAE) for both the Systolic and Diastolic blood pressure values. The MAE is considered so that the results can be compared with the official AAMI/ESH regulations for cuffless blood pressure estimation. MAE is defined by the following equation, 
 \begin{align}
-    MAE &= \frac{1}{N} \sum_{i=1}^N \lvert a_{i_{M}} - b_{i_{M}} \rvert \\
-    RMSE &= \frac{1}{N} \sqrt{\sum_{i=1}^N \lvert a_{i_{M}} - b_{i_{M}} \rvert^2}
+    MAE &= \frac{1}{N} \sum_{i=1}^N \lvert a_{i_{M}} - b_{i_{M}} \rvert
 \end{align}\noindent In the context of BP estimation, $b_{i_{M}}$ and $a_{i_{M}}$ represent the true 
-value and BP estimate respectively for the $M$th element of the time sequence.
+value and BP estimate respectively for the $M$th element of the time sequence.\\ \newline \noindent To conclude this chapter, a high-level specification of the method used to estimate cuffless blood pressure values from PPG signals has been detailed. 
+Where appropriate, decisions made for the high-level specification have been based on the findings of the literature review in the 
+previous chapter. Hence, now that the method has been discussed at a high-level, it is now necessary 
+to discuss this implementation in more detail.
+
+\subsection{Evaluation of error metrics}
+In order to assess how well each of the neural network architectures perform in the cuffless estimation of blood pressure 
+values, the MAE value produced will be be assessed against the standards set by the Advancement of Medical Instrumentation (AAMI) \cite{aami}: a MAE blood pressure difference of $\le 5$ mmHg with a standard deviation of $\le 8$ mmHg against 
+the gold standard reference measurement.
