@@ -1,4 +1,4 @@
-# FinalYearProject: Cuffless estimation of blood pressure from PPG signals using Transformers, Arijit Bhattacharyya (CID: 01496199)
+# Final Year Project: Cuffless estimation of blood pressure from PPG signals using Transformers, Arijit Bhattacharyya (CID: 01496199)
 
 ## Year 4 MEng Electrical Engineering Final Year Project (FYP) 2021-2022, Imperial College London
 
