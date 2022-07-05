@@ -49,7 +49,7 @@ The following steps are required to run this cell:
 
 - Before running the cell, you must create an empty folder in your Google Drive storage in order to store the output of the cell (see Line 165). Once again, provide the absolute path to this folder
 
-- Please see the comments in the Jupyter notebook code cell for further details.
+- Please see the comments in the Jupyter notebook code cell for further details
 
 ## Preparing the MIMIC I dataset
 
@@ -59,7 +59,7 @@ The following steps are required to run this cell:
 
 - The output to the function is a .h5 file. Ensure to use a unique name for the output file every time that you run this code cell (see Line 346)
 
-- Please see the comments in the Jupyter notebook code cell for further details.
+- Please see the comments in the Jupyter notebook code cell for further details
 
 ## Converting from .h5 to Tensorflow format
 
@@ -79,7 +79,7 @@ The following steps are required to run this cell:
 
 - These 3 values are essential for the neural network training process (see the next section)
 
-- Please see the comments in the Jupyter notebook code cell for further details.
+- Please see the comments in the Jupyter notebook code cell for further details
 
 ## Functions for all Deep Learning architectures
 
@@ -94,7 +94,7 @@ The following steps are required to run this cell:
 
 - Just run the code cell of the architecture that you would like to test
 
-- Please see the comments in the Jupyter notebook code cell for further details.
+- Please see the comments in the Jupyter notebook code cell for further details
 
 ## Function to training on PPG data
 
@@ -106,5 +106,17 @@ I have provided five separate code cells for the training process of each of the
 The following steps are required to run any of these 5 cells:
 
 - There are several input arguments required to run the ppg_train_mimic function:
- - architecture: String vari
+ - architecture: String variable for your particular experiment name, identifies the neural network architecture used at that instant
+ - experiment_name: String variable for your particular experiment name, name this however you want
+ - DataDir: The same as the output path from the 'Converting from .h5 to Tensorflow format' cell
+ - lr: Learning rate, determines the step size at each iteration while moving toward a minimum of a loss function
+ - batch_size: Batch Size or number of training examples utilised in one iteration
+ - win_len: Window Length used from the 'Preparing the MIMIC I dataset' cell. These 2 values must match but in this cell, the value should be equal to "window length (seconds) x Sampling Frequency (Hertz)"
+ - N_epochs: Number of Epochs used in the training process
+ - tfrecord_basename: Links to the code used in the 'Converting from .h5 to Tensorflow format' code section. Currently set to 'MIMIC_ppg'. Do not change this string without also changing Line 111 in the 'Converting from .h5 to Tensorflow format' code cell!
+ - UseDerivative: Boolean variable which either includes (True) or excludes (False) the 1st and 2nd PPG signal derivatives
+ - earlystopping: Boolean variable which either stops (True) or does not stop (False) training at the point when performance on the validation dataset starts to degrade
 
+- There are also 2 output arguments required to run the function:
+ - ResultsDir: Contains the learning curve and test dataset results for the neural network model used. You must create an empty folder in your Google Drive storage in order to store the output of the cell. Once again, provide the absolute path to this folder
+ - CheckpointDir: Saves a neural network model/weights (in a checkpoint file) at some interval, so the model or weights can be loaded later to continue the training from the state saved. For this configuration, only the model/weights which have achieved the "best performance" so far are saved. You must create an empty folder in your Google Drive storage in order to store the output of the cell. Once again, provide the absolute path to this folder
