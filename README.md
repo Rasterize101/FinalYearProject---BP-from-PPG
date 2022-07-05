@@ -29,7 +29,11 @@ In order to run the second code cell, the system requirements (library versions)
 - [scikit-learn = 0.24.2](https://scikit-learn.org/stable/) (scikit-learn library, used for signal processing and machine learning purposes)
 - [numpy = 1.18.5](https://numpy.org/doc/stable/index.html) (Python's Numpy library, used for working with arrays)
 
+After running this second cell, please also click the "Restart Runtime" button in the Google Colab console output, I have had to do this several times as otherwise there are subsequent errors in loading the neural network models later on in the notebook.
+
 The third cell provides the user with information on what Graphical Processing Unit (GPU) is being used to train the neural network models.
+
+The following section titles correspond to their matching code cell section headings in [FYP.ipynb](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing).
 
 ## Downloading the MIMIC I records
 
@@ -43,6 +47,64 @@ The following steps are required to run this cell:
 
 - On Line 55, an array is provided (subsetVals) to represent the number of 10-minute recordings in each of the patient records in the MIMIC Database subset (see the Final Report). You must update this array based on the records you choose to be used in your custom .txt file
 
-- Before running the cell, you must create an empty folder in your Google Drive storage in order to store the output of the cell (see Line 165)
+- Before running the cell, you must create an empty folder in your Google Drive storage in order to store the output of the cell (see Line 165). Once again, provide the absolute path to this folder
 
 - Please see the comments in the Jupyter notebook code cell for further details.
+
+## Preparing the MIMIC I dataset
+
+The following steps are required to run this cell:
+
+- The input to the function in this code cell is the same as the output path from the previous code cell (see Line 345)
+
+- The output to the function is a .h5 file. Ensure to use a unique name for the output file every time that you run this code cell (see Line 346)
+
+- Please see the comments in the Jupyter notebook code cell for further details.
+
+## Converting from .h5 to Tensorflow format
+
+The following steps are required to run this cell:
+
+- The input to the function in this code cell is the same as the output path from the previous code cell (see Line 242)
+
+- For the output to this function, first create an empty folder. Within this empty folder you must then create 3 new empty subfolders called:
+ - train
+ - val
+ - test
+
+- This function returns 3 values:
+  - numTraining (number of samples in the training dataset)
+  - numValidation (number of samples in the validation dataset)
+  - numTest (number of samples in the test dataset)
+
+- These 3 values are essential for the neural network training process (see the next section)
+
+- Please see the comments in the Jupyter notebook code cell for further details.
+
+## Functions for all Deep Learning architectures
+
+The following steps are required to run this cell:
+
+- There are five separate code cells provide for each of the particular neural network architectures:
+ - AlexNet
+ - ResNet
+ - Spectrotemporal ResNet
+ - Bi-directional Long Short Term Memory (Bi-LSTM)
+ - Transformer Encoder
+
+- Just run the code cell of the architecture that you would like to test
+
+- Please see the comments in the Jupyter notebook code cell for further details.
+
+## Function to training on PPG data
+
+All you need to do is run this cell! Please see the comments in the Jupyter notebook code cell for further details.
+
+## Training cells
+
+I have provided five separate code cells for the training process of each of the five neural network architectures. 
+The following steps are required to run any of these 5 cells:
+
+- There are several input arguments required to run the ppg_train_mimic function:
+ - architecture: String vari
+
