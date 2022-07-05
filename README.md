@@ -10,7 +10,7 @@ Welcome to my FYP repository! For my FYP, I have developed several neural networ
 - [Final Presentation Slides](https://github.com/ab10918/FinalYearProject---BP-from-PPG/blob/main/FYP%20Final%20Presentation.pptx)
 - [Code](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing) (Google Colaboratory link)
 
-## Requirements
+## Initial Requirements
 
 This section provides a description of the requirements needed to run the code in the [FYP.ipynb](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing) Jupyter notebook. Please refer to the Table of Contents tab in Google Colab to quickly navigatee through all the code.
 
@@ -29,3 +29,13 @@ In order to run the second code cell, the system requirements (library versions)
 - [scikit-learn = 0.24.2](https://scikit-learn.org/stable/) (scikit-learn library, used for signal processing and machine learning purposes)
 - [numpy = 1.18.5](https://numpy.org/doc/stable/index.html) (Python's Numpy library, used for working with arrays)
 
+The third cell provides the user with information on what Graphical Processing Unit (GPU) is being used to train the neural network models.
+
+## Downloading the MIMIC I records
+
+The following steps are required to run this cell:
+
+- 
+
+
+Please see the comments in the Jupyter notebook code cell for further details.
