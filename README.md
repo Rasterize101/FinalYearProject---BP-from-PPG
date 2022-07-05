@@ -35,7 +35,9 @@ The third cell provides the user with information on what Graphical Processing U
 
 The following steps are required to run this cell:
 
-- 
+- A .txt Text file is required as input to the function in this cell. Two sample text files have been provided in this Github repository:
+  - MIMIC_records.txt
+  - MIMIC_records_subset.txt
 
 
 Please see the comments in the Jupyter notebook code cell for further details.
