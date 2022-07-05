@@ -47,7 +47,7 @@ The following steps are required to run this cell:
 
 - Please download either of these .txt files (or create your own) and upload it to your Google Drive storage. Then you will need to provide the absolute path of the .txt file location in your storage to the function (on Line 164 of the code cell)
 
-- On Line 55, an array is provided (subsetVals) to represent the number of 10-minute recordings in each of the patient records in the MIMIC Database subset (see the Final Report). You must update this array based on the records you choose to be used in your custom .txt file
+- On Line 55, an array is provided (subsetVals) to represent the number of 10-minute recordings in each of the patient records in the MIMIC Database subset (see the Final Report). You must update this array based on the records you choose to be used in your custom .txt file. In order to find out how many 10-minute recordings are in each patient record, please refer to the third available .txt file in this repository: MIMIC_records_and_samples.txt
 
 - Before running the cell, you must create an empty folder in your Google Drive storage in order to store the output of the cell (see Line 165). Once again, provide the absolute path to this folder
 
