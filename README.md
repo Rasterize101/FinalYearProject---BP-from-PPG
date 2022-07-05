@@ -51,6 +51,8 @@ The following steps are required to run this cell:
 
 - Before running the cell, you must create an empty folder in your Google Drive storage in order to store the output of the cell (see Line 165). Once again, provide the absolute path to this folder
 
+- For further information on the database used, please refer to the [Physionet MIMIC Database information page](https://physionet.org/content/mimicdb/1.0.0/)
+
 - Please see the comments in the Jupyter notebook code cell for further details
 
 ## Preparing the MIMIC I dataset
