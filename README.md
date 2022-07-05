@@ -7,7 +7,7 @@ Welcome to my FYP repository! For my FYP, I have developed several neural networ
 - [Interim Report](https://github.com/ab10918/FinalYearProject---BP-from-PPG/blob/main/Interim%20Report/main.pdf)
 - [Final Report](https://github.com/ab10918/FinalYearProject---BP-from-PPG/blob/main/Final%20Report/main.pdf)
 - [Literature Survey matrix](https://github.com/ab10918/FinalYearProject---BP-from-PPG/blob/main/Final%20Report/Literature%20Survey.xlsx)
-- [Final Presentation Slides](https://github.com/ab10918/FinalYearProject---BP-from-PPG/blob/main/FYP%20Final%20Presentation.pptx)
+- [Final Presentation Slides](https://github.com/ab10918/FinalYearProject---BP-from-PPG/blob/main/Final%20Report/FYP%20Final%20Presentation.pptx)
 - [Code](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing) (Google Colaboratory link)
 
 ## Initial Requirements
