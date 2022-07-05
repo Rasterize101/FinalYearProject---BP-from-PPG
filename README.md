@@ -10,9 +10,11 @@ Welcome to my FYP repository! For my FYP, I have developed several neural networ
 - [Final Presentation Slides](https://github.com/ab10918/FinalYearProject---BP-from-PPG/blob/main/Final%20Report/FYP%20Final%20Presentation.pptx)
 - [Code](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing) (Google Colaboratory link)
 
+A folder of all tabulated results (Learning curves and test dataset performance) are also provided.
+
 ## Initial Requirements
 
-This section provides a description of the requirements needed to run the code in the [FYP.ipynb](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing) Jupyter notebook. Please refer to the Table of Contents tab in Google Colab to quickly navigatee through all the code.
+This section provides a description of the requirements needed to run the code in the [fyp.ipynb](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing) Jupyter notebook. Please refer to the Table of Contents tab in Google Colab to quickly navigate through all the code.
 
 In order to run the first cell, the user must have a Google account and be able to connect their Google Drive storage to the Jupyter notebook. It is also recommend for users to sign up for Google Colab Pro (see [Colab Membership](https://colab.research.google.com/signup)) in order to run the neural network models efficiently.
 
@@ -33,7 +35,7 @@ After running this second cell, please also click the "Restart Runtime" button i
 
 The third cell provides the user with information on what Graphical Processing Unit (GPU) is being used to train the neural network models.
 
-The following section titles correspond to their matching code cell section headings in [FYP.ipynb](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing).
+The following section titles correspond to their matching code cell section headings in [fyp.ipynb](https://colab.research.google.com/drive/1QfJtCEfesJb9H2lDTL6713bSB-2qGRPy?usp=sharing).
 
 ## Downloading the MIMIC I records
 
