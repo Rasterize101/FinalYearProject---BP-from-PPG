@@ -68,9 +68,9 @@ The following steps are required to run this cell:
 - The input to the function in this code cell is the same as the output path from the previous code cell (see Line 242)
 
 - For the output to this function, first create an empty folder. Within this empty folder you must then create 3 new empty subfolders called:
- - train
- - val
- - test
+ - 'train'
+ - 'val'
+ - 'test'
 
 - This function returns 3 values:
   - numTraining (number of samples in the training dataset)
@@ -88,7 +88,7 @@ The following steps are required to run this cell:
 - There are five separate code cells provide for each of the particular neural network architectures:
  - AlexNet
  - ResNet
- - Spectrotemporal ResNet
+ - Spectrotemporal ResNet (Slapnicar et al. 2019 [1])
  - Bi-directional Long Short Term Memory (Bi-LSTM)
  - Transformer Encoder
 
@@ -120,3 +120,7 @@ The following steps are required to run any of these 5 cells:
 - There are also 2 output arguments required to run the function:
  - ResultsDir: Contains the learning curve and test dataset results for the neural network model used. You must create an empty folder in your Google Drive storage in order to store the output of the cell. Once again, provide the absolute path to this folder
  - CheckpointDir: Saves a neural network model/weights (in a checkpoint file) at some interval, so the model or weights can be loaded later to continue the training from the state saved. For this configuration, only the model/weights which have achieved the "best performance" so far are saved. You must create an empty folder in your Google Drive storage in order to store the output of the cell. Once again, provide the absolute path to this folder
+
+## References
+
+[1] Luˇstrek M. Slapniˇcar G Mlakar N. “Blood Pressure Estimation from Photoplethysmogram Using a Spectro-Temporal Deep Neural Network”. In: (2019). doi: 10.3390/s19153420.
