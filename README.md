@@ -57,6 +57,8 @@ The following steps are required to run this cell:
 
 - The input to the function in this code cell is the same as the output path from the previous code cell (see Line 345)
 
+- Additional arguments to define are the PPG signal window length and overlap. The window length parameter must be kept consistent throughout the notebook (see the 'Training cells' section of this README)
+
 - The output to the function is a .h5 file. Ensure to use a unique name for the output file every time that you run this code cell (see Line 346)
 
 - Please see the comments in the Jupyter notebook code cell for further details
@@ -86,11 +88,11 @@ The following steps are required to run this cell:
 The following steps are required to run this cell:
 
 - There are five separate code cells provide for each of the particular neural network architectures:
- - AlexNet
- - ResNet
- - Spectrotemporal ResNet (Slapnicar et al. 2019 [1])
- - Bi-directional Long Short Term Memory (Bi-LSTM)
- - Transformer Encoder
+ - AlexNet [[1]](#1)
+ - ResNet [[2]](#2)
+ - Spectrotemporal ResNet [[3]](#3)
+ - Bi-directional Long Short Term Memory (Bi-LSTM) [[4]](#4)
+ - Transformer Encoder [[5]](#5)
 
 - Just run the code cell of the architecture that you would like to test
 
@@ -121,6 +123,20 @@ The following steps are required to run any of these 5 cells:
  - ResultsDir: Contains the learning curve and test dataset results for the neural network model used. You must create an empty folder in your Google Drive storage in order to store the output of the cell. Once again, provide the absolute path to this folder
  - CheckpointDir: Saves a neural network model/weights (in a checkpoint file) at some interval, so the model or weights can be loaded later to continue the training from the state saved. For this configuration, only the model/weights which have achieved the "best performance" so far are saved. You must create an empty folder in your Google Drive storage in order to store the output of the cell. Once again, provide the absolute path to this folder
 
+## Future Contributions
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
 ## References
 
-[1] Luˇstrek M. Slapniˇcar G Mlakar N. “Blood Pressure Estimation from Photoplethysmogram Using a Spectro-Temporal Deep Neural Network”. In: (2019). doi: 10.3390/s19153420.
+<a id="1">[1]</a> Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. ImageNet Classification with Deep Convolutional Neural Networks. url: http://code.google.com/p/cuda-convnet/
+
+<a id="2">[2]</a> Kaiming He et al. “Deep Residual Learning for Image Recognition”. In: CoRR abs/1512.03385 (2015). arXiv: 1512.03385. url: http://arxiv.org/abs/1512.03385
+
+<a id="3">[3]</a> Luštrek M. Slapničar G Mlakar N. “Blood Pressure Estimation from Photoplethysmogram Using a Spectro-Temporal Deep Neural Network”. In: (2019). doi: 10.3390/s19153420.
+
+<a id="4">[4]</a> Chadi El Hajj and Panayiotis A. Kyriacou. “Cuffless and Continuous Blood Pressure Estimation From PPG Signals Using Recurrent Neural Networks”. In: (2020), pp. 4269–4272. doi: 10.1109/EMBC44109.2020.9175699
+
+<a id="5">[5]</a> C. El-Hajj and P. A. Kyriacou. “Deep learning models for cuffless blood pressure monitoring from PPG signals using attention mechanism”. In: Biomedical Signal Processing and Control 65 (Mar. 2021). issn: 17468108. doi: 10.1016/j.bspc.2020.102301 
