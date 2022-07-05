@@ -39,5 +39,10 @@ The following steps are required to run this cell:
   - MIMIC_records.txt
   - MIMIC_records_subset.txt
 
+- Please download either of these .txt files (or create your own) and upload it to your Google Drive storage. Then you will need to provide the absolute path of the .txt file location in your storage to the function (on Line 164 of the code cell)
 
-Please see the comments in the Jupyter notebook code cell for further details.
+- On Line 55, an array is provided (subsetVals) to represent the number of 10-minute recordings in each of the patient records in the MIMIC Database subset (see the Final Report). You must update this array based on the records you choose to be used in your custom .txt file
+
+- Before running the cell, you must create an empty folder in your Google Drive storage in order to store the output of the cell (see Line 165)
+
+- Please see the comments in the Jupyter notebook code cell for further details.
