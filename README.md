@@ -98,11 +98,11 @@ The following steps are required to run this cell:
  - Bi-directional Long Short Term Memory (Bi-LSTM) [[4]](#4)
  - Transformer Encoder [[5]](#5)
 
-- Just run the code cell of the architecture that you would like to test
+- Just run the code cell of the architecture that you would like to test. In order to edit the parameters/hyperparameters used for each architecture, please refer to the code in the 'Function to train on PPG data' code cell
 
 - Please see the comments in the Jupyter notebook code cell for further details
 
-## Function to training on PPG data
+## Function to train on PPG data
 
 All you need to do is run this cell! Please see the comments in the Jupyter notebook code cell for further details.
 
